@@ -16,5 +16,7 @@
 // Image View
 @property (weak, nonatomic) IBOutlet UIImageView *slideshow;
 
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

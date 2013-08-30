@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D03833417D013A100E7E740 /* arrow1_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832E17D013A100E7E740 /* arrow1_back.png */; };
+		2D03833517D013A100E7E740 /* arrow1_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832E17D013A100E7E740 /* arrow1_back.png */; };
+		2D03833617D013A100E7E740 /* arrow2_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832F17D013A100E7E740 /* arrow2_back.png */; };
+		2D03833717D013A100E7E740 /* arrow2_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832F17D013A100E7E740 /* arrow2_back.png */; };
+		2D03833817D013A100E7E740 /* arrow3_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833017D013A100E7E740 /* arrow3_back.png */; };
+		2D03833917D013A100E7E740 /* arrow3_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833017D013A100E7E740 /* arrow3_back.png */; };
+		2D03833A17D013A100E7E740 /* arrow4_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833117D013A100E7E740 /* arrow4_back.png */; };
+		2D03833B17D013A100E7E740 /* arrow4_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833117D013A100E7E740 /* arrow4_back.png */; };
+		2D03833C17D013A100E7E740 /* arrow5_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833217D013A100E7E740 /* arrow5_back.png */; };
+		2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833217D013A100E7E740 /* arrow5_back.png */; };
+		2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
+		2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
+		2D03834217D019C900E7E740 /* VisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* VisitUsViewController.m */; };
+		2D03834317D019C900E7E740 /* VisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* VisitUsViewController.m */; };
+		2D03834617D019D100E7E740 /* FutureArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834517D019D100E7E740 /* FutureArtistsViewController.m */; };
+		2D03834717D019D100E7E740 /* FutureArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834517D019D100E7E740 /* FutureArtistsViewController.m */; };
+		2D03834A17D01D5D00E7E740 /* FutureArtists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* FutureArtists.txt */; };
+		2D03834B17D01D5D00E7E740 /* FutureArtists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* FutureArtists.txt */; };
+		2D03834C17D01D5D00E7E740 /* VisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* VisitUs.txt */; };
+		2D03834D17D01D5D00E7E740 /* VisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* VisitUs.txt */; };
 		2D142B0517C4895F0013F036 /* GreatNorthernWay.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */; };
 		2D142B0617C4895F0013F036 /* GreatNorthernWay.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */; };
 		2D142B0717C4895F0013F036 /* IndustryEngagement.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D142B0317C4895F0013F036 /* IndustryEngagement.txt */; };
@@ -261,6 +281,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D03832E17D013A100E7E740 /* arrow1_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1_back.png; sourceTree = "<group>"; };
+		2D03832F17D013A100E7E740 /* arrow2_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow2_back.png; sourceTree = "<group>"; };
+		2D03833017D013A100E7E740 /* arrow3_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow3_back.png; sourceTree = "<group>"; };
+		2D03833117D013A100E7E740 /* arrow4_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow4_back.png; sourceTree = "<group>"; };
+		2D03833217D013A100E7E740 /* arrow5_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow5_back.png; sourceTree = "<group>"; };
+		2D03833317D013A100E7E740 /* arrow6_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow6_back.png; sourceTree = "<group>"; };
+		2D03834017D019C900E7E740 /* VisitUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisitUsViewController.h; path = "Apply Now/VisitUsViewController.h"; sourceTree = "<group>"; };
+		2D03834117D019C900E7E740 /* VisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisitUsViewController.m; path = "Apply Now/VisitUsViewController.m"; sourceTree = "<group>"; };
+		2D03834417D019D100E7E740 /* FutureArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FutureArtistsViewController.h; path = "Apply Now/FutureArtistsViewController.h"; sourceTree = "<group>"; };
+		2D03834517D019D100E7E740 /* FutureArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FutureArtistsViewController.m; path = "Apply Now/FutureArtistsViewController.m"; sourceTree = "<group>"; };
+		2D03834817D01D5D00E7E740 /* FutureArtists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FutureArtists.txt; path = "Assets/Text Copy/FutureArtists.txt"; sourceTree = "<group>"; };
+		2D03834917D01D5D00E7E740 /* VisitUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VisitUs.txt; path = "Assets/Text Copy/VisitUs.txt"; sourceTree = "<group>"; };
 		2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GreatNorthernWay.txt; path = "Assets/Text Copy/GreatNorthernWay.txt"; sourceTree = "<group>"; };
 		2D142B0317C4895F0013F036 /* IndustryEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustryEngagement.txt; path = "Assets/Text Copy/IndustryEngagement.txt"; sourceTree = "<group>"; };
 		2D142B0417C4895F0013F036 /* PublicEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PublicEngagement.txt; path = "Assets/Text Copy/PublicEngagement.txt"; sourceTree = "<group>"; };
@@ -462,6 +494,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D03832D17D013A100E7E740 /* Back Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2D03832E17D013A100E7E740 /* arrow1_back.png */,
+				2D03832F17D013A100E7E740 /* arrow2_back.png */,
+				2D03833017D013A100E7E740 /* arrow3_back.png */,
+				2D03833117D013A100E7E740 /* arrow4_back.png */,
+				2D03833217D013A100E7E740 /* arrow5_back.png */,
+				2D03833317D013A100E7E740 /* arrow6_back.png */,
+			);
+			name = "Back Buttons";
+			path = "Assets/Back Buttons";
+			sourceTree = "<group>";
+		};
 		2D1D721417CB26EC00C3DBE3 /* Video Thumbnails */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +617,10 @@
 				2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */,
 				2DCCA08F17C1BBED00B81172 /* ApplicationDirectionsViewController.h */,
 				2DCCA09017C1BBED00B81172 /* ApplicationDirectionsViewController.m */,
+				2D03834417D019D100E7E740 /* FutureArtistsViewController.h */,
+				2D03834517D019D100E7E740 /* FutureArtistsViewController.m */,
+				2D03834017D019C900E7E740 /* VisitUsViewController.h */,
+				2D03834117D019C900E7E740 /* VisitUsViewController.m */,
 				2DCCA09217C1BC0100B81172 /* ContactECUADViewController.h */,
 				2DCCA09317C1BC0100B81172 /* ContactECUADViewController.m */,
 			);
@@ -633,8 +683,8 @@
 		2D47AD2417921513003D5D8B /* ViewBook */ = {
 			isa = PBXGroup;
 			children = (
-				2D29E78B17C029B1004BB03C /* Main Menu */,
 				2D29E76217C01B2B004BB03C /* Splash Screen */,
+				2D29E78B17C029B1004BB03C /* Main Menu */,
 				2D29E76317C01B52004BB03C /* Start Points */,
 				2D29E76417C01B5A004BB03C /* Make Paths */,
 				2D29E76517C01B61004BB03C /* Build Networks */,
@@ -679,6 +729,7 @@
 		2D47AD5C179216DA003D5D8B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2D03832D17D013A100E7E740 /* Back Buttons */,
 				2DD13AFF17CDCAED002D52BB /* Main Menu */,
 				2D44017217CAEC4600F1079B /* Fonts */,
 				2DCCA0AC17C1C45A00B81172 /* Splash Screen */,
@@ -756,6 +807,8 @@
 		2DCCA0A517C1C04400B81172 /* Text Copy */ = {
 			isa = PBXGroup;
 			children = (
+				2D03834817D01D5D00E7E740 /* FutureArtists.txt */,
+				2D03834917D01D5D00E7E740 /* VisitUs.txt */,
 				79CEE42917CFEEAD00C9D12B /* Courses */,
 				2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */,
 				2D142B0317C4895F0013F036 /* IndustryEngagement.txt */,
@@ -1081,6 +1134,14 @@
 				79CEE49F17CFFF4C00C9D12B /* BAC6.txt in Resources */,
 				79CEE4A017CFFF4C00C9D12B /* BAC8.txt in Resources */,
 				79CEE4A117CFFF4C00C9D12B /* BAC9.txt in Resources */,
+				2D03833417D013A100E7E740 /* arrow1_back.png in Resources */,
+				2D03833617D013A100E7E740 /* arrow2_back.png in Resources */,
+				2D03833817D013A100E7E740 /* arrow3_back.png in Resources */,
+				2D03833A17D013A100E7E740 /* arrow4_back.png in Resources */,
+				2D03833C17D013A100E7E740 /* arrow5_back.png in Resources */,
+				2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */,
+				2D03834A17D01D5D00E7E740 /* FutureArtists.txt in Resources */,
+				2D03834C17D01D5D00E7E740 /* VisitUs.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,6 +1231,14 @@
 				79CEE47417CFF01B00C9D12B /* CST1.txt in Resources */,
 				79CEE47617CFF01B00C9D12B /* CST2.txt in Resources */,
 				79CEE47817CFF01B00C9D12B /* CST3.txt in Resources */,
+				2D03833517D013A100E7E740 /* arrow1_back.png in Resources */,
+				2D03833717D013A100E7E740 /* arrow2_back.png in Resources */,
+				2D03833917D013A100E7E740 /* arrow3_back.png in Resources */,
+				2D03833B17D013A100E7E740 /* arrow4_back.png in Resources */,
+				2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */,
+				2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */,
+				2D03834B17D01D5D00E7E740 /* FutureArtists.txt in Resources */,
+				2D03834D17D01D5D00E7E740 /* VisitUs.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1224,6 +1293,8 @@
 				79CEE4A417D005BE00C9D12B /* GraduateViewController.m in Sources */,
 				79CEE4A717D0073700C9D12B /* ContinuingStudiesViewController.m in Sources */,
 				79CEE4AA17D0088300C9D12B /* FoundationViewController.m in Sources */,
+				2D03834217D019C900E7E740 /* VisitUsViewController.m in Sources */,
+				2D03834617D019D100E7E740 /* FutureArtistsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,6 +1320,8 @@
 				2DAE88CE17C733190034B8C8 /* XMLParser.m in Sources */,
 				2D44017C17CB1A2900F1079B /* GNWViewController.m in Sources */,
 				2D1D722D17CB27DF00C3DBE3 /* VideoThumbnailViewController.m in Sources */,
+				2D03834317D019C900E7E740 /* VisitUsViewController.m in Sources */,
+				2D03834717D019D100E7E740 /* FutureArtistsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,7 +1419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
 				INFOPLIST_FILE = "ViewBook/ViewBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -1359,7 +1432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
 				INFOPLIST_FILE = "ViewBook/ViewBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

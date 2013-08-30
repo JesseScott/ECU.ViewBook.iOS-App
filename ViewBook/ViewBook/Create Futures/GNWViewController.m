@@ -28,7 +28,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
     // Set Screen Index
     screenIndex = 0;
@@ -64,6 +63,13 @@
     
     [webView loadHTMLString:embedHTML baseURL:nil];
     //[self.view addSubview:webView];
+}
+
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning {

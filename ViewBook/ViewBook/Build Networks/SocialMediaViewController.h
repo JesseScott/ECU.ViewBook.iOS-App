@@ -29,5 +29,7 @@
 
 - (IBAction)openPinterest:(id)sender;
 
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

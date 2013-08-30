@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GraduateViewController : UIViewController
+@interface GraduateViewController : UIViewController {
+    
+    
+}
+
 @property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

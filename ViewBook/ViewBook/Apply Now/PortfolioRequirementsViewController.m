@@ -55,11 +55,13 @@
     mainParagraph.text = fileContent;
     mainParagraph.font = paragraphFont;
     
-    //self.mainParagraph.text = fileContent;
-    // Set Text File To Main Paragraph Label
-//    mainParagraph.numberOfLines = 15;
-//    mainParagraph.text = fileContent;
-    
+}
+
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning {

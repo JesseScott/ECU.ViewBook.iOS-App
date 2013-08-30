@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FoundationViewController : UIViewController
+@interface FoundationViewController : UIViewController {
+    
+    
+}
 @property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

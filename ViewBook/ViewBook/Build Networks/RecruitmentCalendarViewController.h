@@ -19,6 +19,7 @@
 
 @property (strong, nonatomic) NSMutableArray *eventTimes;
 
-
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

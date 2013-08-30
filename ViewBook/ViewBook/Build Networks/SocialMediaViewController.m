@@ -15,7 +15,6 @@
 @implementation SocialMediaViewController
 
 // Synthesize Variables
-
 @synthesize pageTitle;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -123,6 +122,13 @@
     else {
         [[UIApplication sharedApplication] openURL:pinterestWeb];
     }
+}
+
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
 }
 
 

@@ -23,4 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *pageTitle;
 
 
+// Back To Main Menu
+- (IBAction)back:(id)sender;
+
 @end

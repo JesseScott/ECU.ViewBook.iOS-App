@@ -15,10 +15,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PmT-R5-FMD"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqh-8m-30n">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="kxz-xU-Koq"/>
+                                    <constraint firstAttribute="height" constant="44" id="hu4-OP-a5U"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="back">
+                                <state key="normal" backgroundImage="arrow4_back.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -26,18 +26,19 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loadMainMenuStoryboard:" destination="WNA-Mu-uRf" eventType="touchUpInside" id="TvU-lF-hkh"/>
+                                    <action selector="back:" destination="WNA-Mu-uRf" eventType="touchUpInside" id="S9c-To-AJS"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Iqh-8m-30n" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" constant="-1" id="Dh2-Y7-3hb"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="ESn-Tc-nUa"/>
+                            <constraint firstItem="Iqh-8m-30n" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="UWB-HA-Yqs"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="bH6-wf-tW0"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" type="default" id="qMm-cl-0sl"/>
                             <constraint firstItem="Iqh-8m-30n" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="tkT-gJ-HBm"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="bottom" secondItem="FTK-eh-hOf" secondAttribute="bottom" type="default" id="xfC-GT-ROq"/>
-                            <constraint firstItem="Iqh-8m-30n" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" type="default" id="yH9-jk-g99"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Alumni Survey" id="Ul8-fY-Oop"/>
@@ -58,6 +59,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-pY-PJM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="wtg-Oj-leI"/>
+                                </constraints>
                                 <string key="text">Page Title
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -80,18 +84,36 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mD-f1-OHZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7Uc-E0-gjs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="arrow4_back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="1MH-BX-af0" eventType="touchUpInside" id="bq0-B3-u6y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4mD-f1-OHZ" firstAttribute="top" secondItem="853-dY-F6T" secondAttribute="top" type="default" id="3xN-fE-gmO"/>
                             <constraint firstItem="wCX-BJ-oTZ" firstAttribute="trailing" secondItem="853-dY-F6T" secondAttribute="trailing" type="default" id="4ZS-LJ-1LM"/>
                             <constraint firstAttribute="trailing" secondItem="657-c4-4Vx" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="CCw-1t-t8i"/>
                             <constraint firstItem="7vO-pY-PJM" firstAttribute="top" secondItem="853-dY-F6T" secondAttribute="top" constant="20" symbolic="YES" type="default" id="DDl-1M-VJs"/>
-                            <constraint firstItem="657-c4-4Vx" firstAttribute="top" secondItem="853-dY-F6T" secondAttribute="top" constant="96" id="N8z-Q9-Ano"/>
                             <constraint firstItem="wCX-BJ-oTZ" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" type="default" id="Rw4-sd-PRG"/>
                             <constraint firstAttribute="bottom" secondItem="wCX-BJ-oTZ" secondAttribute="bottom" constant="5" id="cdN-YB-OzZ"/>
                             <constraint firstAttribute="trailing" secondItem="7vO-pY-PJM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cjz-Ao-M7W"/>
                             <constraint firstItem="657-c4-4Vx" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="np2-ZO-lku"/>
+                            <constraint firstItem="4mD-f1-OHZ" firstAttribute="trailing" secondItem="853-dY-F6T" secondAttribute="trailing" type="default" id="sQf-Gf-mRW"/>
                             <constraint firstItem="7vO-pY-PJM" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="tNK-Cx-OuZ"/>
+                            <constraint firstItem="4mD-f1-OHZ" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" type="default" id="u41-fb-AR5"/>
                             <constraint firstItem="657-c4-4Vx" firstAttribute="top" secondItem="7vO-pY-PJM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xMX-j6-omR"/>
                         </constraints>
                     </view>
@@ -126,17 +148,21 @@
             <point key="canvasLocation" x="-1267" y="-82"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow4_back.png" width="671" height="38"/>
+    </resources>
     <classes>
         <class className="AlumniSurveyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AlumniSurveyViewController.h"/>
             <relationships>
-                <relationship kind="action" name="loadMainMenuStoryboard:"/>
+                <relationship kind="action" name="back:"/>
                 <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
             </relationships>
         </class>
         <class className="GNWViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GNWViewController.h"/>
             <relationships>
+                <relationship kind="action" name="back:"/>
                 <relationship kind="outlet" name="mainParagraph" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="pageTitle" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>

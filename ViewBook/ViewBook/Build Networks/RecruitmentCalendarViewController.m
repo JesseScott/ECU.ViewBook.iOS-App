@@ -184,4 +184,11 @@
 
 }
 
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
+}
+
 @end

@@ -117,6 +117,13 @@
     }
 }
 
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

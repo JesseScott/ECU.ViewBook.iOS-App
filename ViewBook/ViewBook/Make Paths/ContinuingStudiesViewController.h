@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContinuingStudiesViewController : UIViewController
+@interface ContinuingStudiesViewController : UIViewController {
+    
+}
+
 @property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end

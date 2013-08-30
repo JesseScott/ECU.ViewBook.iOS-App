@@ -29,7 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
     // Set Screen Index
     screenIndex = 3;
@@ -56,6 +55,13 @@
     mainParagraph.text = fileContent;
     mainParagraph.font = paragraphFont;
     
+}
+
+- (IBAction)back:(id)sender {
+    UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
+    UIViewController *initialView = [newStoryboard instantiateInitialViewController];
+    initialView.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:initialView animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -24,4 +24,7 @@
 // Main Paragraph
 @property (weak, nonatomic) IBOutlet UITextView *mainParagraph;
 
+// Back To Main Menu
+- (IBAction)back:(id)sender;
+
 @end
