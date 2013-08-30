@@ -29,6 +29,8 @@
 
 - (IBAction)openPinterest:(id)sender;
 
+- (IBAction)openYoutube:(id)sender;
+
 // Back To Main Menu
 - (IBAction)back:(id)sender;
 

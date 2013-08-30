@@ -177,6 +177,8 @@
 		2DE8F32117D0472D006A8050 /* StudiosCaptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE8F31F17D0472D006A8050 /* StudiosCaptions.plist */; };
 		2DE8F32317D047C1006A8050 /* StudentCaptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE8F32217D047C1006A8050 /* StudentCaptions.plist */; };
 		2DE8F32417D047C1006A8050 /* StudentCaptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE8F32217D047C1006A8050 /* StudentCaptions.plist */; };
+		2DE8F32617D06746006A8050 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE8F32517D06746006A8050 /* youtube.png */; };
+		2DE8F32717D06746006A8050 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE8F32517D06746006A8050 /* youtube.png */; };
 		2DF36BEB17C3422E006B0994 /* StudentSlideshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF36BEA17C3422E006B0994 /* StudentSlideshowViewController.m */; };
 		2DF36BEC17C3422E006B0994 /* StudentSlideshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF36BEA17C3422E006B0994 /* StudentSlideshowViewController.m */; };
 		2DF36C0417C34402006B0994 /* student_slideshow_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF36BEE17C34402006B0994 /* student_slideshow_01.png */; };
@@ -398,6 +400,7 @@
 		2DE8F31C17D04623006A8050 /* CampusCaptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CampusCaptions.plist; path = "Assets/Property Lists/CampusCaptions.plist"; sourceTree = "<group>"; };
 		2DE8F31F17D0472D006A8050 /* StudiosCaptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = StudiosCaptions.plist; path = "Assets/Property Lists/StudiosCaptions.plist"; sourceTree = "<group>"; };
 		2DE8F32217D047C1006A8050 /* StudentCaptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = StudentCaptions.plist; path = "Assets/Property Lists/StudentCaptions.plist"; sourceTree = "<group>"; };
+		2DE8F32517D06746006A8050 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
 		2DF36BE917C3422E006B0994 /* StudentSlideshowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentSlideshowViewController.h; path = "Start Points/StudentSlideshowViewController.h"; sourceTree = "<group>"; };
 		2DF36BEA17C3422E006B0994 /* StudentSlideshowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentSlideshowViewController.m; path = "Start Points/StudentSlideshowViewController.m"; sourceTree = "<group>"; };
 		2DF36BEE17C34402006B0994 /* student_slideshow_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_slideshow_01.png; sourceTree = "<group>"; };
@@ -741,6 +744,7 @@
 		2D8957CA17C477920044F167 /* Build Networks */ = {
 			isa = PBXGroup;
 			children = (
+				2DE8F32517D06746006A8050 /* youtube.png */,
 				2DB3FBE817CFBDB00045D85C /* instagram.png */,
 				2D44016C17CAE06A00F1079B /* flickr.png */,
 				2D44016D17CAE06A00F1079B /* pinterest.png */,
@@ -1133,6 +1137,7 @@
 				2DE8F31D17D04623006A8050 /* CampusCaptions.plist in Resources */,
 				2DE8F32017D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32317D047C1006A8050 /* StudentCaptions.plist in Resources */,
+				2DE8F32617D06746006A8050 /* youtube.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1233,6 +1238,7 @@
 				2DE8F31E17D04623006A8050 /* CampusCaptions.plist in Resources */,
 				2DE8F32117D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32417D047C1006A8050 /* StudentCaptions.plist in Resources */,
+				2DE8F32717D06746006A8050 /* youtube.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

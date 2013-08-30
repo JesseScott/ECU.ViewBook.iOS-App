@@ -124,6 +124,23 @@
     }
 }
 
+- (IBAction)openYoutube:(id)sender {
+    // URL's
+    NSURL *youtubeApp = [NSURL URLWithString:@"http://www.youtube.com/emilycarruniversity"];
+    NSURL *youtubeWeb = [NSURL URLWithString:@"http://www.youtube.com/emilycarruniversity"];
+    
+    // Open The App ?
+    if ([[UIApplication sharedApplication] canOpenURL:youtubeApp]) {
+        NSLog(@"YES");
+        [[UIApplication sharedApplication] openURL:youtubeApp];
+    }
+    // ... Or Website
+    else {
+        NSLog(@"NO");
+        [[UIApplication sharedApplication] openURL:youtubeWeb];
+    }
+}
+
 - (IBAction)back:(id)sender {
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];

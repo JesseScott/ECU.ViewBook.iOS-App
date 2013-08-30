@@ -46,8 +46,10 @@
     self.table.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.view addSubview:self.table];
     
-    //UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
-    //self.tableView.backgroundView = backgroundImageView;
+    if ([self.table respondsToSelector:@selector(setBackgroundView:)]) {
+        self.table.backgroundView = nil;
+    }
+    self.table.backgroundColor = [UIColor whiteColor];
     
     // Array To Populate Table
     self.eventTimes = [[NSMutableArray alloc]init];
@@ -132,8 +134,8 @@
     [saveButton addTarget:self action:@selector(savePressed:) forControlEvents:UIControlEventTouchUpInside];
     calenderCell.accessoryView = saveButton;
     
-    [calenderCell setIndentationWidth:5];
-    [calenderCell setIndentationLevel:2];
+    [calenderCell setIndentationWidth:0];
+    [calenderCell setIndentationLevel:0];
            
     return calenderCell;
 }

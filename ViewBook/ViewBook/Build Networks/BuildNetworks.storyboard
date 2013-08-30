@@ -275,6 +275,19 @@
                                     <action selector="openPinterest:" destination="Pm8-yN-mrY" eventType="touchUpInside" id="Wpo-Wy-qfI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E90-Ha-ded">
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" backgroundImage="youtube.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openYoutube:" destination="Pm8-yN-mrY" eventType="touchUpInside" id="jD3-NL-ZFq"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZL-hk-CMN">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="7bk-pi-YLw"/>
@@ -327,8 +340,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="BiD-mX-nSB" secondAttribute="bottom" constant="123" id="2xE-Rh-cMo"/>
-                            <constraint firstAttribute="trailing" secondItem="7ZL-hk-CMN" secondAttribute="trailing" constant="46" id="5K9-cO-ll3"/>
                             <constraint firstItem="BiD-mX-nSB" firstAttribute="trailing" secondItem="pJ5-sL-rYL" secondAttribute="trailing" type="default" id="DR3-yS-1x1"/>
+                            <constraint firstAttribute="trailing" secondItem="E90-Ha-ded" secondAttribute="trailing" constant="46" id="FeV-YR-D8V"/>
                             <constraint firstItem="BiD-mX-nSB" firstAttribute="leading" secondItem="6CH-6A-lKI" secondAttribute="leading" constant="46" id="FrD-AO-tsZ"/>
                             <constraint firstItem="bBV-fM-xyj" firstAttribute="top" secondItem="dF1-JP-Xbp" secondAttribute="top" type="default" id="Hre-A3-oiR"/>
                             <constraint firstItem="pJ5-sL-rYL" firstAttribute="leading" secondItem="dF1-JP-Xbp" secondAttribute="leading" type="default" id="MAM-3G-mfI"/>
@@ -337,12 +350,16 @@
                             <constraint firstItem="bBV-fM-xyj" firstAttribute="bottom" secondItem="dF1-JP-Xbp" secondAttribute="bottom" type="default" id="UyE-A0-9wj"/>
                             <constraint firstItem="wN4-sq-QfA" firstAttribute="leading" secondItem="6CH-6A-lKI" secondAttribute="leading" type="default" id="VHM-VB-Db8"/>
                             <constraint firstItem="7ZL-hk-CMN" firstAttribute="leading" secondItem="bBV-fM-xyj" secondAttribute="leading" type="default" id="XLE-ec-bGf"/>
+                            <constraint firstItem="E90-Ha-ded" firstAttribute="top" secondItem="BiD-mX-nSB" secondAttribute="top" type="default" id="cFo-4R-vW1"/>
                             <constraint firstItem="7ZL-hk-CMN" firstAttribute="top" secondItem="pJ5-sL-rYL" secondAttribute="top" type="default" id="f2k-u8-gAb"/>
                             <constraint firstItem="pJ5-sL-rYL" firstAttribute="trailing" secondItem="dF1-JP-Xbp" secondAttribute="trailing" type="default" id="fmG-yF-i00"/>
                             <constraint firstItem="dF1-JP-Xbp" firstAttribute="top" secondItem="6CH-6A-lKI" secondAttribute="top" constant="79" id="gwa-CI-6VV"/>
                             <constraint firstItem="7ZL-hk-CMN" firstAttribute="bottom" secondItem="pJ5-sL-rYL" secondAttribute="bottom" type="default" id="hMy-FR-weL"/>
+                            <constraint firstItem="E90-Ha-ded" firstAttribute="trailing" secondItem="7ZL-hk-CMN" secondAttribute="trailing" type="default" id="jYU-9Q-SPW"/>
                             <constraint firstItem="7ZL-hk-CMN" firstAttribute="trailing" secondItem="bBV-fM-xyj" secondAttribute="trailing" type="default" id="oXr-a4-JcQ"/>
                             <constraint firstItem="BiD-mX-nSB" firstAttribute="leading" secondItem="pJ5-sL-rYL" secondAttribute="leading" type="default" id="r31-Oa-6Ei"/>
+                            <constraint firstItem="E90-Ha-ded" firstAttribute="leading" secondItem="7ZL-hk-CMN" secondAttribute="leading" type="default" id="ubP-Yo-Les"/>
+                            <constraint firstItem="E90-Ha-ded" firstAttribute="bottom" secondItem="BiD-mX-nSB" secondAttribute="bottom" type="default" id="vof-co-070"/>
                             <constraint firstItem="wN4-sq-QfA" firstAttribute="trailing" secondItem="6CH-6A-lKI" secondAttribute="trailing" type="default" id="xgN-Di-11J"/>
                         </constraints>
                     </view>
@@ -361,6 +378,7 @@
         <image name="instagram.png" width="100" height="100"/>
         <image name="pinterest.png" width="100" height="100"/>
         <image name="twitter.png" width="100" height="100"/>
+        <image name="youtube.png" width="100" height="100"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -397,6 +415,7 @@
                 <relationship kind="action" name="openInstagram:"/>
                 <relationship kind="action" name="openPinterest:"/>
                 <relationship kind="action" name="openTwitter:"/>
+                <relationship kind="action" name="openYoutube:"/>
                 <relationship kind="outlet" name="pageTitle" candidateClass="UILabel"/>
             </relationships>
         </class>
