@@ -16,20 +16,38 @@
 
 @implementation RecruitmentCalendarViewController
 
+// Synthesize Variables
 @synthesize eventTimes;
+@synthesize table;
 
 
 
-- (id)initWithStyle:(UITableViewStyle)style {
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+//- (id)initWithStyle:(UITableViewStyle)style {
+//    self = [super initWithStyle:style];
+//    if (self) {
+//        // Custom initialization
+//    }
+//    return self;
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Table Size
+    CGFloat startingPoint = 44.0;
+    CGRect tableRect = self.view.bounds;
+    tableRect.origin.y = startingPoint;
+    tableRect.size.height -= startingPoint;
+    
+    self.table = [[UITableView alloc] initWithFrame:tableRect style:UITableViewStyleGrouped];
+    self.table.dataSource = self;
+    self.table.delegate = self;
+    self.table.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.table.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:self.table];
+    
+    //UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
+    //self.tableView.backgroundView = backgroundImageView;
     
     // Array To Populate Table
     self.eventTimes = [[NSMutableArray alloc]init];
@@ -97,7 +115,7 @@
     
     static NSString *cellIdentifier = @"Cell";
 
-    RecruitmentCalenderCell *calenderCell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    RecruitmentCalenderCell *calenderCell = [self.table dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!calenderCell) {
         calenderCell = [[RecruitmentCalenderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
@@ -123,7 +141,7 @@
 //RX Button Click action
 -(void)savePressed:(UIButton *)sender {
     UITableViewCell *cell = ((UITableViewCell *)[sender superview]);
-    NSInteger cellRow = [[self.tableView indexPathForCell:cell] row];
+    NSInteger cellRow = [[self.table indexPathForCell:cell] row];
     NSLog(@"Button Number: %i",cellRow);
     [self createLocalNotifications:cell rowNumber:cellRow];
 }

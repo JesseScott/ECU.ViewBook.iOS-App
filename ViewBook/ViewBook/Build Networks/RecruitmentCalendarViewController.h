@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XMLParser.h"
 
-@interface RecruitmentCalendarViewController : UITableViewController {
+@interface RecruitmentCalendarViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     
     // Screen Index
     NSInteger screenIndex;
@@ -18,6 +18,8 @@
 }
 
 @property (strong, nonatomic) NSMutableArray *eventTimes;
+
+@property (strong, nonatomic) UITableView *table;
 
 // Back To Main Menu
 - (IBAction)back:(id)sender;
