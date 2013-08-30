@@ -47,23 +47,25 @@
                         nil];
 
     
-    self.captionText = [NSArray arrayWithObjects:
-                         @"View",
-                         @"Ma Trees",
-                         @"Ma Condos",
-                         @"Ma GFlowers",
-                         @"Ma Niggers",
-                         @"Ma Dinner",
-                        nil];
+    // Load PList 
+    NSString *pathToPlistFile = [[NSBundle mainBundle] pathForResource:@"CampusCaptions" ofType:@"plist"];
+    
+    // Set Caption Array
+    self.captionText = [[NSArray alloc] initWithContentsOfFile:pathToPlistFile];
+    
+    // Set Initial Text
+    self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
+    
+    // Load Fonts
+    captionFont = [UIFont fontWithName:@"Leitura Sans" size:12];
+    self.caption.font = captionFont;
     
     // Set Gestures and load first image and caption
-    self.swipeCount=0;
+    self.swipeCount = 0;
     [slideshow setImage:[self.campus objectAtIndex:self.swipeCount]];
     
     [self.view addGestureRecognizer:self.leftSwipe];
     [self.view addGestureRecognizer:self.rightSwipe];
-    self.caption.text=@"Hello";
-    self.caption.backgroundColor = [UIColor blueColor];
 
     
 }

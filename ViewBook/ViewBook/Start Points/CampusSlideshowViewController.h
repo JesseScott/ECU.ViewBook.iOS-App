@@ -10,6 +10,8 @@
 
 @interface CampusSlideshowViewController : UIViewController <UIGestureRecognizerDelegate>{
     
+    // Custom Font
+    UIFont *captionFont;
     
 }
 

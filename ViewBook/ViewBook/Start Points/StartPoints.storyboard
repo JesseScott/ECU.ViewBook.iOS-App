@@ -41,15 +41,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jem-ws-wAI" firstAttribute="leading" secondItem="Nu1-pi-DoC" secondAttribute="leading" constant="56" id="1oK-h1-uoO"/>
                             <constraint firstItem="76G-st-Wgf" firstAttribute="top" secondItem="Nu1-pi-DoC" secondAttribute="top" constant="6" id="6br-RP-dbP"/>
                             <constraint firstItem="r42-X0-Ah8" firstAttribute="top" secondItem="Nu1-pi-DoC" secondAttribute="top" type="default" id="8iV-cd-flY"/>
                             <constraint firstItem="r42-X0-Ah8" firstAttribute="bottom" secondItem="Nu1-pi-DoC" secondAttribute="bottom" type="default" id="M8l-Gy-WvS"/>
                             <constraint firstItem="r42-X0-Ah8" firstAttribute="trailing" secondItem="Nu1-pi-DoC" secondAttribute="trailing" type="default" id="MrV-bo-bqD"/>
                             <constraint firstItem="76G-st-Wgf" firstAttribute="leading" secondItem="Nu1-pi-DoC" secondAttribute="leading" type="default" id="fH5-eA-ejR"/>
-                            <constraint firstAttribute="bottom" secondItem="jem-ws-wAI" secondAttribute="bottom" constant="34" id="mo9-6c-ptd"/>
+                            <constraint firstAttribute="bottom" secondItem="jem-ws-wAI" secondAttribute="bottom" constant="109" id="g7A-en-lXI"/>
                             <constraint firstItem="r42-X0-Ah8" firstAttribute="leading" secondItem="Nu1-pi-DoC" secondAttribute="leading" type="default" id="mr9-b4-cWH"/>
                             <constraint firstItem="76G-st-Wgf" firstAttribute="trailing" secondItem="Nu1-pi-DoC" secondAttribute="trailing" type="default" id="o4F-kz-ndt"/>
-                            <constraint firstItem="jem-ws-wAI" firstAttribute="leading" secondItem="Nu1-pi-DoC" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="smF-j4-JtX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Studios" id="kwk-6t-48U"/>
@@ -74,7 +74,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="425" y="432"/>
+            <point key="canvasLocation" x="425" y="-232"/>
         </scene>
         <!--Students-->
         <scene sceneID="3YV-E5-k4C">
@@ -146,7 +146,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="425" y="-246"/>
+            <point key="canvasLocation" x="425" y="477"/>
         </scene>
         <!--Campus-->
         <scene sceneID="5tM-go-juB">
@@ -157,15 +157,6 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLR-T1-biL"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALC-Wk-cxE">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="e3p-jo-evz"/>
-                                    <constraint firstAttribute="width" constant="249" id="inR-0r-epm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7A-Mb-0Yn">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="ckq-IN-LaJ"/>
@@ -182,18 +173,35 @@
                                     <action selector="back:" destination="G9d-7P-xPl" eventType="touchUpInside" id="dQY-EU-uBU"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow4.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbW-91-KcZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vAs-51-EuV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALC-Wk-cxE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="e3p-jo-evz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="hbW-91-KcZ" firstAttribute="leading" secondItem="CWw-Fz-bvL" secondAttribute="leading" type="default" id="6IK-NN-Uv0"/>
                             <constraint firstItem="qLR-T1-biL" firstAttribute="bottom" secondItem="CWw-Fz-bvL" secondAttribute="bottom" type="default" id="Btt-4b-c9f"/>
+                            <constraint firstItem="qLR-T1-biL" firstAttribute="trailing" secondItem="CWw-Fz-bvL" secondAttribute="trailing" type="default" id="Byj-9D-GFp"/>
                             <constraint firstItem="qLR-T1-biL" firstAttribute="leading" secondItem="CWw-Fz-bvL" secondAttribute="leading" type="default" id="CNQ-CX-vX9"/>
                             <constraint firstItem="qLR-T1-biL" firstAttribute="top" secondItem="CWw-Fz-bvL" secondAttribute="top" type="default" id="FwQ-js-90L"/>
-                            <constraint firstAttribute="bottom" secondItem="ALC-Wk-cxE" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Ioc-Gf-uqW"/>
+                            <constraint firstItem="hbW-91-KcZ" firstAttribute="bottom" secondItem="CWw-Fz-bvL" secondAttribute="bottom" type="default" id="Inv-da-Q4J"/>
                             <constraint firstItem="l7A-Mb-0Yn" firstAttribute="leading" secondItem="CWw-Fz-bvL" secondAttribute="leading" type="default" id="LXz-Rv-Ife"/>
                             <constraint firstItem="l7A-Mb-0Yn" firstAttribute="top" secondItem="CWw-Fz-bvL" secondAttribute="top" constant="6" id="PNX-zp-vot"/>
-                            <constraint firstItem="l7A-Mb-0Yn" firstAttribute="trailing" secondItem="CWw-Fz-bvL" secondAttribute="trailing" type="default" id="jPq-RI-hSP"/>
-                            <constraint firstItem="qLR-T1-biL" firstAttribute="trailing" secondItem="CWw-Fz-bvL" secondAttribute="trailing" type="default" id="tQH-bw-nxn"/>
-                            <constraint firstItem="ALC-Wk-cxE" firstAttribute="leading" secondItem="CWw-Fz-bvL" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="zli-Qa-QCy"/>
+                            <constraint firstItem="l7A-Mb-0Yn" firstAttribute="trailing" secondItem="CWw-Fz-bvL" secondAttribute="trailing" type="default" id="TvE-pH-DAv"/>
+                            <constraint firstAttribute="bottom" secondItem="ALC-Wk-cxE" secondAttribute="bottom" constant="5" id="e8g-Ig-2C9"/>
+                            <constraint firstItem="ALC-Wk-cxE" firstAttribute="leading" secondItem="CWw-Fz-bvL" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fIz-5T-UhU"/>
+                            <constraint firstAttribute="trailing" secondItem="ALC-Wk-cxE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fyh-Ix-QkP"/>
+                            <constraint firstItem="hbW-91-KcZ" firstAttribute="trailing" secondItem="CWw-Fz-bvL" secondAttribute="trailing" type="default" id="m3S-m3-iHd"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Campus" id="e06-6E-ABN" userLabel="Campus"/>
@@ -467,6 +475,7 @@
     </scenes>
     <resources>
         <image name="arrow1_back.png" width="671" height="38"/>
+        <image name="arrow4.png" width="671" height="38"/>
         <image name="creative_future.png" width="300" height="300"/>
         <image name="day_in_the_life.png" width="300" height="300"/>
         <image name="design_doc.png" width="300" height="300"/>
@@ -475,63 +484,6 @@
         <image name="lisa_fraser.png" width="300" height="300"/>
         <image name="luke_parnell.png" width="300" height="299"/>
     </resources>
-    <classes>
-        <class className="CampusSlideshowViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusSlideshowViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="back:"/>
-                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="StudentSlideshowViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StudentSlideshowViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="back:"/>
-                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="StudiosSlideshowViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StudiosSlideshowViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="VideoThumbnailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/VideoThumbnailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="launchCreativeFuture:"/>
-                <relationship kind="action" name="launchDayInTheLife:"/>
-                <relationship kind="action" name="launchDesignCommunity:"/>
-                <relationship kind="action" name="launchErinBoniferro:"/>
-                <relationship kind="action" name="launchGiantAnt:"/>
-                <relationship kind="action" name="launchLisaFraser:"/>
-                <relationship kind="action" name="launchLukeParnell:"/>
-            </relationships>
-        </class>
-        <class className="WebViewViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backToThumbnails:"/>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
