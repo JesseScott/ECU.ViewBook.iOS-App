@@ -10,6 +10,8 @@
 
 @interface StudiosSlideshowViewController : UIViewController {
     
+    // Custom Font
+    UIFont *captionFont;
     
 }
 

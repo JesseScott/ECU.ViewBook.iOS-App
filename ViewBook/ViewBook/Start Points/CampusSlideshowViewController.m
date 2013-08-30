@@ -7,6 +7,7 @@
 //
 
 #import "CampusSlideshowViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface CampusSlideshowViewController ()
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
@@ -52,17 +53,23 @@
     
     // Set Caption Array
     self.captionText = [[NSArray alloc] initWithContentsOfFile:pathToPlistFile];
-    
-    // Set Initial Text
-    self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
-    
+
     // Load Fonts
-    captionFont = [UIFont fontWithName:@"Leitura Sans" size:12];
+    captionFont = [UIFont fontWithName:@"Leitura Sans" size:14];
     self.caption.font = captionFont;
+    
+    // Text Attributes
+    self.caption.textColor = [UIColor blackColor];
+    self.caption.lineBreakMode = NSLineBreakByWordWrapping;
+    self.caption.numberOfLines = 2;
+    self.caption.layer.shadowColor = [self.caption.textColor CGColor];
+    self.caption.layer.shadowOffset = CGSizeMake(1.0, 1.0);
+    self.caption.layer.masksToBounds = NO;
     
     // Set Gestures and load first image and caption
     self.swipeCount = 0;
     [slideshow setImage:[self.campus objectAtIndex:self.swipeCount]];
+    self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
     
     [self.view addGestureRecognizer:self.leftSwipe];
     [self.view addGestureRecognizer:self.rightSwipe];

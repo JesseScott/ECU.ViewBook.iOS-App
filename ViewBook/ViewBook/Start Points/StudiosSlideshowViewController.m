@@ -7,6 +7,7 @@
 //
 
 #import "StudiosSlideshowViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface StudiosSlideshowViewController ()
 
@@ -45,27 +46,32 @@
                              [UIImage imageNamed:@"studios_slideshow_05"],
                              nil];
     
-    self.captionText = [NSArray arrayWithObjects:
-                        @"View",
-                        @"Ma Trees",
-                        @"Ma Condos",
-                        @"Ma GFlowers",
-                        @"Ma Niggers",
-                        nil];
+    // Load PList
+    NSString *pathToPlistFile = [[NSBundle mainBundle] pathForResource:@"StudiosCaptions" ofType:@"plist"];
+    
+    // Set Caption Array
+    self.captionText = [[NSArray alloc] initWithContentsOfFile:pathToPlistFile];
+
+    // Load Fonts
+    captionFont = [UIFont fontWithName:@"Leitura Sans" size:14];
+    self.caption.font = captionFont;
+    
+    // Text Attributes
+    self.caption.textColor = [UIColor blackColor];
+    self.caption.lineBreakMode = NSLineBreakByWordWrapping;
+    self.caption.numberOfLines = 2;
+    self.caption.layer.shadowColor = [self.caption.textColor CGColor];
+    self.caption.layer.shadowOffset = CGSizeMake(1.0, 1.0);
+    self.caption.layer.masksToBounds = NO;
     
     // Set Gestures and load first image and caption
     self.swipeCount=0;
     [slideshow setImage:[self.studios objectAtIndex:self.swipeCount]];
+    self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
     
     [self.view addGestureRecognizer:self.leftSwipe];
     [self.view addGestureRecognizer:self.rightSwipe];
-    self.caption.text=@"Hello";
-    self.caption.backgroundColor = [UIColor blueColor];
-    // Set ImageView
-//    [slideshow setAnimationImages:studios];
-//    slideshow.animationDuration = 25.0;
-//    slideshow.animationRepeatCount = 0;
-//    [slideshow startAnimating];
+
 
 }
 - (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {

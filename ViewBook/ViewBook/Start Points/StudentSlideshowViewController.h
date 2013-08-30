@@ -10,6 +10,8 @@
 
 @interface StudentSlideshowViewController : UIViewController {
     
+    // Custom Font
+    UIFont *captionFont;
     
 }
 
