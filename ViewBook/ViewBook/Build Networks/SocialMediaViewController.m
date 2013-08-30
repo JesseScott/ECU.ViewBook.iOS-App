@@ -51,7 +51,7 @@
 
 - (IBAction)openFacebook:(id)sender {
     // URL's
-    NSURL *facebookApp = [NSURL URLWithString:@"fb://page/Emily.Carr.University"];
+    NSURL *facebookApp = [NSURL URLWithString:@"fb://profile/19357352601"];
     NSURL *facebookWeb = [NSURL URLWithString:@"http://www.facebook.com/Emily.Carr.University"];
     
     // Open The App ?
