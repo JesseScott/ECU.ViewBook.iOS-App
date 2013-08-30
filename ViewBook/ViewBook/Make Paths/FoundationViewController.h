@@ -10,10 +10,13 @@
 
 @interface FoundationViewController : UIViewController {
     
+    // Custom Font
+    UIFont *titleFont, *paragraphFont;
     
 }
-@property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 
+// Labels
+@property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
 
 // Back To Main Menu

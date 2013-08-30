@@ -17,8 +17,7 @@
 
 @implementation UnderGradraduateViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -26,25 +25,33 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
     //RX initializes array
     self.courses = [[NSArray alloc]init];
+    
     //RX load courses from Plist
     NSString *pathForPlist = [[NSBundle mainBundle] pathForResource:@"UndergraduateCourses" ofType:@"plist"];
     self.courses = [NSArray arrayWithContentsOfFile:pathForPlist];
-    //RX sets initial swipeCount
-    self.swipeCount = 0;
+    
+    // Load Fonts
+    titleFont = [UIFont fontWithName:@"Leitura Headline" size:24];
+    paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
+    
+    // Apply Fonts
+    self.courseTitle.font = titleFont;
+    self.courseDescription.font = paragraphFont;
 
     //RX sets the intial course descriptions and titles
+    self.swipeCount = 0;
     self.courseTitle.text = self.courses[self.swipeCount];
     self.courseDescription.text = self.courses[self.swipeCount];
-	// Do any additional setup after loading the view.
+	
+ 
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -59,7 +66,6 @@
 
 //changes plist course title on swiping
 - (IBAction)nextCourse:(UISwipeGestureRecognizer *)sender  {
-    NSLog(@"left swipe");
     if(self.swipeCount < self.courses.count-1){
         self.swipeCount=self.swipeCount+1;
         self.courseTitle.text = self.courses[self.swipeCount];
@@ -75,7 +81,6 @@
     }
 }
 - (IBAction)previousCourse:(UISwipeGestureRecognizer *)sender  {
-     NSLog(@"right swipe");
     if(self.swipeCount > 0){
         self.swipeCount=self.swipeCount-1;
         self.courseTitle.text = self.courses[self.swipeCount];

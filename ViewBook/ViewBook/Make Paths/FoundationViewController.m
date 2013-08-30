@@ -17,8 +17,7 @@
 
 @implementation FoundationViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -26,25 +25,32 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     self.courses = [[NSArray alloc]init];
     
     NSString *pathForArray = [[NSBundle mainBundle] pathForResource:@"Foundation" ofType:@"plist"];
     self.courses = [NSArray arrayWithContentsOfFile:pathForArray];
     
-    self.swipeCount = 1;
-    
     //RX sets the intial course descriptions and titles
+    self.swipeCount = 1;
     self.courseTitle.text = self.courses[self.swipeCount-1];
     
     NSString *fileName = [NSString stringWithFormat:@"FDT%i",self.swipeCount];
     NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
     self.courseDescription.text = fileContent;
-	// Do any additional setup after loading the view.
+	
+    // Load Fonts
+    titleFont = [UIFont fontWithName:@"Leitura Headline" size:24];
+    paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
+    
+    // Apply Fonts
+    self.courseTitle.font = titleFont;
+    self.courseDescription.font = paragraphFont;
+    
 }
+
 - (IBAction)back:(id)sender {
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
@@ -52,8 +58,7 @@
     [self presentViewController:initialView animated:YES completion:NULL];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

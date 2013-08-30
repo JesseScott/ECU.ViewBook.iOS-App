@@ -18,8 +18,7 @@
 @implementation GraduateViewController
 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -27,24 +26,35 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Init Array
     self.courses = [[NSArray alloc]init];
+    
     //RX load courses from Plist
     NSString *pathForArray = [[NSBundle mainBundle] pathForResource:@"GraduateCourses" ofType:@"plist"];
     self.courses = [NSArray arrayWithContentsOfFile:pathForArray];
 
-    self.swipeCount = 0;
+    // Load Fonts
+    titleFont = [UIFont fontWithName:@"Leitura Headline" size:24];
+    paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
+    
+    // Apply Fonts
+    self.courseTitle.font = titleFont;
+    self.courseDescription.font = paragraphFont;
     
     //RX sets the intial course descriptions and titles
+    self.swipeCount = 0;
     self.courseTitle.text = self.courses[self.swipeCount];
-    self.courseDescription.text = self.courses[self.swipeCount];
+    NSString *fileName = [NSString stringWithFormat:@"GRA%i", self.swipeCount];
+    NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+    NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
+    self.courseDescription.text = fileContent;
 
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -59,36 +69,25 @@
 
 //changes plist course title on swiping
 - (IBAction)nextCourse:(UISwipeGestureRecognizer *)sender  {
-    NSLog(@"left swipe");
     if(self.swipeCount < self.courses.count-1){
-        self.swipeCount=self.swipeCount+1;
+        self.swipeCount = self.swipeCount+1;
         self.courseTitle.text = self.courses[self.swipeCount];
-        
-        if (self.swipeCount == 0) {
-            self.courseDescription.text = self.courses[self.swipeCount];
-        } else {
-            NSString *fileName = [NSString stringWithFormat:@"GRA%i",self.swipeCount];
-            NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
-            NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
-            self.courseDescription.text = fileContent;
-        }
+
+        NSString *fileName = [NSString stringWithFormat:@"GRA%i", self.swipeCount];
+        NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+        NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
+        self.courseDescription.text = fileContent;
     }
 }
 - (IBAction)previousCourse:(UISwipeGestureRecognizer *)sender  {
-    NSLog(@"right swipe");
     if(self.swipeCount > 0){
-        self.swipeCount=self.swipeCount-1;
+        self.swipeCount = self.swipeCount-1;
         self.courseTitle.text = self.courses[self.swipeCount];
         
-        if (self.swipeCount == 0) {
-            self.courseDescription.text = self.courses[self.swipeCount];
-        } else {
-            NSString *fileName = [NSString stringWithFormat:@"GRA%i",self.swipeCount];
-            NSLog(@"Grad: %@",fileName);
-            NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
-            NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
-            self.courseDescription.text = fileContent;
-        }
+        NSString *fileName = [NSString stringWithFormat:@"GRA%i", self.swipeCount];
+        NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+        NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
+        self.courseDescription.text = fileContent;
     }
 }
 

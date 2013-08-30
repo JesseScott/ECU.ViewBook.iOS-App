@@ -10,10 +10,12 @@
 
 @interface UnderGradraduateViewController : UIViewController {
     
+    // Custom Font
+    UIFont *titleFont, *paragraphFont;
     
 }
 
-
+// Labels
 @property (weak, nonatomic) IBOutlet UILabel *courseTitle;
 @property (weak, nonatomic) IBOutlet UITextView *courseDescription;
 

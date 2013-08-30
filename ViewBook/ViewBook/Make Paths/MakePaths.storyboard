@@ -311,8 +311,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GraduateViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextCourse:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousCourse:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>
