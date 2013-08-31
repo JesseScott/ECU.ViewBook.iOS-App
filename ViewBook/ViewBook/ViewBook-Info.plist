@@ -26,9 +26,8 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>LeituraHeadline-Serif It.otf</string>
 		<string>LeituraSans-Grot 1.otf</string>
-		<string>GothamRnd-Bold.otf</string>
+		<string>LeituraSans-Grot 2.otf</string>
 		<string>GothamRnd-Medium.otf</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
