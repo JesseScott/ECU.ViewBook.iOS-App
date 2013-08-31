@@ -38,7 +38,9 @@
     // Set Screen Index
     screenIndex = 2;
     
-    titleFont = [UIFont fontWithName:@"Leitura Headline" size:24];
+    // Load Fonts
+    titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
+    paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
     
     // Load PList For Page Title
     NSString *pathToPlistFile = [[NSBundle mainBundle] pathForResource:@"ApplyNowScreenNames" ofType:@"plist"];

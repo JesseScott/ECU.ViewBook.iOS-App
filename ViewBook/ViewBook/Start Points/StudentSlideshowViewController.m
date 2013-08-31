@@ -62,7 +62,7 @@
     self.captionText = [[NSArray alloc] initWithContentsOfFile:pathToPlistFile];
     
     // Load Fonts
-    captionFont = [UIFont fontWithName:@"Leitura Sans" size:14];
+    captionFont = [UIFont fontWithName:@"Leitura Sans" size:12];
     self.caption.font = captionFont;
     
     // Text Attributes

@@ -35,7 +35,7 @@
     screenIndex = 0;
     
     // Load Fonts
-    titleFont = [UIFont fontWithName:@"Leitura Headline" size:24];
+    titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
     paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
     
     // Load PList For Page Title
