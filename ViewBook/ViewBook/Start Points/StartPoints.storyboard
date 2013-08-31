@@ -231,7 +231,7 @@
                                     <action selector="back:" destination="OnM-45-lGv" eventType="touchUpInside" id="t7q-hx-bve"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QEb-Si-ltr">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QEb-Si-ltr">
                                 <rect key="frame" x="63" y="56" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="day_in_the_life.png">
@@ -242,10 +242,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchDayInTheLife:" destination="OnM-45-lGv" eventType="touchUpInside" id="CJ1-WS-JYo"/>
+                                    <action selector="launchDayInTheLife:" destination="OnM-45-lGv" eventType="touchUpInside" id="d2B-LL-reX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cTX-dL-J3Y">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cTX-dL-J3Y">
                                 <rect key="frame" x="163" y="56" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="creative_future.png">
@@ -256,10 +256,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchCreativeFuture:" destination="OnM-45-lGv" eventType="touchUpInside" id="YVJ-dW-B41"/>
+                                    <action selector="launchCreativeFuture:" destination="OnM-45-lGv" eventType="touchUpInside" id="8SZ-G6-vY0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B2u-Nq-AGK">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B2u-Nq-AGK">
                                 <rect key="frame" x="63" y="146" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="erin_boniferro.png">
@@ -270,10 +270,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchErinBoniferro:" destination="OnM-45-lGv" eventType="touchUpInside" id="g7D-Gj-48u"/>
+                                    <action selector="launchErinBoniferro:" destination="OnM-45-lGv" eventType="touchUpInside" id="Olm-ee-fTk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SM4-Ch-Agf">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SM4-Ch-Agf">
                                 <rect key="frame" x="163" y="146" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="luke_parnell.png">
@@ -284,10 +284,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchLukeParnell:" destination="OnM-45-lGv" eventType="touchUpInside" id="kCM-kI-Nn3"/>
+                                    <action selector="launchLukeParnell:" destination="OnM-45-lGv" eventType="touchUpInside" id="eL5-md-LMy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8ru-aG-JQy">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8ru-aG-JQy">
                                 <rect key="frame" x="63" y="235" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="giant_ant.png">
@@ -298,10 +298,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchGiantAnt:" destination="OnM-45-lGv" eventType="touchUpInside" id="ufN-7E-7av"/>
+                                    <action selector="launchGiantAnt:" destination="OnM-45-lGv" eventType="touchUpInside" id="FQe-3G-8dc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GdL-Kn-ykP">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GdL-Kn-ykP">
                                 <rect key="frame" x="163" y="235" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="lisa_fraser.png">
@@ -312,10 +312,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchLisaFraser:" destination="OnM-45-lGv" eventType="touchUpInside" id="Omy-S7-luK"/>
+                                    <action selector="launchLisaFraser:" destination="OnM-45-lGv" eventType="touchUpInside" id="g4S-cb-TPj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bmT-if-KaW">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bmT-if-KaW">
                                 <rect key="frame" x="63" y="325" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="design_doc.png">
@@ -326,10 +326,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchDesignCommunity:" destination="OnM-45-lGv" eventType="touchUpInside" id="yIz-aK-fYw"/>
+                                    <action selector="launchDesignCommunity:" destination="OnM-45-lGv" eventType="touchUpInside" id="bJf-dL-mYM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GfC-Gv-654">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GfC-Gv-654">
                                 <rect key="frame" x="163" y="325" width="75" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="audain_school.png">
@@ -340,7 +340,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchAudainSchool:" destination="OnM-45-lGv" eventType="touchUpInside" id="Sy2-Xp-6t7"/>
+                                    <action selector="launchAudainSchool:" destination="OnM-45-lGv" eventType="touchUpInside" id="umN-DI-03z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -412,6 +412,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
@@ -422,6 +424,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StudentSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
@@ -432,8 +436,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StudiosSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>

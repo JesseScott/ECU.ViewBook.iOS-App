@@ -14,21 +14,22 @@
     
 }
 
-- (IBAction)launchCreativeFuture:(id)sender;
-
 - (IBAction)launchDayInTheLife:(id)sender;
 
-- (IBAction)launchDesignCommunity:(id)sender;
+- (IBAction)launchCreativeFuture:(id)sender;
 
 - (IBAction)launchErinBoniferro:(id)sender;
 
-- (IBAction)launchGiantAnt:(id)sender;
-
 - (IBAction)launchLukeParnell:(id)sender;
+
+- (IBAction)launchGiantAnt:(id)sender;
 
 - (IBAction)launchLisaFraser:(id)sender;
 
+- (IBAction)launchDesignCommunity:(id)sender;
+
 - (IBAction)launchAudainSchool:(id)sender;
+
 
 // Back To Main Menu
 - (IBAction)back:(id)sender;

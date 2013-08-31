@@ -33,23 +33,32 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"pushToGraduateCourses"]) {
-        UIViewController *controller = (UIViewController *)segue.destinationViewController;
+    if([segue.identifier isEqualToString:@"pushToUndegradCourses"]) {
+        NSLog(@"Undergrad Segue");
+        //UIViewController *controller = (UIViewController *)segue.destinationViewController;
+    }
+    else if([segue.identifier isEqualToString:@"pushToGraduateCourses"]) {
+        NSLog(@"Grad Segue");
+        //UIViewController *controller = (UIViewController *)segue.destinationViewController;
     }
     else if([segue.identifier isEqualToString:@"pushToCSCourses"]) {
-        UIViewController *controller = (UIViewController *)segue.destinationViewController;
+        NSLog(@"CS Segue");
+        //UIViewController *controller = (UIViewController *)segue.destinationViewController;
     }
 }
 
 - (IBAction)launchUndergrad:(id)sender {
-    
+    NSLog(@"Undergrad Button");
+    [self performSegueWithIdentifier:@"pushToGraduateCourses" sender:sender];
 }
 
 - (IBAction)launchGraduate:(id)sender {
+    NSLog(@"Grad Button");
     [self performSegueWithIdentifier:@"pushToGraduateCourses" sender:sender];
 }
 
 - (IBAction)launchCS:(id)sender {
+    NSLog(@"CS Button");
     [self performSegueWithIdentifier:@"pushToCSCourses" sender:sender];
 }
 @end
