@@ -2,10 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>The MOCAP studio: motion capture and stereographics .</string>
-	<string>The IDS studio: electronics lab, part of the Wearables and Interactive Products .</string>
-	<string>The CNC router at work, part of Emily Carr&apos;s extensive 3D prototyping technologies.</string>
-	<string>One of our several film + animation studios throughout the campus.</string>
-	<string>The soft shop, equipped with industrial embroidery and sewing machines.</string>
+	<string>The MOCAP studio:
+Motion Capture and Stereographics research</string>
+	<string>The electronics lab, a studio in IDS:
+Wearables and Interactive Products</string>
+	<string>The CNC router at work:
+one of Emily Carr&apos;s 3D prototyping technologies</string>
+	<string>A film + animation studio, one of several suites on campus</string>
+	<string>The soft shop for product development:
+equipped with industrial embroidery and sewing machines</string>
 </array>
 </plist>
