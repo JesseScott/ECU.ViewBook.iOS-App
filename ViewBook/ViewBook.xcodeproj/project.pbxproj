@@ -74,10 +74,11 @@
 		2D44016F17CAE06A00F1079B /* flickr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44016C17CAE06A00F1079B /* flickr.png */; };
 		2D44017017CAE06A00F1079B /* pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44016D17CAE06A00F1079B /* pinterest.png */; };
 		2D44017117CAE06A00F1079B /* pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44016D17CAE06A00F1079B /* pinterest.png */; };
-		2D44017517CAEC4600F1079B /* LeituraHeadline-Serif It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44017317CAEC4600F1079B /* LeituraHeadline-Serif It.otf */; };
 		2D44017717CAEC4600F1079B /* LeituraSans-Grot 1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44017417CAEC4600F1079B /* LeituraSans-Grot 1.otf */; };
 		2D44017B17CB1A2900F1079B /* GNWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44017A17CB1A2900F1079B /* GNWViewController.m */; };
 		2D44017C17CB1A2900F1079B /* GNWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44017A17CB1A2900F1079B /* GNWViewController.m */; };
+		2D45132D17D26768007CBDCF /* LeituraSans-Grot 2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D45132C17D26768007CBDCF /* LeituraSans-Grot 2.otf */; };
+		2D45132E17D26768007CBDCF /* LeituraSans-Grot 2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D45132C17D26768007CBDCF /* LeituraSans-Grot 2.otf */; };
 		2D47AD1F17921513003D5D8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD1E17921513003D5D8B /* UIKit.framework */; };
 		2D47AD2117921513003D5D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD2017921513003D5D8B /* Foundation.framework */; };
 		2D47AD2317921513003D5D8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD2217921513003D5D8B /* CoreGraphics.framework */; };
@@ -133,8 +134,6 @@
 		2DB3FBE717CFBB0E0045D85C /* UndergraduateCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBE517CFBB0E0045D85C /* UndergraduateCourses.plist */; };
 		2DB3FBE917CFBDB00045D85C /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBE817CFBDB00045D85C /* instagram.png */; };
 		2DB3FBEA17CFBDB00045D85C /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBE817CFBDB00045D85C /* instagram.png */; };
-		2DB3FBED17CFC40D0045D85C /* GothamRnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEB17CFC40D0045D85C /* GothamRnd-Bold.otf */; };
-		2DB3FBEE17CFC40D0045D85C /* GothamRnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEB17CFC40D0045D85C /* GothamRnd-Bold.otf */; };
 		2DB3FBEF17CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* ViewBook-Info.plist */; };
@@ -321,10 +320,10 @@
 		2D44016A17CADAFE00F1079B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2D44016C17CAE06A00F1079B /* flickr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickr.png; sourceTree = "<group>"; };
 		2D44016D17CAE06A00F1079B /* pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest.png; sourceTree = "<group>"; };
-		2D44017317CAEC4600F1079B /* LeituraHeadline-Serif It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeituraHeadline-Serif It.otf"; sourceTree = "<group>"; };
 		2D44017417CAEC4600F1079B /* LeituraSans-Grot 1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeituraSans-Grot 1.otf"; sourceTree = "<group>"; };
 		2D44017917CB1A2900F1079B /* GNWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GNWViewController.h; path = "Create Futures/GNWViewController.h"; sourceTree = "<group>"; };
 		2D44017A17CB1A2900F1079B /* GNWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GNWViewController.m; path = "Create Futures/GNWViewController.m"; sourceTree = "<group>"; };
+		2D45132C17D26768007CBDCF /* LeituraSans-Grot 2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeituraSans-Grot 2.otf"; sourceTree = "<group>"; };
 		2D47AD1B17921513003D5D8B /* ViewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47AD1E17921513003D5D8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D47AD2017921513003D5D8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -372,7 +371,6 @@
 		2DAE88CC17C733190034B8C8 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = "Build Networks/XMLParser.m"; sourceTree = "<group>"; };
 		2DB3FBE517CFBB0E0045D85C /* UndergraduateCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = UndergraduateCourses.plist; path = "Assets/Property Lists/UndergraduateCourses.plist"; sourceTree = "<group>"; };
 		2DB3FBE817CFBDB00045D85C /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
-		2DB3FBEB17CFC40D0045D85C /* GothamRnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.otf"; sourceTree = "<group>"; };
 		2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
 		2DC4D06C17D1B31B000DD21F /* audain_school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audain_school.png; sourceTree = "<group>"; };
 		2DCCA08C17C1BBCD00B81172 /* PortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortfolioRequirementsViewController.h; path = "Apply Now/PortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
@@ -632,9 +630,8 @@
 		2D44017217CAEC4600F1079B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2DB3FBEB17CFC40D0045D85C /* GothamRnd-Bold.otf */,
+				2D45132C17D26768007CBDCF /* LeituraSans-Grot 2.otf */,
 				2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */,
-				2D44017317CAEC4600F1079B /* LeituraHeadline-Serif It.otf */,
 				2D44017417CAEC4600F1079B /* LeituraSans-Grot 1.otf */,
 			);
 			name = Fonts;
@@ -1079,7 +1076,6 @@
 				2D142B0C17C48AE80013F036 /* BuildNetworksScreenNames.plist in Resources */,
 				2D44016E17CAE06A00F1079B /* flickr.png in Resources */,
 				2D44017017CAE06A00F1079B /* pinterest.png in Resources */,
-				2D44017517CAEC4600F1079B /* LeituraHeadline-Serif It.otf in Resources */,
 				2D44017717CAEC4600F1079B /* LeituraSans-Grot 1.otf in Resources */,
 				2D1D721217CB21A300C3DBE3 /* CreateFuturesScreenNames.plist in Resources */,
 				2D1D721C17CB26EC00C3DBE3 /* creative_future.png in Resources */,
@@ -1099,7 +1095,6 @@
 				2DD13B1F17CDD8A7002D52BB /* start.png in Resources */,
 				2DB3FBE617CFBB0E0045D85C /* UndergraduateCourses.plist in Resources */,
 				2DB3FBE917CFBDB00045D85C /* instagram.png in Resources */,
-				2DB3FBED17CFC40D0045D85C /* GothamRnd-Bold.otf in Resources */,
 				2DB3FBEF17CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */,
 				79CEE42117CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42417CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
@@ -1143,6 +1138,7 @@
 				2DE8F32317D047C1006A8050 /* StudentCaptions.plist in Resources */,
 				2DE8F32617D06746006A8050 /* youtube.png in Resources */,
 				2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */,
+				2D45132D17D26768007CBDCF /* LeituraSans-Grot 2.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,7 +1215,6 @@
 				2DD13B1D17CDD698002D52BB /* start.png in Resources */,
 				2DB3FBE717CFBB0E0045D85C /* UndergraduateCourses.plist in Resources */,
 				2DB3FBEA17CFBDB00045D85C /* instagram.png in Resources */,
-				2DB3FBEE17CFC40D0045D85C /* GothamRnd-Bold.otf in Resources */,
 				2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */,
 				2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */,
 				79CEE42217CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
@@ -1245,6 +1240,7 @@
 				2DE8F32417D047C1006A8050 /* StudentCaptions.plist in Resources */,
 				2DE8F32717D06746006A8050 /* youtube.png in Resources */,
 				2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */,
+				2D45132E17D26768007CBDCF /* LeituraSans-Grot 2.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
