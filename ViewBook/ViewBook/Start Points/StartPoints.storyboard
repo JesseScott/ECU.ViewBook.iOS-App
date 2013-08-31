@@ -32,7 +32,7 @@
                                     <action selector="back:" destination="Ue7-Xb-H76" eventType="touchUpInside" id="7ft-W0-hkH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oSx-Qx-Rqx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oSx-Qx-Rqx">
                                 <rect key="frame" x="20" y="459" width="280" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -93,7 +93,7 @@
                                     <action selector="back:" destination="4Gr-ym-wzi" eventType="touchUpInside" id="BwN-QH-EYp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xti-gC-XfW">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xti-gC-XfW">
                                 <rect key="frame" x="20" y="459" width="280" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -154,7 +154,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow4.png" id="hbW-91-KcZ">
                                 <rect key="frame" x="0.0" y="461" width="320" height="33"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8rO-eQ-mM5">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8rO-eQ-mM5">
                                 <rect key="frame" x="20" y="461" width="280" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -413,8 +413,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
@@ -425,8 +423,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StudentSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
