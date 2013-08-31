@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>Teen Programs</string>
-	<string>Essentials Programs</string>
-	<string>Welcome Lab</string>
+	<string>teen programs</string>
+	<string>essentials programs</string>
+	<string>welcome lab</string>
 </array>
 </plist>

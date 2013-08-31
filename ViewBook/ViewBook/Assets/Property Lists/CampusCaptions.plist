@@ -2,11 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>The Emily Carr campus on Granville Island, a converted shipyard and urban park located in the middle of the city.</string>
+	<string>The Emily Carr campus on Granville Island, an urban park located in the middle of the city.</string>
 	<string>The bike- and pedestrian-friendly seawall east of Granville Island: cherry blossoms in spring!</string>
-	<string>Looking north from Granville Island across False Creek into downtown: imagine taking the ferry to school each day.</string>
-	<string>Yes, those are palm trees! English Bay looking west to Stanley Park.</string>
-	<string>Vancouver is bike friendly with several dedicated bike lanes.</string>
-	<string>Ocean, beach, mountains and public art – Vancouver has it all.</string>
+	<string>Looking north into downtown:
+imagine taking the ferry to school each day.</string>
+	<string>Yes, those are palm trees!
+English Bay looking west to Stanley Park.</string>
+	<string>Vancouver is very bike friendly.
+The city has several dedicated bike lanes.</string>
+	<string>Ocean, beach, mountains and public art –
+Vancouver has it all.</string>
 </array>
 </plist>
