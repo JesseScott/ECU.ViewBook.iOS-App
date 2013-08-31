@@ -1,21 +1,21 @@
 //
-//  UnderGradraduateViewController.m
+//  UnderGraduateViewController.m
 //  ViewBook
 //
 //  Created by Pandita on 2013-08-23.
 //  Copyright (c) 2013 Emily Carr Institute of Art + Design. All rights reserved.
 //
 
-#import "UnderGradraduateViewController.h"
+#import "UnderGraduateViewController.h"
 
-@interface UnderGradraduateViewController ()
+@interface UnderGraduateViewController ()
 
 @property (copy,nonatomic) NSArray *courses;
 @property(nonatomic) NSInteger swipeCount;
 
 @end
 
-@implementation UnderGradraduateViewController
+@implementation UnderGraduateViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

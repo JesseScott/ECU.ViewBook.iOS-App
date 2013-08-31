@@ -1,5 +1,5 @@
 //
-//  UnderGradraduateViewController.h
+//  UnderGraduateViewController.h
 //  ViewBook
 //
 //  Created by Pandita on 2013-08-23.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UnderGradraduateViewController : UIViewController {
+@interface UnderGraduateViewController : UIViewController {
     
     // Custom Font
     UIFont *titleFont, *paragraphFont;
