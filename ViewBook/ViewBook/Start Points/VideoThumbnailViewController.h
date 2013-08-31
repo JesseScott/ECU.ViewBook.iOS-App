@@ -28,6 +28,8 @@
 
 - (IBAction)launchLisaFraser:(id)sender;
 
+- (IBAction)launchAudainSchool:(id)sender;
+
 // Back To Main Menu
 - (IBAction)back:(id)sender;
 
