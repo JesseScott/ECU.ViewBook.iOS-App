@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="aca-O6-fGZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tr3-4t-hCk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -75,7 +75,7 @@
         <!--Make Paths Menu-->
         <scene sceneID="x3W-Ad-vN0">
             <objects>
-                <viewController id="tr3-4t-hCk" userLabel="Make Paths Menu" sceneMemberID="viewController">
+                <viewController id="tr3-4t-hCk" userLabel="Make Paths Menu" customClass="MakePathsMenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WxY-lq-dSt">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -91,6 +91,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="launchUndergrad:" destination="tr3-4t-hCk" eventType="touchUpInside" id="9sg-U7-oGk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hop-mG-hhv">
                                 <rect key="frame" x="20" y="266" width="280" height="44"/>
@@ -103,6 +106,10 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="launchGraduate:" destination="tr3-4t-hCk" eventType="touchUpInside" id="IZX-jd-ojj"/>
+                                    <segue destination="cep-fy-Rzz" kind="modal" identifier="pushToGraduateCourses" id="Qlg-7a-siw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eYy-UK-o4L">
                                 <rect key="frame" x="20" y="348" width="280" height="44"/>
@@ -115,6 +122,10 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="launchCS:" destination="tr3-4t-hCk" eventType="touchUpInside" id="CCd-oG-oMI"/>
+                                    <segue destination="Joa-cY-vE2" kind="modal" identifier="pushToCSCourses" id="Fwm-o2-W2P"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -172,7 +183,7 @@
         <!--GR - MDES-->
         <scene sceneID="rsD-8o-vae">
             <objects>
-                <viewController id="Q2k-PM-ojI" userLabel="GR - MDES" sceneMemberID="viewController">
+                <viewController id="Q2k-PM-ojI" userLabel="GR - MDES" customClass="MastersDesignViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wun-wY-EEb">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,11 +215,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="Q2k-PM-ojI" eventType="touchUpInside" id="YZO-My-e9h"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="MDES" id="Wji-c7-AYZ"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="qW8-ER-9wi" id="qqD-dD-yt8"/>
+                        <outlet property="courseTitle" destination="NWR-oO-guB" id="lGY-8W-gVh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J5X-Pj-Q5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -217,7 +235,7 @@
         <!--GR - MDM-->
         <scene sceneID="Yfm-e9-vR0">
             <objects>
-                <viewController id="mrV-Al-iMM" userLabel="GR - MDM" sceneMemberID="viewController">
+                <viewController id="mrV-Al-iMM" userLabel="GR - MDM" customClass="MastersDigitalMediaViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yLn-eG-Lhe">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -249,11 +267,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="mrV-Al-iMM" eventType="touchUpInside" id="cSa-x4-bnH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="MDM" id="OYa-oX-NWm"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="2EI-84-rCc" id="aBT-l7-CNA"/>
+                        <outlet property="courseTitle" destination="taH-fU-XfC" id="vef-WG-fDa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cuo-Bn-Jws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,7 +287,7 @@
         <!--CS - Essentials-->
         <scene sceneID="J9u-Jb-s6u">
             <objects>
-                <viewController id="ATa-a2-66o" userLabel="CS - Essentials" sceneMemberID="viewController">
+                <viewController id="ATa-a2-66o" userLabel="CS - Essentials" customClass="EssentialsProgramsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0z8-gz-fte">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -294,11 +319,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="ATa-a2-66o" eventType="touchUpInside" id="kYP-MV-Qxa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Essentials" id="h0l-JC-25Z"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="CbV-NZ-vRO" id="f6E-Od-hpP"/>
+                        <outlet property="courseTitle" destination="1nd-vE-P6c" id="leP-qT-0Vu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LAO-3l-y0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -307,7 +339,7 @@
         <!--CS - Teen-->
         <scene sceneID="XsN-Rc-92B">
             <objects>
-                <viewController id="WQr-Um-nl8" userLabel="CS - Teen" sceneMemberID="viewController">
+                <viewController id="WQr-Um-nl8" userLabel="CS - Teen" customClass="TeenProgramsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KkV-ia-AdK">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -339,11 +371,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="WQr-Um-nl8" eventType="touchUpInside" id="5Eo-B0-Ydc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Teen Programs" id="AzP-9c-Qa6"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="hnk-pk-w8D" id="fdZ-7r-cSl"/>
+                        <outlet property="courseTitle" destination="8Sy-fs-ogS" id="v1u-Hk-U2U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL7-hc-pdU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -352,7 +391,7 @@
         <!--CS - Welcome-->
         <scene sceneID="1O5-wR-xvV">
             <objects>
-                <viewController id="9KY-gs-2Nm" userLabel="CS - Welcome" sceneMemberID="viewController">
+                <viewController id="9KY-gs-2Nm" userLabel="CS - Welcome" customClass="WelcomeLabViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="opf-Dx-srP">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -384,11 +423,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="9KY-gs-2Nm" eventType="touchUpInside" id="dED-Uy-Ldo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Welcome Lab" id="GgO-0O-Bwx"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="TQ7-qn-VOt" id="mf8-Gq-shy"/>
+                        <outlet property="courseTitle" destination="8GG-Xf-SJC" id="ysz-XI-dU4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ja7-J6-hfe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -462,7 +508,7 @@
         <!--GR - MAA-->
         <scene sceneID="fx6-MW-CZi">
             <objects>
-                <viewController id="vLD-E6-da4" userLabel="GR - MAA" sceneMemberID="viewController">
+                <viewController id="vLD-E6-da4" userLabel="GR - MAA" customClass="MastersAppliedArtsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hkx-Gu-Gms">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -494,11 +540,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="vLD-E6-da4" eventType="touchUpInside" id="tMf-np-mAM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="MAA" id="FqO-XY-mp3"/>
+                    <connections>
+                        <outlet property="courseDescription" destination="Tx0-Ff-iD6" id="9Ed-fM-ltP"/>
+                        <outlet property="courseTitle" destination="ziN-y4-LAQ" id="zlt-gM-Npw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3T-KZ-nR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -815,6 +868,14 @@
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>
         </class>
+        <class className="EssentialsProgramsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EssentialsProgramsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="FoundationViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FoundationViewController.h"/>
             <relationships>
@@ -833,12 +894,58 @@
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>
         </class>
+        <class className="MakePathsMenuViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MakePathsMenuViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="launchCS:"/>
+                <relationship kind="action" name="launchGraduate:"/>
+                <relationship kind="action" name="launchUndergrad:"/>
+            </relationships>
+        </class>
+        <class className="MastersAppliedArtsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersAppliedArtsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MastersDesignViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersDesignViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MastersDigitalMediaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersDigitalMediaViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TeenProgramsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TeenProgramsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="UnderGraduateViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UnderGraduateViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
-                <relationship kind="action" name="nextCourse:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="action" name="previousCourse:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WelcomeLabViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WelcomeLabViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
                 <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>

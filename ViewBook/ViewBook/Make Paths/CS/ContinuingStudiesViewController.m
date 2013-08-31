@@ -96,4 +96,5 @@
     [self setCourseDescription:nil];
     [super viewDidUnload];
 }
+
 @end

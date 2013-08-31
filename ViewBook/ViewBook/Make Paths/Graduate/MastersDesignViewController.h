@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MastersDesignViewController : UIViewController
+@interface MastersDesignViewController : UIViewController {
+    
+    // Screen Index
+    NSInteger screenIndex;
+    
+    // Custom Font
+    UIFont *titleFont, *paragraphFont;
+    
+}
+
+// Labels
+@property (weak, nonatomic) IBOutlet UILabel *courseTitle;
+@property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+
+// Back To Main Menu
+- (IBAction)back:(id)sender;
 
 @end
