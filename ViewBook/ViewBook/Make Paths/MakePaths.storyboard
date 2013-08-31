@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eeG-W8-1xW">
-                                <rect key="frame" x="0.0" y="5.5" width="300" height="33"/>
+                                <rect key="frame" x="1" y="5" width="300" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="arrow2_back.png">
@@ -81,7 +81,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5CJ-u2-q2U">
-                                <rect key="frame" x="0.0" y="5.5" width="300" height="33"/>
+                                <rect key="frame" x="1" y="6" width="300" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="arrow2_back.png">
@@ -172,7 +172,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EB0-hG-kzW">
-                                <rect key="frame" x="0.0" y="5.5" width="300" height="33"/>
+                                <rect key="frame" x="1" y="6" width="300" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="arrow2_back.png">
@@ -295,6 +295,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ContinuingStudiesViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextCourse:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousCourse:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>
@@ -311,6 +313,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GraduateViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextCourse:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousCourse:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>
@@ -319,6 +323,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UnderGradraduateViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextCourse:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousCourse:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
             </relationships>

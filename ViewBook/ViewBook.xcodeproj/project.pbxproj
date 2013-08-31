@@ -138,6 +138,8 @@
 		2DB3FBEF17CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* ViewBook-Info.plist */; };
+		2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
+		2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DCCA08E17C1BBCD00B81172 /* PortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */; };
 		2DCCA09117C1BBED00B81172 /* ApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09017C1BBED00B81172 /* ApplicationDirectionsViewController.m */; };
 		2DCCA09417C1BC0100B81172 /* ContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09317C1BC0100B81172 /* ContactECUADViewController.m */; };
@@ -372,6 +374,7 @@
 		2DB3FBE817CFBDB00045D85C /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		2DB3FBEB17CFC40D0045D85C /* GothamRnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.otf"; sourceTree = "<group>"; };
 		2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+		2DC4D06C17D1B31B000DD21F /* audain_school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audain_school.png; sourceTree = "<group>"; };
 		2DCCA08C17C1BBCD00B81172 /* PortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortfolioRequirementsViewController.h; path = "Apply Now/PortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
 		2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortfolioRequirementsViewController.m; path = "Apply Now/PortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
 		2DCCA08F17C1BBED00B81172 /* ApplicationDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDirectionsViewController.h; path = "Apply Now/ApplicationDirectionsViewController.h"; sourceTree = "<group>"; };
@@ -507,6 +510,7 @@
 		2D1D721417CB26EC00C3DBE3 /* Video Thumbnails */ = {
 			isa = PBXGroup;
 			children = (
+				2DC4D06C17D1B31B000DD21F /* audain_school.png */,
 				2DD13AFC17CDBC13002D52BB /* lisa_fraser.png */,
 				2D1D721517CB26EC00C3DBE3 /* creative_future.png */,
 				2D1D721617CB26EC00C3DBE3 /* day_in_the_life.png */,
@@ -820,16 +824,16 @@
 		2DCCA0AD17C1C46700B81172 /* Property Lists */ = {
 			isa = PBXGroup;
 			children = (
-				2DB3FBE517CFBB0E0045D85C /* UndergraduateCourses.plist */,
-				79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */,
-				2DCCA0A917C1C44F00B81172 /* ApplyNowScreenNames.plist */,
-				2D1D721117CB21A300C3DBE3 /* CreateFuturesScreenNames.plist */,
-				2D142B0B17C48AE80013F036 /* BuildNetworksScreenNames.plist */,
-				79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */,
-				79CEE42617CFE4A500C9D12B /* Foundation.plist */,
 				2DE8F31C17D04623006A8050 /* CampusCaptions.plist */,
 				2DE8F31F17D0472D006A8050 /* StudiosCaptions.plist */,
 				2DE8F32217D047C1006A8050 /* StudentCaptions.plist */,
+				2DCCA0A917C1C44F00B81172 /* ApplyNowScreenNames.plist */,
+				2D1D721117CB21A300C3DBE3 /* CreateFuturesScreenNames.plist */,
+				2D142B0B17C48AE80013F036 /* BuildNetworksScreenNames.plist */,
+				2DB3FBE517CFBB0E0045D85C /* UndergraduateCourses.plist */,
+				79CEE42617CFE4A500C9D12B /* Foundation.plist */,
+				79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */,
+				79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */,
 			);
 			name = "Property Lists";
 			sourceTree = "<group>";
@@ -1138,6 +1142,7 @@
 				2DE8F32017D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32317D047C1006A8050 /* StudentCaptions.plist in Resources */,
 				2DE8F32617D06746006A8050 /* youtube.png in Resources */,
+				2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,6 +1244,7 @@
 				2DE8F32117D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32417D047C1006A8050 /* StudentCaptions.plist in Resources */,
 				2DE8F32717D06746006A8050 /* youtube.png in Resources */,
+				2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
