@@ -380,7 +380,6 @@
                                 </state>
                                 <connections>
                                     <action selector="backToThumbnails:" destination="J7J-0d-zEP" eventType="touchUpInside" id="nKZ-qy-B82"/>
-                                    <segue destination="OnM-45-lGv" kind="modal" identifier="returnToThumbnails" id="cgo-Wt-b3E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -413,6 +412,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
@@ -423,6 +424,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StudentSlideshowViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
@@ -468,7 +471,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="bAr-pl-1NQ"/>
-    </inferredMetricsTieBreakers>
 </document>

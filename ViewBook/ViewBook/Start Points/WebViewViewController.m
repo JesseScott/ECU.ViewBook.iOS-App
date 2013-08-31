@@ -73,8 +73,8 @@
 
 
 - (IBAction)backToThumbnails:(id)sender {
-
-    [self performSegueWithIdentifier:@"returnToThumbnails" sender:sender];
+    //[self performSegueWithIdentifier:@"returnToThumbnails" sender:sender];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
