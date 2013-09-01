@@ -144,6 +144,8 @@
 		2D47AD5317921513003D5D8B /* ViewBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47AD5217921513003D5D8B /* ViewBookTests.m */; };
 		2D47AD6117921B5D003D5D8B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47AD6017921B5D003D5D8B /* MainMenuViewController.m */; };
 		2D74036B17A0EEFF00C2CEAD /* ecuad logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D74036A17A0EEFF00C2CEAD /* ecuad logo.png */; };
+		2D7428E117D3E23B007D72A0 /* ApplyNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */; };
+		2D7428E217D3E23B007D72A0 /* ApplyNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */; };
 		2D77C39A17D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C39917D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m */; };
 		2D77C39B17D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C39917D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m */; };
 		2D77C39E17D2B84A005BFF53 /* BachelorsDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C39D17D2B84A005BFF53 /* BachelorsDesignViewController.m */; };
@@ -213,6 +215,8 @@
 		2DB3FBEF17CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* ViewBook-Info.plist */; };
+		2DC2FE6417D3E6CA0017B6FC /* contents_page_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */; };
+		2DC2FE6517D3E6CA0017B6FC /* contents_page_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */; };
 		2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DCCA08E17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */; };
@@ -426,6 +430,8 @@
 		2D47AD5F17921B5D003D5D8B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = "Main Menu/MainMenuViewController.h"; sourceTree = "<group>"; };
 		2D47AD6017921B5D003D5D8B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = "Main Menu/MainMenuViewController.m"; sourceTree = "<group>"; };
 		2D74036A17A0EEFF00C2CEAD /* ecuad logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ecuad logo.png"; path = "Assets/Splash Screen/ecuad logo.png"; sourceTree = "<group>"; };
+		2D7428DF17D3E23B007D72A0 /* ApplyNowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyNowViewController.h; path = "Apply Now/ApplyNowViewController.h"; sourceTree = "<group>"; };
+		2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyNowViewController.m; path = "Apply Now/ApplyNowViewController.m"; sourceTree = "<group>"; };
 		2D77C39817D2B7FE005BFF53 /* BachelorsMediaArtsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BachelorsMediaArtsViewController.h; path = "Make Paths/Undergrad/BachelorsMediaArtsViewController.h"; sourceTree = "<group>"; };
 		2D77C39917D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BachelorsMediaArtsViewController.m; path = "Make Paths/Undergrad/BachelorsMediaArtsViewController.m"; sourceTree = "<group>"; };
 		2D77C39C17D2B84A005BFF53 /* BachelorsDesignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BachelorsDesignViewController.h; path = "Make Paths/Undergrad/BachelorsDesignViewController.h"; sourceTree = "<group>"; };
@@ -468,6 +474,7 @@
 		2DB3FBE517CFBB0E0045D85C /* UndergraduateCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = UndergraduateCourses.plist; path = "Assets/Property Lists/UndergraduateCourses.plist"; sourceTree = "<group>"; };
 		2DB3FBE817CFBDB00045D85C /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+		2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contents_page_people.png; sourceTree = "<group>"; };
 		2DC4D06C17D1B31B000DD21F /* audain_school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audain_school.png; sourceTree = "<group>"; };
 		2DCCA08C17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradPortfolioRequirementsViewController.h; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
 		2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradPortfolioRequirementsViewController.m; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
@@ -668,6 +675,8 @@
 			isa = PBXGroup;
 			children = (
 				2D29E78417C02718004BB03C /* ApplyNow.storyboard */,
+				2D7428DF17D3E23B007D72A0 /* ApplyNowViewController.h */,
+				2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */,
 				2D8C36F117D3BF0F00FEE6A0 /* Undergrad */,
 				2D35BC8817D3C5A3005F88EC /* Graduate */,
 				2D35BC9517D3C603005F88EC /* CS */,
@@ -1054,6 +1063,7 @@
 		2DD13AFF17CDCAED002D52BB /* Main Menu */ = {
 			isa = PBXGroup;
 			children = (
+				2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */,
 				2DD13B0017CDCAED002D52BB /* arrow1.png */,
 				2DD13B0117CDCAED002D52BB /* arrow2.png */,
 				2DD13B0217CDCAED002D52BB /* arrow3.png */,
@@ -1329,6 +1339,7 @@
 				2D88486517D3DF4F004F5E24 /* back_button_image@2x.png in Resources */,
 				2D88486717D3DF4F004F5E24 /* back_button_text.png in Resources */,
 				2D88486917D3DF4F004F5E24 /* back_button_text@2x.png in Resources */,
+				2DC2FE6417D3E6CA0017B6FC /* contents_page_people.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1447,6 +1458,7 @@
 				2D88486617D3DF4F004F5E24 /* back_button_image@2x.png in Resources */,
 				2D88486817D3DF4F004F5E24 /* back_button_text.png in Resources */,
 				2D88486A17D3DF4F004F5E24 /* back_button_text@2x.png in Resources */,
+				2DC2FE6517D3E6CA0017B6FC /* contents_page_people.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1514,6 +1526,7 @@
 				2D35BC9317D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */,
 				2D35BC9817D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */,
 				2D35BC9C17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */,
+				2D7428E117D3E23B007D72A0 /* ApplyNowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1552,6 +1565,7 @@
 				2D35BC9417D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */,
 				2D35BC9917D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */,
 				2D35BC9D17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */,
+				2D7428E217D3E23B007D72A0 /* ApplyNowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
