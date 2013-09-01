@@ -218,6 +218,8 @@
 		2DC2FE6517D3E6CA0017B6FC /* contents_page_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */; };
 		2DC2FE6717D3E81C0017B6FC /* splash_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6617D3E81C0017B6FC /* splash_page.png */; };
 		2DC2FE6817D3E81C0017B6FC /* splash_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6617D3E81C0017B6FC /* splash_page.png */; };
+		2DC2FE7117D3E9110017B6FC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE7017D3E9110017B6FC /* icon.png */; };
+		2DC2FE7317D3E9180017B6FC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE7217D3E9180017B6FC /* icon@2x.png */; };
 		2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DCCA08E17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */; };
@@ -474,6 +476,8 @@
 		2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
 		2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contents_page_people.png; sourceTree = "<group>"; };
 		2DC2FE6617D3E81C0017B6FC /* splash_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_page.png; path = "Assets/Splash Screen/splash_page.png"; sourceTree = "<group>"; };
+		2DC2FE7017D3E9110017B6FC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2DC2FE7217D3E9180017B6FC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		2DC4D06C17D1B31B000DD21F /* audain_school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audain_school.png; sourceTree = "<group>"; };
 		2DCCA08C17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradPortfolioRequirementsViewController.h; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
 		2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradPortfolioRequirementsViewController.m; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
@@ -856,8 +860,9 @@
 		2D47AD5C179216DA003D5D8B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				2D88485517D3D3C4004F5E24 /* Text Label */,
+				2DC2FE6917D3E8F80017B6FC /* Icon */,
 				2DCCA0AC17C1C45A00B81172 /* Splash Screen */,
+				2D88485517D3D3C4004F5E24 /* Text Label */,
 				2DD13AFF17CDCAED002D52BB /* Main Menu */,
 				2D90879217C1F667009DDDEB /* Start Points */,
 				2D8957CA17C477920044F167 /* Build Networks */,
@@ -1019,6 +1024,16 @@
 				2D90879917C1F667009DDDEB /* campus_slideshow_06.png */,
 			);
 			path = "Campus Slideshow";
+			sourceTree = "<group>";
+		};
+		2DC2FE6917D3E8F80017B6FC /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				2DC2FE7217D3E9180017B6FC /* icon@2x.png */,
+				2DC2FE7017D3E9110017B6FC /* icon.png */,
+			);
+			name = Icon;
+			path = Assets/Icon;
 			sourceTree = "<group>";
 		};
 		2DCCA0A517C1C04400B81172 /* Text Copy */ = {
@@ -1336,6 +1351,8 @@
 				2D88486917D3DF4F004F5E24 /* back_button_text@2x.png in Resources */,
 				2DC2FE6417D3E6CA0017B6FC /* contents_page_people.png in Resources */,
 				2DC2FE6717D3E81C0017B6FC /* splash_page.png in Resources */,
+				2DC2FE7117D3E9110017B6FC /* icon.png in Resources */,
+				2DC2FE7317D3E9180017B6FC /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
