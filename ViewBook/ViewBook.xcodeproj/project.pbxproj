@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D03833417D013A100E7E740 /* arrow1_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832E17D013A100E7E740 /* arrow1_back.png */; };
-		2D03833517D013A100E7E740 /* arrow1_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832E17D013A100E7E740 /* arrow1_back.png */; };
-		2D03833617D013A100E7E740 /* arrow2_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832F17D013A100E7E740 /* arrow2_back.png */; };
-		2D03833717D013A100E7E740 /* arrow2_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03832F17D013A100E7E740 /* arrow2_back.png */; };
-		2D03833817D013A100E7E740 /* arrow3_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833017D013A100E7E740 /* arrow3_back.png */; };
-		2D03833917D013A100E7E740 /* arrow3_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833017D013A100E7E740 /* arrow3_back.png */; };
-		2D03833A17D013A100E7E740 /* arrow4_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833117D013A100E7E740 /* arrow4_back.png */; };
-		2D03833B17D013A100E7E740 /* arrow4_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833117D013A100E7E740 /* arrow4_back.png */; };
-		2D03833C17D013A100E7E740 /* arrow5_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833217D013A100E7E740 /* arrow5_back.png */; };
-		2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833217D013A100E7E740 /* arrow5_back.png */; };
-		2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
-		2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
 		2D03834217D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */; };
 		2D03834317D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */; };
 		2D03834A17D01D5D00E7E740 /* UGContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* UGContactUs.txt */; };
@@ -164,6 +152,12 @@
 		2D77C3A317D2B876005BFF53 /* BachelorsFineArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C3A117D2B876005BFF53 /* BachelorsFineArtViewController.m */; };
 		2D77C3A617D2B899005BFF53 /* BachelorMinorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C3A517D2B898005BFF53 /* BachelorMinorsViewController.m */; };
 		2D77C3A717D2B899005BFF53 /* BachelorMinorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C3A517D2B898005BFF53 /* BachelorMinorsViewController.m */; };
+		2D88485717D3D3D3004F5E24 /* text_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485617D3D3D3004F5E24 /* text_arrow.png */; };
+		2D88485817D3D3D3004F5E24 /* text_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485617D3D3D3004F5E24 /* text_arrow.png */; };
+		2D88485B17D3D483004F5E24 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485917D3D483004F5E24 /* back_button.png */; };
+		2D88485C17D3D483004F5E24 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485917D3D483004F5E24 /* back_button.png */; };
+		2D88485D17D3D483004F5E24 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485A17D3D483004F5E24 /* back_button@2x.png */; };
+		2D88485E17D3D483004F5E24 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D88485A17D3D483004F5E24 /* back_button@2x.png */; };
 		2D8957C817C474D90044F167 /* RecruitmentCalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8957C717C474D90044F167 /* RecruitmentCalenderCell.m */; };
 		2D8957C917C474D90044F167 /* RecruitmentCalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8957C717C474D90044F167 /* RecruitmentCalenderCell.m */; };
 		2D8957CE17C477920044F167 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8957CB17C477920044F167 /* facebook.png */; };
@@ -327,12 +321,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D03832E17D013A100E7E740 /* arrow1_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1_back.png; sourceTree = "<group>"; };
-		2D03832F17D013A100E7E740 /* arrow2_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow2_back.png; sourceTree = "<group>"; };
-		2D03833017D013A100E7E740 /* arrow3_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow3_back.png; sourceTree = "<group>"; };
-		2D03833117D013A100E7E740 /* arrow4_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow4_back.png; sourceTree = "<group>"; };
-		2D03833217D013A100E7E740 /* arrow5_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow5_back.png; sourceTree = "<group>"; };
-		2D03833317D013A100E7E740 /* arrow6_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow6_back.png; sourceTree = "<group>"; };
 		2D03834017D019C900E7E740 /* UndergradVisitUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradVisitUsViewController.h; path = "Apply Now/Undergrad/UndergradVisitUsViewController.h"; sourceTree = "<group>"; };
 		2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradVisitUsViewController.m; path = "Apply Now/Undergrad/UndergradVisitUsViewController.m"; sourceTree = "<group>"; };
 		2D03834817D01D5D00E7E740 /* UGContactUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGContactUs.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGContactUs.txt"; sourceTree = "<group>"; };
@@ -442,6 +430,9 @@
 		2D77C3A117D2B876005BFF53 /* BachelorsFineArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BachelorsFineArtViewController.m; path = "Make Paths/Undergrad/BachelorsFineArtViewController.m"; sourceTree = "<group>"; };
 		2D77C3A417D2B898005BFF53 /* BachelorMinorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BachelorMinorsViewController.h; path = "Make Paths/Undergrad/BachelorMinorsViewController.h"; sourceTree = "<group>"; };
 		2D77C3A517D2B898005BFF53 /* BachelorMinorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BachelorMinorsViewController.m; path = "Make Paths/Undergrad/BachelorMinorsViewController.m"; sourceTree = "<group>"; };
+		2D88485617D3D3D3004F5E24 /* text_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_arrow.png; path = "Assets/Text Label/text_arrow.png"; sourceTree = "<group>"; };
+		2D88485917D3D483004F5E24 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_button.png; path = "ViewBook/Assets/Back Button/back_button.png"; sourceTree = SOURCE_ROOT; };
+		2D88485A17D3D483004F5E24 /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_button@2x.png"; path = "ViewBook/Assets/Back Button/back_button@2x.png"; sourceTree = SOURCE_ROOT; };
 		2D8957C617C474D90044F167 /* RecruitmentCalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecruitmentCalenderCell.h; path = "Build Networks/RecruitmentCalenderCell.h"; sourceTree = "<group>"; };
 		2D8957C717C474D90044F167 /* RecruitmentCalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentCalenderCell.m; path = "Build Networks/RecruitmentCalenderCell.m"; sourceTree = "<group>"; };
 		2D8957CB17C477920044F167 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
@@ -567,12 +558,8 @@
 		2D03832D17D013A100E7E740 /* Back Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				2D03832E17D013A100E7E740 /* arrow1_back.png */,
-				2D03832F17D013A100E7E740 /* arrow2_back.png */,
-				2D03833017D013A100E7E740 /* arrow3_back.png */,
-				2D03833117D013A100E7E740 /* arrow4_back.png */,
-				2D03833217D013A100E7E740 /* arrow5_back.png */,
-				2D03833317D013A100E7E740 /* arrow6_back.png */,
+				2D88485917D3D483004F5E24 /* back_button.png */,
+				2D88485A17D3D483004F5E24 /* back_button@2x.png */,
 			);
 			name = "Back Buttons";
 			path = "Assets/Back Buttons";
@@ -854,6 +841,7 @@
 		2D47AD5C179216DA003D5D8B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2D88485517D3D3C4004F5E24 /* Text Label */,
 				2DCCA0AC17C1C45A00B81172 /* Splash Screen */,
 				2DD13AFF17CDCAED002D52BB /* Main Menu */,
 				2D90879217C1F667009DDDEB /* Start Points */,
@@ -876,6 +864,14 @@
 				2D47AD3417921513003D5D8B /* Default-568h@2x.png */,
 			);
 			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		2D88485517D3D3C4004F5E24 /* Text Label */ = {
+			isa = PBXGroup;
+			children = (
+				2D88485617D3D3D3004F5E24 /* text_arrow.png */,
+			);
+			name = "Text Label";
 			sourceTree = "<group>";
 		};
 		2D8957CA17C477920044F167 /* Build Networks */ = {
@@ -1288,12 +1284,6 @@
 				79CEE42117CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42417CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
 				79CEE42717CFE4A500C9D12B /* Foundation.plist in Resources */,
-				2D03833417D013A100E7E740 /* arrow1_back.png in Resources */,
-				2D03833617D013A100E7E740 /* arrow2_back.png in Resources */,
-				2D03833817D013A100E7E740 /* arrow3_back.png in Resources */,
-				2D03833A17D013A100E7E740 /* arrow4_back.png in Resources */,
-				2D03833C17D013A100E7E740 /* arrow5_back.png in Resources */,
-				2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */,
 				2D03834A17D01D5D00E7E740 /* UGContactUs.txt in Resources */,
 				2D03834C17D01D5D00E7E740 /* UGVisitUs.txt in Resources */,
 				2DE8F31D17D04623006A8050 /* CampusCaptions.plist in Resources */,
@@ -1326,6 +1316,9 @@
 				2D35BC8217D3C53C005F88EC /* MAA.txt in Resources */,
 				2D35BC8417D3C53C005F88EC /* MDES.txt in Resources */,
 				2D35BC8617D3C53C005F88EC /* MDM.txt in Resources */,
+				2D88485717D3D3D3004F5E24 /* text_arrow.png in Resources */,
+				2D88485B17D3D483004F5E24 /* back_button.png in Resources */,
+				2D88485D17D3D483004F5E24 /* back_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1407,12 +1400,6 @@
 				79CEE42217CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42517CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
 				79CEE42817CFE4A500C9D12B /* Foundation.plist in Resources */,
-				2D03833517D013A100E7E740 /* arrow1_back.png in Resources */,
-				2D03833717D013A100E7E740 /* arrow2_back.png in Resources */,
-				2D03833917D013A100E7E740 /* arrow3_back.png in Resources */,
-				2D03833B17D013A100E7E740 /* arrow4_back.png in Resources */,
-				2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */,
-				2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */,
 				2D03834B17D01D5D00E7E740 /* UGContactUs.txt in Resources */,
 				2D03834D17D01D5D00E7E740 /* UGVisitUs.txt in Resources */,
 				2DE8F31E17D04623006A8050 /* CampusCaptions.plist in Resources */,
@@ -1445,6 +1432,9 @@
 				2D35BC8317D3C53C005F88EC /* MAA.txt in Resources */,
 				2D35BC8517D3C53C005F88EC /* MDES.txt in Resources */,
 				2D35BC8717D3C53C005F88EC /* MDM.txt in Resources */,
+				2D88485817D3D3D3004F5E24 /* text_arrow.png in Resources */,
+				2D88485C17D3D483004F5E24 /* back_button.png in Resources */,
+				2D88485E17D3D483004F5E24 /* back_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
