@@ -39,9 +39,9 @@
                         <constraints>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="14Y-dY-NHi"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" type="default" id="3Q8-3L-ouk"/>
+                            <constraint firstItem="dlJ-74-6vx" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" constant="10" id="LiL-yT-PMq"/>
                             <constraint firstItem="dlJ-74-6vx" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" constant="-1" id="Q4y-Ff-6Pd"/>
                             <constraint firstItem="PmT-R5-FMD" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="Q6o-hH-hY8"/>
-                            <constraint firstItem="dlJ-74-6vx" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="ckl-qv-VQK"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Alumni Survey" id="Ul8-fY-Oop"/>
@@ -124,6 +124,7 @@
                             <constraint firstItem="wCX-BJ-oTZ" firstAttribute="trailing" secondItem="853-dY-F6T" secondAttribute="trailing" type="default" id="4ZS-LJ-1LM"/>
                             <constraint firstAttribute="bottom" secondItem="wCX-BJ-oTZ" secondAttribute="bottom" constant="36" id="77S-rG-E7p"/>
                             <constraint firstAttribute="trailing" secondItem="657-c4-4Vx" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="CCw-1t-t8i"/>
+                            <constraint firstItem="q5B-O3-dTf" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" constant="10" id="H9x-QA-lfN"/>
                             <constraint firstItem="q5B-O3-dTf" firstAttribute="top" secondItem="853-dY-F6T" secondAttribute="top" constant="-1" id="NxE-pA-GnV"/>
                             <constraint firstItem="wCX-BJ-oTZ" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" type="default" id="Rw4-sd-PRG"/>
                             <constraint firstAttribute="trailing" secondItem="7vO-pY-PJM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cjz-Ao-M7W"/>
@@ -131,7 +132,6 @@
                             <constraint firstItem="657-c4-4Vx" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="np2-ZO-lku"/>
                             <constraint firstItem="7vO-pY-PJM" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="tNK-Cx-OuZ"/>
                             <constraint firstItem="657-c4-4Vx" firstAttribute="top" secondItem="853-dY-F6T" secondAttribute="top" constant="145" id="uMj-Ux-pzV"/>
-                            <constraint firstItem="q5B-O3-dTf" firstAttribute="leading" secondItem="853-dY-F6T" secondAttribute="leading" type="default" id="zlC-mr-WwA"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Great Northern Way" id="6ct-RA-GP7"/>

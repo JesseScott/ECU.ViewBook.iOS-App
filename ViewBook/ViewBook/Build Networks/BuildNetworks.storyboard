@@ -80,7 +80,7 @@
                             <constraint firstItem="WaL-Sq-sGT" firstAttribute="leading" secondItem="mxr-tg-J7g" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="JH8-fR-eaC"/>
                             <constraint firstItem="iN2-kA-0z7" firstAttribute="leading" secondItem="mxr-tg-J7g" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="SOd-rA-Snq"/>
                             <constraint firstAttribute="trailing" secondItem="WaL-Sq-sGT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="VxT-zM-d3I"/>
-                            <constraint firstItem="gLy-N3-X4n" firstAttribute="leading" secondItem="mxr-tg-J7g" secondAttribute="leading" type="default" id="jQR-lb-fzV"/>
+                            <constraint firstItem="gLy-N3-X4n" firstAttribute="leading" secondItem="mxr-tg-J7g" secondAttribute="leading" constant="10" id="qAs-3g-kRR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Community" id="jNh-P8-mlZ"/>
@@ -141,9 +141,9 @@
                         <constraints>
                             <constraint firstItem="oF2-xU-8Ah" firstAttribute="leading" secondItem="hFP-H4-wNF" secondAttribute="leading" type="default" id="1Qh-Ak-d6c"/>
                             <constraint firstItem="qzB-MN-Tsi" firstAttribute="top" secondItem="hFP-H4-wNF" secondAttribute="top" constant="-1" id="7FR-gM-tn6"/>
-                            <constraint firstItem="qzB-MN-Tsi" firstAttribute="leading" secondItem="hFP-H4-wNF" secondAttribute="leading" type="default" id="AJo-m8-zez"/>
                             <constraint firstItem="oF2-xU-8Ah" firstAttribute="top" secondItem="hFP-H4-wNF" secondAttribute="top" constant="58" id="Hjp-N2-EeW"/>
                             <constraint firstItem="oF2-xU-8Ah" firstAttribute="trailing" secondItem="hFP-H4-wNF" secondAttribute="trailing" type="default" id="X3a-eN-CcS"/>
+                            <constraint firstItem="qzB-MN-Tsi" firstAttribute="leading" secondItem="hFP-H4-wNF" secondAttribute="leading" constant="10" id="nYi-JS-rjP"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" id="Kfy-pQ-cZn"/>
@@ -202,12 +202,12 @@
                         <constraints>
                             <constraint firstItem="g1k-Si-90U" firstAttribute="leading" secondItem="FHf-OU-2Y4" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1Eh-Ex-lRt"/>
                             <constraint firstAttribute="bottom" secondItem="g1k-Si-90U" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="5jp-uO-PwR"/>
+                            <constraint firstItem="RSU-kw-9u3" firstAttribute="leading" secondItem="FHf-OU-2Y4" secondAttribute="leading" constant="10" id="HhV-zc-zUh"/>
                             <constraint firstItem="2N5-JA-Gqz" firstAttribute="leading" secondItem="FHf-OU-2Y4" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="NNe-Sp-qyF"/>
                             <constraint firstAttribute="trailing" secondItem="g1k-Si-90U" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBJ-bl-m1d"/>
                             <constraint firstItem="g1k-Si-90U" firstAttribute="top" secondItem="2N5-JA-Gqz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Rnq-qG-7zj"/>
                             <constraint firstAttribute="trailing" secondItem="2N5-JA-Gqz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="khT-yS-DBP"/>
                             <constraint firstItem="RSU-kw-9u3" firstAttribute="top" secondItem="FHf-OU-2Y4" secondAttribute="top" constant="-1" id="mdn-uR-hmg"/>
-                            <constraint firstItem="RSU-kw-9u3" firstAttribute="leading" secondItem="FHf-OU-2Y4" secondAttribute="leading" type="default" id="rcm-Xe-KS4"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Industry" id="TL4-kd-qzt"/>
@@ -341,7 +341,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="BiD-mX-nSB" secondAttribute="bottom" constant="123" id="2xE-Rh-cMo"/>
-                            <constraint firstItem="JVW-gQ-blr" firstAttribute="leading" secondItem="6CH-6A-lKI" secondAttribute="leading" type="default" id="7iq-W2-Mbw"/>
+                            <constraint firstItem="JVW-gQ-blr" firstAttribute="leading" secondItem="6CH-6A-lKI" secondAttribute="leading" constant="10" id="830-Kr-aOA"/>
                             <constraint firstItem="JVW-gQ-blr" firstAttribute="top" secondItem="6CH-6A-lKI" secondAttribute="top" constant="-1" id="BPk-ks-mc6"/>
                             <constraint firstItem="BiD-mX-nSB" firstAttribute="trailing" secondItem="pJ5-sL-rYL" secondAttribute="trailing" type="default" id="DR3-yS-1x1"/>
                             <constraint firstAttribute="trailing" secondItem="E90-Ha-ded" secondAttribute="trailing" constant="46" id="FeV-YR-D8V"/>
@@ -380,6 +380,46 @@
         <image name="twitter.png" width="75" height="75"/>
         <image name="youtube.png" width="75" height="75"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PublicEngagementViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PublicEngagementViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="mainParagraph" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="pageTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="RecruitmentCalendarViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecruitmentCalendarViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+            </relationships>
+        </class>
+        <class className="ResearchIndustryViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ResearchIndustryViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="mainParagraph" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="pageTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="SocialMediaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SocialMediaViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="openFacebook:"/>
+                <relationship kind="action" name="openFlickr:"/>
+                <relationship kind="action" name="openInstagram:"/>
+                <relationship kind="action" name="openPinterest:"/>
+                <relationship kind="action" name="openTwitter:"/>
+                <relationship kind="action" name="openYoutube:"/>
+                <relationship kind="outlet" name="pageTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
