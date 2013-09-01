@@ -15,6 +15,10 @@
 
 @implementation VideoThumbnailViewController
 
+// Synthesize Variables
+
+@synthesize topLabel, middleLabel, bottomLabel;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -25,9 +29,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
     vimeoURL = [[NSString alloc] init];
+    
+    
+    // Load Font
+    labelFont = [UIFont fontWithName:@"GothamRounded-Medium" size:16];
+    topLabel.font = labelFont;
+    middleLabel.font = labelFont;
+    bottomLabel.font = labelFont;
     
 }
 
@@ -92,4 +102,10 @@
     [self presentViewController:initialView animated:YES completion:NULL];
 }
 
+- (void)viewDidUnload {
+    [self setTopLabel:nil];
+    [self setMiddleLabel:nil];
+    [self setBottomLabel:nil];
+    [super viewDidUnload];
+}
 @end
