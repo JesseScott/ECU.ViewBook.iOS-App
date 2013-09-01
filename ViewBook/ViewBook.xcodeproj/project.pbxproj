@@ -945,10 +945,10 @@
 		2D8C36F517D3C0D900FEE6A0 /* undergrad */ = {
 			isa = PBXGroup;
 			children = (
-				2D03834817D01D5D00E7E740 /* UGContactUs.txt */,
-				2D03834917D01D5D00E7E740 /* UGVisitUs.txt */,
 				2DCCA0AE17C1C5BB00B81172 /* UGApplicationDirections.txt */,
 				2DCCA0A617C1C05700B81172 /* UGPortfolioRequirements.txt */,
+				2D03834917D01D5D00E7E740 /* UGVisitUs.txt */,
+				2D03834817D01D5D00E7E740 /* UGContactUs.txt */,
 			);
 			name = undergrad;
 			sourceTree = "<group>";
@@ -966,8 +966,8 @@
 			isa = PBXGroup;
 			children = (
 				2D8C36FE17D3C1F900FEE6A0 /* GRApplicationDirections.txt */,
-				2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */,
 				2D8C370017D3C1F900FEE6A0 /* GRPortfolioRequirements.txt */,
+				2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */,
 			);
 			name = graduate;
 			sourceTree = "<group>";

@@ -47,7 +47,7 @@
     pageTitle.font = titleFont;
     
     // Load Text File
-    NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"GRApplicationDirections" ofType:@"txt"];
+    NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"GRPortfolioRequirements" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToFile encoding:NSUTF8StringEncoding error:NULL];
     
     // Set Text File To Label
