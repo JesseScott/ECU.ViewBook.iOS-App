@@ -19,6 +19,11 @@
     
 }
 
+// Email Forms
+@property (weak, nonatomic) IBOutlet UITextField *firstNameField;
+@property (weak, nonatomic) IBOutlet UITextField *lastNameField;
+@property (strong, nonatomic) IBOutlet UITextField *messageField;
+
 // Page Title
 @property (weak, nonatomic) IBOutlet UILabel *pageTitle;
 

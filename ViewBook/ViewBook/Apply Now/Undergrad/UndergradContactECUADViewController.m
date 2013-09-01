@@ -10,11 +10,6 @@
 
 @interface UndergradContactECUADViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *firstNameField;
-@property (weak, nonatomic) IBOutlet UITextField *lastNameField;
-@property (weak, nonatomic) IBOutlet UITextField *phoneField;
-@property (strong, nonatomic) IBOutlet UITextField *messageField;
-
 @end
 
 @implementation UndergradContactECUADViewController
@@ -22,6 +17,7 @@
 // Synthesize Variables
 
 @synthesize pageTitle, mainParagraph;
+@synthesize firstNameField, lastNameField, messageField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -70,10 +66,10 @@
             MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
             mailer.mailComposeDelegate = self;
             [mailer setSubject:@"Prospective student"];
-            NSArray *toRecipients = [NSArray arrayWithObjects:@"tzpandaman@hotmail.com", @"jessecolinscott@gmail.com", nil];
+            NSArray *toRecipients = [NSArray arrayWithObjects:@"admissions@ecuad.ca", @"jessecolinscott@gmail.com", nil];
             [mailer setToRecipients:toRecipients];
             NSString *nameMessage = [NSString stringWithFormat:@"Name of Prospective Student: %@ %@\r", self.firstNameField.text,self.lastNameField.text];
-            NSString *questionMessage = [NSString stringWithFormat:@"Message: %@ %@\r", self.messageField.text, self.phoneField.text];
+            NSString *questionMessage = [NSString stringWithFormat:@"Message: %@ \r", self.messageField.text];
             NSString *emailBody = [NSString stringWithFormat:@"%@ %@", nameMessage, questionMessage];
             [mailer setMessageBody:emailBody isHTML:NO];
             [self presentViewController:mailer animated:YES completion:nil];
