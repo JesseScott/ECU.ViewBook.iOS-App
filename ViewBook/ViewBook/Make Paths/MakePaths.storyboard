@@ -211,7 +211,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MDES" id="Wji-c7-AYZ"/>
+                    <tabBarItem key="tabBarItem" title="Design" id="Wji-c7-AYZ"/>
                     <connections>
                         <outlet property="courseDescription" destination="qW8-ER-9wi" id="qqD-dD-yt8"/>
                         <outlet property="courseTitle" destination="NWR-oO-guB" id="lGY-8W-gVh"/>
@@ -263,7 +263,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MDM" id="OYa-oX-NWm"/>
+                    <tabBarItem key="tabBarItem" title="Digital Media" id="OYa-oX-NWm"/>
                     <connections>
                         <outlet property="courseDescription" destination="2EI-84-rCc" id="aBT-l7-CNA"/>
                         <outlet property="courseTitle" destination="taH-fU-XfC" id="vef-WG-fDa"/>
@@ -543,7 +543,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MAA" id="FqO-XY-mp3"/>
+                    <tabBarItem key="tabBarItem" title="Applied Arts" id="FqO-XY-mp3"/>
                     <connections>
                         <outlet property="courseDescription" destination="Tx0-Ff-iD6" id="9Ed-fM-ltP"/>
                         <outlet property="courseTitle" destination="ziN-y4-LAQ" id="zlt-gM-Npw"/>

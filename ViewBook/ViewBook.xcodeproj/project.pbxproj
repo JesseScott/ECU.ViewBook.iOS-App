@@ -1012,9 +1012,9 @@
 			children = (
 				79CEE42B17CFEEAD00C9D12B /* Foundation.txt */,
 				79CEE47A17CFFF4C00C9D12B /* Design Majors.txt */,
-				79CEE48817CFFF4C00C9D12B /* Minors.txt */,
 				79CEE48A17CFFF4C00C9D12B /* Media Arts Majors.txt */,
 				79CEE48C17CFFF4C00C9D12B /* Fine Arts Majors.txt */,
+				79CEE48817CFFF4C00C9D12B /* Minors.txt */,
 			);
 			path = Undergraduate;
 			sourceTree = "<group>";
