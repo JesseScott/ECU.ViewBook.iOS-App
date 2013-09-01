@@ -47,6 +47,8 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RM5-ZJ-C5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="97u-l7-x56"/>
+                <swipeGestureRecognizer direction="right" id="wru-Ey-3vI"/>
             </objects>
             <point key="canvasLocation" x="-739" y="-438"/>
         </scene>
