@@ -10,12 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface CampusSlideshowViewController ()
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
-@property (nonatomic) NSInteger swipeCount;
-@property (copy,nonatomic) NSArray *campus;
-@property (weak, nonatomic) IBOutlet UILabel *caption;
-@property (copy,nonatomic) NSArray *captionText;
+
 
 @end
 
@@ -23,6 +18,8 @@
 
 // Synthesize Variables
 @synthesize slideshow;
+@synthesize leftSwipe, rightSwipe, swipeCount;
+@synthesize campus, caption, captionText;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -35,7 +32,6 @@
 - (void)viewDidLoad {
    
     [super viewDidLoad];
-	// Do any additional setup after loading the view. 
     
     // Load Images
     self.campus = [NSArray arrayWithObjects:
@@ -76,6 +72,7 @@
 
     
 }
+
 - (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
     NSLog(@"left swipe");
     if(self.swipeCount < self.campus.count-1){

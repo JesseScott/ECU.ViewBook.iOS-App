@@ -431,6 +431,68 @@
         <image name="lisa_fraser.png" width="300" height="300"/>
         <image name="luke_parnell.png" width="300" height="299"/>
     </resources>
+    <classes>
+        <class className="CampusSlideshowViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusSlideshowViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="StudentSlideshowViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StudentSlideshowViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="StudiosSlideshowViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StudiosSlideshowViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="caption" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="VideoThumbnailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/VideoThumbnailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="launchAudainSchool:"/>
+                <relationship kind="action" name="launchCreativeFuture:"/>
+                <relationship kind="action" name="launchDayInTheLife:"/>
+                <relationship kind="action" name="launchDesignCommunity:"/>
+                <relationship kind="action" name="launchErinBoniferro:"/>
+                <relationship kind="action" name="launchGiantAnt:"/>
+                <relationship kind="action" name="launchLisaFraser:"/>
+                <relationship kind="action" name="launchLukeParnell:"/>
+                <relationship kind="outlet" name="bottomLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="middleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="topLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WebViewViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backToThumbnails:"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

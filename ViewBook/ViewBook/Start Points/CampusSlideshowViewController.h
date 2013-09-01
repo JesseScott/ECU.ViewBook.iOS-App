@@ -18,6 +18,16 @@
 // Image View
 @property (weak, nonatomic) IBOutlet UIImageView *slideshow;
 
+// Swipe
+@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
+@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
+@property (nonatomic) NSInteger swipeCount;
+
+// Captions
+@property (copy,nonatomic) NSArray *campus;
+@property (weak, nonatomic) IBOutlet UILabel *caption;
+@property (copy,nonatomic) NSArray *captionText;
+
 // Back To Main Menu
 - (IBAction)back:(id)sender;
 

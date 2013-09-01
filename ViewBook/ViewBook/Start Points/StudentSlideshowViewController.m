@@ -10,12 +10,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface StudentSlideshowViewController ()
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
-@property (nonatomic) NSInteger swipeCount;
-@property (copy,nonatomic) NSArray *students;
-@property (weak, nonatomic) IBOutlet UILabel *caption;
-@property (copy,nonatomic) NSArray *captionText;
 
 @end
 
@@ -23,6 +17,8 @@
 
 // Synthesize Variables
 @synthesize slideshow;
+@synthesize leftSwipe, rightSwipe, swipeCount;
+@synthesize students, caption, captionText;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

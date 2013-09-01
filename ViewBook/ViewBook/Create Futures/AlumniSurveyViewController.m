@@ -15,7 +15,8 @@
 @implementation AlumniSurveyViewController
 
 // Synthesize Variables
-@synthesize slideshow;
+@synthesize slideshow, infographics;
+@synthesize leftSwipe, rightSwipe, swipeCount;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -34,7 +35,7 @@
     captionFont = [UIFont fontWithName:@"Leitura Sans" size:18];
     
     // Load Images
-    NSArray *infographics = [NSArray arrayWithObjects:
+    self.infographics = [NSArray arrayWithObjects:
                                 [UIImage imageNamed:@"alumni_survey_01"],
                                 [UIImage imageNamed:@"alumni_survey_02"],
                                 [UIImage imageNamed:@"alumni_survey_03"],
@@ -43,18 +44,37 @@
                                 nil];
     
     // Set ImageView
-    [slideshow setAnimationImages:infographics];
-    slideshow.animationDuration = 25.0;
-    slideshow.animationRepeatCount = 0;
-    [slideshow startAnimating];
+//    [slideshow setAnimationImages:infographics];
+//    slideshow.animationDuration = 25.0;
+//    slideshow.animationRepeatCount = 0;
+//    [slideshow startAnimating];
     
+    // Load first image and caption
+    self.swipeCount = 2;
+    [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
     
+    // Add Gesture Recognition
+    [self.view addGestureRecognizer:self.leftSwipe];
+    [self.view addGestureRecognizer:self.rightSwipe];
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
+    NSLog(@"left swipe");
+    if(self.swipeCount < self.infographics.count-1){
+        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.infographics.count-1);
+        self.swipeCount=self.swipeCount+1;
+        [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
+    }
+}
+
+- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
+    NSLog(@"right swipe");
+    if(self.swipeCount >0){
+        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.infographics.count-1);
+        self.swipeCount=self.swipeCount-1;
+        [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
+    }
 }
 
 - (IBAction)back:(id)sender {
@@ -64,5 +84,9 @@
     [self presentViewController:initialView animated:YES completion:NULL];
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 @end

@@ -11,19 +11,14 @@
 
 @interface StudiosSlideshowViewController ()
 
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
-@property (nonatomic) NSInteger swipeCount;
-@property (copy,nonatomic) NSArray *studios;
-@property (weak, nonatomic) IBOutlet UILabel *caption;
-@property (copy,nonatomic) NSArray *captionText;
-
 @end
 
 @implementation StudiosSlideshowViewController
 
 // Synthesize Variables
 @synthesize slideshow;
+@synthesize leftSwipe, rightSwipe, swipeCount;
+@synthesize studios, caption, captionText;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

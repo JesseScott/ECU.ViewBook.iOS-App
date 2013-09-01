@@ -12,7 +12,11 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PmT-R5-FMD"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PmT-R5-FMD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="499" id="FjD-Cl-a4h"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqh-8m-30n">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="km5-eJ-LCi"/>
@@ -32,23 +36,34 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="PmT-R5-FMD" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="ESn-Tc-nUa"/>
-                            <constraint firstItem="Iqh-8m-30n" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" constant="5" id="McN-ei-RWd"/>
+                            <constraint firstItem="PmT-R5-FMD" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="14Y-dY-NHi"/>
+                            <constraint firstItem="PmT-R5-FMD" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" constant="5" id="EUV-za-kr2"/>
+                            <constraint firstItem="PmT-R5-FMD" firstAttribute="top" secondItem="Iqh-8m-30n" secondAttribute="top" type="default" id="Mpq-hd-HFx"/>
+                            <constraint firstItem="PmT-R5-FMD" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="Q6o-hH-hY8"/>
                             <constraint firstItem="Iqh-8m-30n" firstAttribute="trailing" secondItem="FTK-eh-hOf" secondAttribute="trailing" type="default" id="UWB-HA-Yqs"/>
-                            <constraint firstItem="PmT-R5-FMD" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="bH6-wf-tW0"/>
-                            <constraint firstItem="PmT-R5-FMD" firstAttribute="top" secondItem="FTK-eh-hOf" secondAttribute="top" type="default" id="qMm-cl-0sl"/>
                             <constraint firstItem="Iqh-8m-30n" firstAttribute="leading" secondItem="FTK-eh-hOf" secondAttribute="leading" type="default" id="tkT-gJ-HBm"/>
-                            <constraint firstItem="PmT-R5-FMD" firstAttribute="bottom" secondItem="FTK-eh-hOf" secondAttribute="bottom" type="default" id="xfC-GT-ROq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Alumni Survey" id="Ul8-fY-Oop"/>
                     <connections>
+                        <outlet property="leftSwipe" destination="wru-Ey-3vI" id="WCF-nM-xRl"/>
+                        <outlet property="rightSwipe" destination="97u-l7-x56" id="UEd-dA-HsV"/>
                         <outlet property="slideshow" destination="PmT-R5-FMD" id="q7e-qB-IsR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RM5-ZJ-C5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="97u-l7-x56"/>
-                <swipeGestureRecognizer direction="right" id="wru-Ey-3vI"/>
+                <swipeGestureRecognizer direction="right" id="97u-l7-x56">
+                    <connections>
+                        <action selector="nextImage:" destination="WNA-Mu-uRf" id="hTi-Zo-jX3"/>
+                        <outlet property="delegate" destination="WNA-Mu-uRf" id="C8f-gR-i2k"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="wru-Ey-3vI">
+                    <connections>
+                        <action selector="previousImage:" destination="WNA-Mu-uRf" id="yxK-Q4-yMl"/>
+                        <outlet property="delegate" destination="WNA-Mu-uRf" id="E5G-TR-6ST"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-739" y="-438"/>
         </scene>
@@ -158,6 +173,10 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AlumniSurveyViewController.h"/>
             <relationships>
                 <relationship kind="action" name="back:"/>
+                <relationship kind="action" name="nextImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="previousImage:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="leftSwipe" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="rightSwipe" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="slideshow" candidateClass="UIImageView"/>
             </relationships>
         </class>
