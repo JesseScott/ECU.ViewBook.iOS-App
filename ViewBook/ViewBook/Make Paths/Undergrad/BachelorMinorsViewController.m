@@ -1,18 +1,18 @@
 //
-//  FoundationViewController.m
+//  BachelorMinorsViewController.m
 //  ViewBook
 //
-//  Created by Pandita on 2013-08-29.
+//  Created by Jesse Scott on 2013-08-31.
 //  Copyright (c) 2013 Emily Carr Institute of Art + Design. All rights reserved.
 //
 
-#import "FoundationViewController.h"
+#import "BachelorMinorsViewController.h"
 
-@interface FoundationViewController ()
+@interface BachelorMinorsViewController ()
 
 @end
 
-@implementation FoundationViewController
+@implementation BachelorMinorsViewController
 
 // Synthesize Variables
 @synthesize courseTitle, courseDescription;
@@ -29,7 +29,7 @@
     [super viewDidLoad];
 	
     // Set Screen Index
-    screenIndex = 0;
+    screenIndex = 4;
     
     // Load Fonts
     titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
@@ -44,7 +44,7 @@
     courseTitle.font = titleFont;
     
     // Load Text File For Main Paragraph
-    NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"Foundation" ofType:@"txt"];
+    NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"Minors" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
     
     // Set Text File To Main Paragraph Label

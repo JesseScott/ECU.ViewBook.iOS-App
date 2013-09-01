@@ -9,15 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UnderGraduateViewController : UIViewController {
-    
-    // Custom Font
-    UIFont *titleFont, *paragraphFont;
+
     
 }
 
-// Labels
-@property (weak, nonatomic) IBOutlet UILabel *courseTitle;
-@property (weak, nonatomic) IBOutlet UITextView *courseDescription;
+
 
 // Back To Main Menu
 - (IBAction)back:(id)sender;
