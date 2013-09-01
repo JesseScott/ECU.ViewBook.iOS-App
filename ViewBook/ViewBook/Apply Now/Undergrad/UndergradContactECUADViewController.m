@@ -21,7 +21,7 @@
 
 // Synthesize Variables
 
-@synthesize pageTitle;
+@synthesize pageTitle, mainParagraph;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -50,10 +50,13 @@
     pageTitle.text = [screenNames objectAtIndex:screenIndex];
     pageTitle.font = titleFont;
     
-    // Increase Size Of Message Field
-    //self.messageField.borderStyle = UITextBorderStyleLine;
-    //self.messageField.frame = CGRectMake(160, 278, 213, 300);
-    //self.messageField.borderStyle = UITextBorderStyleRoundedRect;
+    // Load Text File
+    NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"UGContactUs" ofType:@"txt"];
+    NSString *fileContent = [NSString stringWithContentsOfFile:pathToFile encoding:NSUTF8StringEncoding error:NULL];
+    
+    // Set Text File To Label
+    mainParagraph.text = fileContent;
+    mainParagraph.font = paragraphFont;
     
 }
 
