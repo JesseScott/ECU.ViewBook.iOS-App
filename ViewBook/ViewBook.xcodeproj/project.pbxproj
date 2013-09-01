@@ -597,16 +597,16 @@
 			isa = PBXGroup;
 			children = (
 				2D29E76817C01E35004BB03C /* StartPoints.storyboard */,
+				2D1D722A17CB27DF00C3DBE3 /* VideoThumbnailViewController.h */,
+				2D1D722B17CB27DF00C3DBE3 /* VideoThumbnailViewController.m */,
+				2DF36C2E17C346B7006B0994 /* WebViewViewController.h */,
+				2DF36C2F17C346B7006B0994 /* WebViewViewController.m */,
 				2D9087B717C1FC70009DDDEB /* CampusSlideshowViewController.h */,
 				2D9087B817C1FC70009DDDEB /* CampusSlideshowViewController.m */,
 				2D9087B317C1FC59009DDDEB /* StudiosSlideshowViewController.h */,
 				2D9087B417C1FC59009DDDEB /* StudiosSlideshowViewController.m */,
 				2DF36BE917C3422E006B0994 /* StudentSlideshowViewController.h */,
 				2DF36BEA17C3422E006B0994 /* StudentSlideshowViewController.m */,
-				2D1D722A17CB27DF00C3DBE3 /* VideoThumbnailViewController.h */,
-				2D1D722B17CB27DF00C3DBE3 /* VideoThumbnailViewController.m */,
-				2DF36C2E17C346B7006B0994 /* WebViewViewController.h */,
-				2DF36C2F17C346B7006B0994 /* WebViewViewController.m */,
 			);
 			name = "Start Points";
 			sourceTree = "<group>";

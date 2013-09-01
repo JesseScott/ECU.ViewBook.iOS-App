@@ -27,10 +27,8 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
     // Load Font
     buttonFont = [UIFont fontWithName:@"GothamRounded-Medium" size:18];
@@ -42,59 +40,44 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)loadStartPointsStoryboard:(id)sender {
-    
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"StartPoints" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
-    
     initialView.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:initialView animated:YES completion:NULL];
-    
 }
 
 - (IBAction)loadMakePathsStoryboard:(id)sender {
-    
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MakePaths" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
-    
     initialView.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:initialView animated:YES completion:NULL];
-    
 }
 
 - (IBAction)loadBuildNetworksStoryboard:(id)sender {
-    
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"BuildNetworks" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
-    
     initialView.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:initialView animated:YES completion:NULL];
-    
 }
 
 - (IBAction)loadCreateFuturesStoryboard:(id)sender {
-    
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"CreateFutures" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
-    
     initialView.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:initialView animated:YES completion:NULL];
-    
 }
 
 - (IBAction)loadApplyNowStoryboard:(id)sender {
-    
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"ApplyNow" bundle:nil];
     UIViewController *initialView = [newStoryboard instantiateInitialViewController];
-    
     initialView.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:initialView animated:YES completion:NULL];
-    
 }
+
 @end

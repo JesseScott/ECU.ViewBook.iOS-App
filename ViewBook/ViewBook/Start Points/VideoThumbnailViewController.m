@@ -39,6 +39,9 @@
     middleLabel.font = labelFont;
     bottomLabel.font = labelFont;
     
+    // Color Font
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
