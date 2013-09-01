@@ -10,16 +10,21 @@
 
 @interface MakePathsMenuViewController : UIViewController {
     
+    // Font
+    UIFont *buttonFont;
     
 }
 
 // Undergrad Button
 - (IBAction)launchUndergrad:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *undergradButton;
 
 // Grad Button
 - (IBAction)launchGraduate:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *graduateButton;
 
 // CS Button
 - (IBAction)launchCS:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *csButton;
 
 @end

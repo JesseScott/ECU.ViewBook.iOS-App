@@ -32,8 +32,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    
-    
     // Load Font
     buttonFont = [UIFont fontWithName:@"GothamRounded-Medium" size:18];
     startPointsButton.titleLabel.font = buttonFont;

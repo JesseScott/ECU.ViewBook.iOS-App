@@ -14,6 +14,9 @@
 
 @implementation MakePathsMenuViewController
 
+// Synthesize Variables
+@synthesize undergradButton, graduateButton, csButton;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -24,7 +27,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    // Load Font
+    buttonFont = [UIFont fontWithName:@"GothamRounded-Medium" size:18];
+    undergradButton.titleLabel.font = buttonFont;
+    graduateButton.titleLabel.font = buttonFont;
+    csButton.titleLabel.font = buttonFont;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,5 +69,11 @@
 - (IBAction)launchCS:(id)sender {
     NSLog(@"CS Button");
     [self performSegueWithIdentifier:@"pushToCSCourses" sender:sender];
+}
+- (void)viewDidUnload {
+    [self setUndergradButton:nil];
+    [self setGraduateButton:nil];
+    [self setCsButton:nil];
+    [super viewDidUnload];
 }
 @end

@@ -34,6 +34,7 @@
     // Load Fonts
     titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
     paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
+    sectionHeaderFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:18];
     
     // Load PList For Page Title
     NSString *pathToPlistFile = [[NSBundle mainBundle] pathForResource:@"UndergraduateCourses" ofType:@"plist"];
@@ -47,9 +48,28 @@
     NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"Fine Arts Majors" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
     
+    // Set Attributes
+    UIColor *foregroundColor = [UIColor blackColor];
+    
+    NSDictionary *normalText = [NSDictionary dictionaryWithObjectsAndKeys:
+                                paragraphFont, NSFontAttributeName,
+                                foregroundColor, NSForegroundColorAttributeName, nil];
+    
+    NSDictionary *boldText = [NSDictionary dictionaryWithObjectsAndKeys:
+                              sectionHeaderFont, NSFontAttributeName,
+                              foregroundColor, NSForegroundColorAttributeName, nil];
+    
+    // Declare Mutable String
+    NSMutableAttributedString *richString = [[NSMutableAttributedString alloc] initWithString:fileContent attributes:normalText];
+    
+    // Set Attributed Ranges
+    [richString setAttributes:boldText range:NSMakeRange(0, 34)];
+    [richString setAttributes:boldText range:NSMakeRange(461, 28)];
+    [richString setAttributes:boldText range:NSMakeRange(782, 48)];
+    
     // Set Text File To Main Paragraph Label
     courseDescription.editable = NO;
-    courseDescription.text = fileContent;
+    courseDescription.attributedText = richString;
     courseDescription.font = paragraphFont;
     
     
