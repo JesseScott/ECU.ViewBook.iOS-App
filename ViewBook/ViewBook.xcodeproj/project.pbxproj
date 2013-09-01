@@ -19,14 +19,12 @@
 		2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833217D013A100E7E740 /* arrow5_back.png */; };
 		2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
 		2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03833317D013A100E7E740 /* arrow6_back.png */; };
-		2D03834217D019C900E7E740 /* VisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* VisitUsViewController.m */; };
-		2D03834317D019C900E7E740 /* VisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* VisitUsViewController.m */; };
-		2D03834617D019D100E7E740 /* FutureArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834517D019D100E7E740 /* FutureArtistsViewController.m */; };
-		2D03834717D019D100E7E740 /* FutureArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834517D019D100E7E740 /* FutureArtistsViewController.m */; };
-		2D03834A17D01D5D00E7E740 /* FutureArtists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* FutureArtists.txt */; };
-		2D03834B17D01D5D00E7E740 /* FutureArtists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* FutureArtists.txt */; };
-		2D03834C17D01D5D00E7E740 /* VisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* VisitUs.txt */; };
-		2D03834D17D01D5D00E7E740 /* VisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* VisitUs.txt */; };
+		2D03834217D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */; };
+		2D03834317D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */; };
+		2D03834A17D01D5D00E7E740 /* UGContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* UGContactUs.txt */; };
+		2D03834B17D01D5D00E7E740 /* UGContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* UGContactUs.txt */; };
+		2D03834C17D01D5D00E7E740 /* UGVisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* UGVisitUs.txt */; };
+		2D03834D17D01D5D00E7E740 /* UGVisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* UGVisitUs.txt */; };
 		2D109A2417D29A1C002A59FB /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1C17D29A1C002A59FB /* facebook@2x.png */; };
 		2D109A2517D29A1C002A59FB /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1C17D29A1C002A59FB /* facebook@2x.png */; };
 		2D109A2617D29A1C002A59FB /* flickr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1D17D29A1C002A59FB /* flickr@2x.png */; };
@@ -87,6 +85,38 @@
 		2D29E78E17C02A1E004BB03C /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78C17C02A1E004BB03C /* SplashScreen.storyboard */; };
 		2D29E79017C02AED004BB03C /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78F17C02AED004BB03C /* MainMenu.storyboard */; };
 		2D29E79117C02AED004BB03C /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78F17C02AED004BB03C /* MainMenu.storyboard */; };
+		2D35BC6C17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
+		2D35BC6D17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
+		2D35BC6E17D3C527005F88EC /* Fine Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */; };
+		2D35BC6F17D3C527005F88EC /* Fine Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */; };
+		2D35BC7017D3C527005F88EC /* Foundation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6917D3C527005F88EC /* Foundation.txt */; };
+		2D35BC7117D3C527005F88EC /* Foundation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6917D3C527005F88EC /* Foundation.txt */; };
+		2D35BC7217D3C527005F88EC /* Media Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6A17D3C527005F88EC /* Media Arts Majors.txt */; };
+		2D35BC7317D3C527005F88EC /* Media Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6A17D3C527005F88EC /* Media Arts Majors.txt */; };
+		2D35BC7417D3C527005F88EC /* Minors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6B17D3C527005F88EC /* Minors.txt */; };
+		2D35BC7517D3C527005F88EC /* Minors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6B17D3C527005F88EC /* Minors.txt */; };
+		2D35BC7917D3C532005F88EC /* CS Essentials.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7617D3C532005F88EC /* CS Essentials.txt */; };
+		2D35BC7A17D3C532005F88EC /* CS Essentials.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7617D3C532005F88EC /* CS Essentials.txt */; };
+		2D35BC7B17D3C532005F88EC /* CS Teens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7717D3C532005F88EC /* CS Teens.txt */; };
+		2D35BC7C17D3C532005F88EC /* CS Teens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7717D3C532005F88EC /* CS Teens.txt */; };
+		2D35BC7D17D3C532005F88EC /* CS Welcome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7817D3C532005F88EC /* CS Welcome.txt */; };
+		2D35BC7E17D3C532005F88EC /* CS Welcome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7817D3C532005F88EC /* CS Welcome.txt */; };
+		2D35BC8217D3C53C005F88EC /* MAA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7F17D3C53C005F88EC /* MAA.txt */; };
+		2D35BC8317D3C53C005F88EC /* MAA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC7F17D3C53C005F88EC /* MAA.txt */; };
+		2D35BC8417D3C53C005F88EC /* MDES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC8017D3C53C005F88EC /* MDES.txt */; };
+		2D35BC8517D3C53C005F88EC /* MDES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC8017D3C53C005F88EC /* MDES.txt */; };
+		2D35BC8617D3C53C005F88EC /* MDM.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC8117D3C53C005F88EC /* MDM.txt */; };
+		2D35BC8717D3C53C005F88EC /* MDM.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC8117D3C53C005F88EC /* MDM.txt */; };
+		2D35BC8B17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC8A17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m */; };
+		2D35BC8C17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC8A17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m */; };
+		2D35BC8F17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC8E17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m */; };
+		2D35BC9017D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC8E17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m */; };
+		2D35BC9317D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9217D3C5FD005F88EC /* GraduateContactECUADViewController.m */; };
+		2D35BC9417D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9217D3C5FD005F88EC /* GraduateContactECUADViewController.m */; };
+		2D35BC9817D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9717D3C61D005F88EC /* CSApplicationDirectionsViewController.m */; };
+		2D35BC9917D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9717D3C61D005F88EC /* CSApplicationDirectionsViewController.m */; };
+		2D35BC9C17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9B17D3C62D005F88EC /* CSContactECUADViewController.m */; };
+		2D35BC9D17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35BC9B17D3C62D005F88EC /* CSContactECUADViewController.m */; };
 		2D44016B17CADAFE00F1079B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44016A17CADAFE00F1079B /* MessageUI.framework */; };
 		2D44016E17CAE06A00F1079B /* flickr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44016C17CAE06A00F1079B /* flickr.png */; };
 		2D44016F17CAE06A00F1079B /* flickr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44016C17CAE06A00F1079B /* flickr.png */; };
@@ -140,6 +170,16 @@
 		2D8957CF17C477920044F167 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8957CB17C477920044F167 /* facebook.png */; };
 		2D8957D217C477920044F167 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8957CD17C477920044F167 /* twitter.png */; };
 		2D8957D317C477920044F167 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8957CD17C477920044F167 /* twitter.png */; };
+		2D8C36FA17D3C1E400FEE6A0 /* CSApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36F817D3C1E400FEE6A0 /* CSApplicationDirections.txt */; };
+		2D8C36FB17D3C1E400FEE6A0 /* CSApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36F817D3C1E400FEE6A0 /* CSApplicationDirections.txt */; };
+		2D8C36FC17D3C1E400FEE6A0 /* CSContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36F917D3C1E400FEE6A0 /* CSContactUs.txt */; };
+		2D8C36FD17D3C1E400FEE6A0 /* CSContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36F917D3C1E400FEE6A0 /* CSContactUs.txt */; };
+		2D8C370117D3C1F900FEE6A0 /* GRApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36FE17D3C1F900FEE6A0 /* GRApplicationDirections.txt */; };
+		2D8C370217D3C1F900FEE6A0 /* GRApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36FE17D3C1F900FEE6A0 /* GRApplicationDirections.txt */; };
+		2D8C370317D3C1F900FEE6A0 /* GRContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */; };
+		2D8C370417D3C1F900FEE6A0 /* GRContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */; };
+		2D8C370517D3C1F900FEE6A0 /* GRPortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C370017D3C1F900FEE6A0 /* GRPortfolioRequirements.txt */; };
+		2D8C370617D3C1F900FEE6A0 /* GRPortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C370017D3C1F900FEE6A0 /* GRPortfolioRequirements.txt */; };
 		2D90878817C1F645009DDDEB /* alumni_survey_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D90878317C1F645009DDDEB /* alumni_survey_01.png */; };
 		2D90878917C1F645009DDDEB /* alumni_survey_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D90878317C1F645009DDDEB /* alumni_survey_01.png */; };
 		2D90878A17C1F645009DDDEB /* alumni_survey_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D90878417C1F645009DDDEB /* alumni_survey_02.png */; };
@@ -177,9 +217,9 @@
 		2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* ViewBook-Info.plist */; };
 		2DC4D06D17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
 		2DC4D06E17D1B31B000DD21F /* audain_school.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4D06C17D1B31B000DD21F /* audain_school.png */; };
-		2DCCA08E17C1BBCD00B81172 /* PortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */; };
-		2DCCA09117C1BBED00B81172 /* ApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09017C1BBED00B81172 /* ApplicationDirectionsViewController.m */; };
-		2DCCA09417C1BC0100B81172 /* ContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09317C1BC0100B81172 /* ContactECUADViewController.m */; };
+		2DCCA08E17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */; };
+		2DCCA09117C1BBED00B81172 /* UndergradApplicationDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09017C1BBED00B81172 /* UndergradApplicationDirectionsViewController.m */; };
+		2DCCA09417C1BC0100B81172 /* UndergradContactECUADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09317C1BC0100B81172 /* UndergradContactECUADViewController.m */; };
 		2DCCA09717C1BCC000B81172 /* SocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09617C1BCC000B81172 /* SocialMediaViewController.m */; };
 		2DCCA09817C1BCC000B81172 /* SocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09617C1BCC000B81172 /* SocialMediaViewController.m */; };
 		2DCCA09B17C1BD0500B81172 /* PublicEngagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09A17C1BD0500B81172 /* PublicEngagementViewController.m */; };
@@ -188,12 +228,12 @@
 		2DCCA0A017C1BD1B00B81172 /* ResearchIndustryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA09E17C1BD1B00B81172 /* ResearchIndustryViewController.m */; };
 		2DCCA0A317C1BD6D00B81172 /* RecruitmentCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A217C1BD6D00B81172 /* RecruitmentCalendarViewController.m */; };
 		2DCCA0A417C1BD6D00B81172 /* RecruitmentCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A217C1BD6D00B81172 /* RecruitmentCalendarViewController.m */; };
-		2DCCA0A717C1C05700B81172 /* PortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A617C1C05700B81172 /* PortfolioRequirements.txt */; };
-		2DCCA0A817C1C05700B81172 /* PortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A617C1C05700B81172 /* PortfolioRequirements.txt */; };
+		2DCCA0A717C1C05700B81172 /* UGPortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A617C1C05700B81172 /* UGPortfolioRequirements.txt */; };
+		2DCCA0A817C1C05700B81172 /* UGPortfolioRequirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A617C1C05700B81172 /* UGPortfolioRequirements.txt */; };
 		2DCCA0AA17C1C44F00B81172 /* ApplyNowScreenNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A917C1C44F00B81172 /* ApplyNowScreenNames.plist */; };
 		2DCCA0AB17C1C44F00B81172 /* ApplyNowScreenNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0A917C1C44F00B81172 /* ApplyNowScreenNames.plist */; };
-		2DCCA0AF17C1C5BB00B81172 /* ApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0AE17C1C5BB00B81172 /* ApplicationDirections.txt */; };
-		2DCCA0B017C1C5BB00B81172 /* ApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0AE17C1C5BB00B81172 /* ApplicationDirections.txt */; };
+		2DCCA0AF17C1C5BB00B81172 /* UGApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0AE17C1C5BB00B81172 /* UGApplicationDirections.txt */; };
+		2DCCA0B017C1C5BB00B81172 /* UGApplicationDirections.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DCCA0AE17C1C5BB00B81172 /* UGApplicationDirections.txt */; };
 		2DD13AFD17CDBC13002D52BB /* lisa_fraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD13AFC17CDBC13002D52BB /* lisa_fraser.png */; };
 		2DD13AFE17CDBC13002D52BB /* lisa_fraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD13AFC17CDBC13002D52BB /* lisa_fraser.png */; };
 		2DD13B0617CDCAED002D52BB /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD13B0017CDCAED002D52BB /* arrow1.png */; };
@@ -271,24 +311,6 @@
 		79CEE42517CFE28A00C9D12B /* ContinuingStudies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */; };
 		79CEE42717CFE4A500C9D12B /* Foundation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42617CFE4A500C9D12B /* Foundation.plist */; };
 		79CEE42817CFE4A500C9D12B /* Foundation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42617CFE4A500C9D12B /* Foundation.plist */; };
-		79CEE44317CFEEAD00C9D12B /* Foundation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42B17CFEEAD00C9D12B /* Foundation.txt */; };
-		79CEE44417CFEEAD00C9D12B /* Foundation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42B17CFEEAD00C9D12B /* Foundation.txt */; };
-		79CEE44517CFEEAD00C9D12B /* MAA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42D17CFEEAD00C9D12B /* MAA.txt */; };
-		79CEE44617CFEEAD00C9D12B /* MAA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42D17CFEEAD00C9D12B /* MAA.txt */; };
-		79CEE44717CFEEAD00C9D12B /* MDES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42E17CFEEAD00C9D12B /* MDES.txt */; };
-		79CEE44817CFEEAD00C9D12B /* MDES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42E17CFEEAD00C9D12B /* MDES.txt */; };
-		79CEE44917CFEEAD00C9D12B /* MDM.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42F17CFEEAD00C9D12B /* MDM.txt */; };
-		79CEE44A17CFEEAD00C9D12B /* MDM.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42F17CFEEAD00C9D12B /* MDM.txt */; };
-		79CEE47317CFF01B00C9D12B /* CS Teens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47017CFF01B00C9D12B /* CS Teens.txt */; };
-		79CEE47417CFF01B00C9D12B /* CS Teens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47017CFF01B00C9D12B /* CS Teens.txt */; };
-		79CEE47517CFF01B00C9D12B /* CS Essentials.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47117CFF01B00C9D12B /* CS Essentials.txt */; };
-		79CEE47617CFF01B00C9D12B /* CS Essentials.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47117CFF01B00C9D12B /* CS Essentials.txt */; };
-		79CEE47717CFF01B00C9D12B /* CS Welcome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47217CFF01B00C9D12B /* CS Welcome.txt */; };
-		79CEE47817CFF01B00C9D12B /* CS Welcome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47217CFF01B00C9D12B /* CS Welcome.txt */; };
-		79CEE48E17CFFF4C00C9D12B /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE47A17CFFF4C00C9D12B /* Design Majors.txt */; };
-		79CEE49C17CFFF4C00C9D12B /* Minors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE48817CFFF4C00C9D12B /* Minors.txt */; };
-		79CEE49E17CFFF4C00C9D12B /* Media Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE48A17CFFF4C00C9D12B /* Media Arts Majors.txt */; };
-		79CEE4A017CFFF4C00C9D12B /* Fine Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE48C17CFFF4C00C9D12B /* Fine Arts Majors.txt */; };
 		79CEE4A417D005BE00C9D12B /* GraduateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A317D005BE00C9D12B /* GraduateViewController.m */; };
 		79CEE4A717D0073700C9D12B /* ContinuingStudiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A617D0073600C9D12B /* ContinuingStudiesViewController.m */; };
 		79CEE4AA17D0088300C9D12B /* FoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A917D0088300C9D12B /* FoundationViewController.m */; };
@@ -311,12 +333,10 @@
 		2D03833117D013A100E7E740 /* arrow4_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow4_back.png; sourceTree = "<group>"; };
 		2D03833217D013A100E7E740 /* arrow5_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow5_back.png; sourceTree = "<group>"; };
 		2D03833317D013A100E7E740 /* arrow6_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow6_back.png; sourceTree = "<group>"; };
-		2D03834017D019C900E7E740 /* VisitUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisitUsViewController.h; path = "Apply Now/VisitUsViewController.h"; sourceTree = "<group>"; };
-		2D03834117D019C900E7E740 /* VisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisitUsViewController.m; path = "Apply Now/VisitUsViewController.m"; sourceTree = "<group>"; };
-		2D03834417D019D100E7E740 /* FutureArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FutureArtistsViewController.h; path = "Apply Now/FutureArtistsViewController.h"; sourceTree = "<group>"; };
-		2D03834517D019D100E7E740 /* FutureArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FutureArtistsViewController.m; path = "Apply Now/FutureArtistsViewController.m"; sourceTree = "<group>"; };
-		2D03834817D01D5D00E7E740 /* FutureArtists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FutureArtists.txt; path = "Assets/Text Copy/FutureArtists.txt"; sourceTree = "<group>"; };
-		2D03834917D01D5D00E7E740 /* VisitUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VisitUs.txt; path = "Assets/Text Copy/VisitUs.txt"; sourceTree = "<group>"; };
+		2D03834017D019C900E7E740 /* UndergradVisitUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradVisitUsViewController.h; path = "Apply Now/Undergrad/UndergradVisitUsViewController.h"; sourceTree = "<group>"; };
+		2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradVisitUsViewController.m; path = "Apply Now/Undergrad/UndergradVisitUsViewController.m"; sourceTree = "<group>"; };
+		2D03834817D01D5D00E7E740 /* UGContactUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGContactUs.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGContactUs.txt"; sourceTree = "<group>"; };
+		2D03834917D01D5D00E7E740 /* UGVisitUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGVisitUs.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGVisitUs.txt"; sourceTree = "<group>"; };
 		2D109A1C17D29A1C002A59FB /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
 		2D109A1D17D29A1C002A59FB /* flickr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flickr@2x.png"; sourceTree = "<group>"; };
 		2D109A1E17D29A1C002A59FB /* instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram@2x.png"; sourceTree = "<group>"; };
@@ -327,9 +347,9 @@
 		2D109A2317D29A1C002A59FB /* youtube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youtube@2x.png"; sourceTree = "<group>"; };
 		2D109A3417D29DDE002A59FB /* MakePathsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MakePathsMenuViewController.h; path = "Make Paths/MakePathsMenuViewController.h"; sourceTree = "<group>"; };
 		2D109A3517D29DDE002A59FB /* MakePathsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MakePathsMenuViewController.m; path = "Make Paths/MakePathsMenuViewController.m"; sourceTree = "<group>"; };
-		2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GreatNorthernWay.txt; path = "Assets/Text Copy/GreatNorthernWay.txt"; sourceTree = "<group>"; };
-		2D142B0317C4895F0013F036 /* IndustryEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustryEngagement.txt; path = "Assets/Text Copy/IndustryEngagement.txt"; sourceTree = "<group>"; };
-		2D142B0417C4895F0013F036 /* PublicEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PublicEngagement.txt; path = "Assets/Text Copy/PublicEngagement.txt"; sourceTree = "<group>"; };
+		2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GreatNorthernWay.txt; path = "Assets/Text Copy/Create Futures/GreatNorthernWay.txt"; sourceTree = "<group>"; };
+		2D142B0317C4895F0013F036 /* IndustryEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustryEngagement.txt; path = "Assets/Text Copy/Build Networks/IndustryEngagement.txt"; sourceTree = "<group>"; };
+		2D142B0417C4895F0013F036 /* PublicEngagement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PublicEngagement.txt; path = "Assets/Text Copy/Build Networks/PublicEngagement.txt"; sourceTree = "<group>"; };
 		2D142B0B17C48AE80013F036 /* BuildNetworksScreenNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BuildNetworksScreenNames.plist; path = "Assets/Property Lists/BuildNetworksScreenNames.plist"; sourceTree = "<group>"; };
 		2D1D721117CB21A300C3DBE3 /* CreateFuturesScreenNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CreateFuturesScreenNames.plist; path = "Assets/Property Lists/CreateFuturesScreenNames.plist"; sourceTree = "<group>"; };
 		2D1D721517CB26EC00C3DBE3 /* creative_future.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creative_future.png; sourceTree = "<group>"; };
@@ -350,6 +370,27 @@
 		2D29E78417C02718004BB03C /* ApplyNow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ApplyNow.storyboard; path = "Apply Now/ApplyNow.storyboard"; sourceTree = "<group>"; };
 		2D29E78C17C02A1E004BB03C /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = "Splash Screen/SplashScreen.storyboard"; sourceTree = "<group>"; };
 		2D29E78F17C02AED004BB03C /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainMenu.storyboard; path = "Main Menu/MainMenu.storyboard"; sourceTree = "<group>"; };
+		2D35BC6717D3C527005F88EC /* Design Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Design Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Design Majors.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Fine Arts Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Fine Arts Majors.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC6917D3C527005F88EC /* Foundation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Foundation.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Foundation.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC6A17D3C527005F88EC /* Media Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Media Arts Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Media Arts Majors.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC6B17D3C527005F88EC /* Minors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Minors.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Minors.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC7617D3C532005F88EC /* CS Essentials.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CS Essentials.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/ContinuingStudies/CS Essentials.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC7717D3C532005F88EC /* CS Teens.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CS Teens.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/ContinuingStudies/CS Teens.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC7817D3C532005F88EC /* CS Welcome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CS Welcome.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/ContinuingStudies/CS Welcome.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC7F17D3C53C005F88EC /* MAA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MAA.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Graduate/MAA.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC8017D3C53C005F88EC /* MDES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MDES.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Graduate/MDES.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC8117D3C53C005F88EC /* MDM.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MDM.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Graduate/MDM.txt"; sourceTree = SOURCE_ROOT; };
+		2D35BC8917D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduateApplicationDirectionsViewController.h; path = "Apply Now/Grad/GraduateApplicationDirectionsViewController.h"; sourceTree = "<group>"; };
+		2D35BC8A17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduateApplicationDirectionsViewController.m; path = "Apply Now/Grad/GraduateApplicationDirectionsViewController.m"; sourceTree = "<group>"; };
+		2D35BC8D17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduatePortfolioRequirementsViewController.h; path = "Apply Now/Grad/GraduatePortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
+		2D35BC8E17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduatePortfolioRequirementsViewController.m; path = "Apply Now/Grad/GraduatePortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
+		2D35BC9117D3C5FD005F88EC /* GraduateContactECUADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduateContactECUADViewController.h; path = "Apply Now/Grad/GraduateContactECUADViewController.h"; sourceTree = "<group>"; };
+		2D35BC9217D3C5FD005F88EC /* GraduateContactECUADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduateContactECUADViewController.m; path = "Apply Now/Grad/GraduateContactECUADViewController.m"; sourceTree = "<group>"; };
+		2D35BC9617D3C61D005F88EC /* CSApplicationDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSApplicationDirectionsViewController.h; path = "Apply Now/CS/CSApplicationDirectionsViewController.h"; sourceTree = "<group>"; };
+		2D35BC9717D3C61D005F88EC /* CSApplicationDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSApplicationDirectionsViewController.m; path = "Apply Now/CS/CSApplicationDirectionsViewController.m"; sourceTree = "<group>"; };
+		2D35BC9A17D3C62D005F88EC /* CSContactECUADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSContactECUADViewController.h; path = "Apply Now/CS/CSContactECUADViewController.h"; sourceTree = "<group>"; };
+		2D35BC9B17D3C62D005F88EC /* CSContactECUADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSContactECUADViewController.m; path = "Apply Now/CS/CSContactECUADViewController.m"; sourceTree = "<group>"; };
 		2D44016A17CADAFE00F1079B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2D44016C17CAE06A00F1079B /* flickr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickr.png; sourceTree = "<group>"; };
 		2D44016D17CAE06A00F1079B /* pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest.png; sourceTree = "<group>"; };
@@ -405,6 +446,11 @@
 		2D8957C717C474D90044F167 /* RecruitmentCalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentCalenderCell.m; path = "Build Networks/RecruitmentCalenderCell.m"; sourceTree = "<group>"; };
 		2D8957CB17C477920044F167 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		2D8957CD17C477920044F167 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		2D8C36F817D3C1E400FEE6A0 /* CSApplicationDirections.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSApplicationDirections.txt; path = "Assets/Text Copy/Apply Now/CS/CSApplicationDirections.txt"; sourceTree = "<group>"; };
+		2D8C36F917D3C1E400FEE6A0 /* CSContactUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSContactUs.txt; path = "Assets/Text Copy/Apply Now/CS/CSContactUs.txt"; sourceTree = "<group>"; };
+		2D8C36FE17D3C1F900FEE6A0 /* GRApplicationDirections.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GRApplicationDirections.txt; path = "Assets/Text Copy/Apply Now/Grad/GRApplicationDirections.txt"; sourceTree = "<group>"; };
+		2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GRContactUs.txt; path = "Assets/Text Copy/Apply Now/Grad/GRContactUs.txt"; sourceTree = "<group>"; };
+		2D8C370017D3C1F900FEE6A0 /* GRPortfolioRequirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GRPortfolioRequirements.txt; path = "Assets/Text Copy/Apply Now/Grad/GRPortfolioRequirements.txt"; sourceTree = "<group>"; };
 		2D90878317C1F645009DDDEB /* alumni_survey_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumni_survey_01.png; sourceTree = "<group>"; };
 		2D90878417C1F645009DDDEB /* alumni_survey_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumni_survey_02.png; sourceTree = "<group>"; };
 		2D90878517C1F645009DDDEB /* alumni_survey_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumni_survey_03.png; sourceTree = "<group>"; };
@@ -426,12 +472,12 @@
 		2DB3FBE817CFBDB00045D85C /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
 		2DC4D06C17D1B31B000DD21F /* audain_school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audain_school.png; sourceTree = "<group>"; };
-		2DCCA08C17C1BBCD00B81172 /* PortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortfolioRequirementsViewController.h; path = "Apply Now/PortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
-		2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortfolioRequirementsViewController.m; path = "Apply Now/PortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
-		2DCCA08F17C1BBED00B81172 /* ApplicationDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDirectionsViewController.h; path = "Apply Now/ApplicationDirectionsViewController.h"; sourceTree = "<group>"; };
-		2DCCA09017C1BBED00B81172 /* ApplicationDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationDirectionsViewController.m; path = "Apply Now/ApplicationDirectionsViewController.m"; sourceTree = "<group>"; };
-		2DCCA09217C1BC0100B81172 /* ContactECUADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactECUADViewController.h; path = "Apply Now/ContactECUADViewController.h"; sourceTree = "<group>"; };
-		2DCCA09317C1BC0100B81172 /* ContactECUADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactECUADViewController.m; path = "Apply Now/ContactECUADViewController.m"; sourceTree = "<group>"; };
+		2DCCA08C17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradPortfolioRequirementsViewController.h; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.h"; sourceTree = "<group>"; };
+		2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradPortfolioRequirementsViewController.m; path = "Apply Now/Undergrad/UndergradPortfolioRequirementsViewController.m"; sourceTree = "<group>"; };
+		2DCCA08F17C1BBED00B81172 /* UndergradApplicationDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradApplicationDirectionsViewController.h; path = "Apply Now/Undergrad/UndergradApplicationDirectionsViewController.h"; sourceTree = "<group>"; };
+		2DCCA09017C1BBED00B81172 /* UndergradApplicationDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradApplicationDirectionsViewController.m; path = "Apply Now/Undergrad/UndergradApplicationDirectionsViewController.m"; sourceTree = "<group>"; };
+		2DCCA09217C1BC0100B81172 /* UndergradContactECUADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UndergradContactECUADViewController.h; path = "Apply Now/Undergrad/UndergradContactECUADViewController.h"; sourceTree = "<group>"; };
+		2DCCA09317C1BC0100B81172 /* UndergradContactECUADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradContactECUADViewController.m; path = "Apply Now/Undergrad/UndergradContactECUADViewController.m"; sourceTree = "<group>"; };
 		2DCCA09517C1BCC000B81172 /* SocialMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialMediaViewController.h; path = "Build Networks/SocialMediaViewController.h"; sourceTree = "<group>"; };
 		2DCCA09617C1BCC000B81172 /* SocialMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialMediaViewController.m; path = "Build Networks/SocialMediaViewController.m"; sourceTree = "<group>"; };
 		2DCCA09917C1BD0500B81172 /* PublicEngagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicEngagementViewController.h; path = "Build Networks/PublicEngagementViewController.h"; sourceTree = "<group>"; };
@@ -440,9 +486,9 @@
 		2DCCA09E17C1BD1B00B81172 /* ResearchIndustryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResearchIndustryViewController.m; path = "Build Networks/ResearchIndustryViewController.m"; sourceTree = "<group>"; };
 		2DCCA0A117C1BD6D00B81172 /* RecruitmentCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecruitmentCalendarViewController.h; path = "Build Networks/RecruitmentCalendarViewController.h"; sourceTree = "<group>"; };
 		2DCCA0A217C1BD6D00B81172 /* RecruitmentCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentCalendarViewController.m; path = "Build Networks/RecruitmentCalendarViewController.m"; sourceTree = "<group>"; };
-		2DCCA0A617C1C05700B81172 /* PortfolioRequirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PortfolioRequirements.txt; path = "Assets/Text Copy/PortfolioRequirements.txt"; sourceTree = "<group>"; };
+		2DCCA0A617C1C05700B81172 /* UGPortfolioRequirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGPortfolioRequirements.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGPortfolioRequirements.txt"; sourceTree = "<group>"; };
 		2DCCA0A917C1C44F00B81172 /* ApplyNowScreenNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ApplyNowScreenNames.plist; path = "Assets/Property Lists/ApplyNowScreenNames.plist"; sourceTree = "<group>"; };
-		2DCCA0AE17C1C5BB00B81172 /* ApplicationDirections.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ApplicationDirections.txt; path = "Assets/Text Copy/ApplicationDirections.txt"; sourceTree = "<group>"; };
+		2DCCA0AE17C1C5BB00B81172 /* UGApplicationDirections.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGApplicationDirections.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGApplicationDirections.txt"; sourceTree = "<group>"; };
 		2DD13AFC17CDBC13002D52BB /* lisa_fraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_fraser.png; sourceTree = "<group>"; };
 		2DD13B0017CDCAED002D52BB /* arrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1.png; sourceTree = "<group>"; };
 		2DD13B0117CDCAED002D52BB /* arrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow2.png; sourceTree = "<group>"; };
@@ -485,17 +531,6 @@
 		79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GraduateCourses.plist; path = "Assets/Property Lists/GraduateCourses.plist"; sourceTree = "<group>"; };
 		79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ContinuingStudies.plist; path = "Assets/Property Lists/ContinuingStudies.plist"; sourceTree = "<group>"; };
 		79CEE42617CFE4A500C9D12B /* Foundation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Foundation.plist; path = "Assets/Property Lists/Foundation.plist"; sourceTree = "<group>"; };
-		79CEE42B17CFEEAD00C9D12B /* Foundation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Foundation.txt; sourceTree = "<group>"; };
-		79CEE42D17CFEEAD00C9D12B /* MAA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MAA.txt; sourceTree = "<group>"; };
-		79CEE42E17CFEEAD00C9D12B /* MDES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MDES.txt; sourceTree = "<group>"; };
-		79CEE42F17CFEEAD00C9D12B /* MDM.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MDM.txt; sourceTree = "<group>"; };
-		79CEE47017CFF01B00C9D12B /* CS Teens.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CS Teens.txt"; sourceTree = "<group>"; };
-		79CEE47117CFF01B00C9D12B /* CS Essentials.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CS Essentials.txt"; sourceTree = "<group>"; };
-		79CEE47217CFF01B00C9D12B /* CS Welcome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CS Welcome.txt"; sourceTree = "<group>"; };
-		79CEE47A17CFFF4C00C9D12B /* Design Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Design Majors.txt"; sourceTree = "<group>"; };
-		79CEE48817CFFF4C00C9D12B /* Minors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Minors.txt; sourceTree = "<group>"; };
-		79CEE48A17CFFF4C00C9D12B /* Media Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Media Arts Majors.txt"; sourceTree = "<group>"; };
-		79CEE48C17CFFF4C00C9D12B /* Fine Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fine Arts Majors.txt"; sourceTree = "<group>"; };
 		79CEE4A217D005BE00C9D12B /* GraduateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduateViewController.h; path = "Make Paths/Graduate/GraduateViewController.h"; sourceTree = "<group>"; };
 		79CEE4A317D005BE00C9D12B /* GraduateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduateViewController.m; path = "Make Paths/Graduate/GraduateViewController.m"; sourceTree = "<group>"; };
 		79CEE4A517D0073600C9D12B /* ContinuingStudiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinuingStudiesViewController.h; path = "Make Paths/CS/ContinuingStudiesViewController.h"; sourceTree = "<group>"; };
@@ -638,16 +673,9 @@
 			isa = PBXGroup;
 			children = (
 				2D29E78417C02718004BB03C /* ApplyNow.storyboard */,
-				2DCCA08C17C1BBCD00B81172 /* PortfolioRequirementsViewController.h */,
-				2DCCA08D17C1BBCD00B81172 /* PortfolioRequirementsViewController.m */,
-				2DCCA08F17C1BBED00B81172 /* ApplicationDirectionsViewController.h */,
-				2DCCA09017C1BBED00B81172 /* ApplicationDirectionsViewController.m */,
-				2D03834417D019D100E7E740 /* FutureArtistsViewController.h */,
-				2D03834517D019D100E7E740 /* FutureArtistsViewController.m */,
-				2D03834017D019C900E7E740 /* VisitUsViewController.h */,
-				2D03834117D019C900E7E740 /* VisitUsViewController.m */,
-				2DCCA09217C1BC0100B81172 /* ContactECUADViewController.h */,
-				2DCCA09317C1BC0100B81172 /* ContactECUADViewController.m */,
+				2D8C36F117D3BF0F00FEE6A0 /* Undergrad */,
+				2D35BC8817D3C5A3005F88EC /* Graduate */,
+				2D35BC9517D3C603005F88EC /* CS */,
 			);
 			name = "Apply Now";
 			sourceTree = "<group>";
@@ -660,6 +688,30 @@
 				2D47AD6017921B5D003D5D8B /* MainMenuViewController.m */,
 			);
 			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		2D35BC8817D3C5A3005F88EC /* Graduate */ = {
+			isa = PBXGroup;
+			children = (
+				2D35BC8917D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.h */,
+				2D35BC8A17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m */,
+				2D35BC8D17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.h */,
+				2D35BC8E17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m */,
+				2D35BC9117D3C5FD005F88EC /* GraduateContactECUADViewController.h */,
+				2D35BC9217D3C5FD005F88EC /* GraduateContactECUADViewController.m */,
+			);
+			name = Graduate;
+			sourceTree = "<group>";
+		};
+		2D35BC9517D3C603005F88EC /* CS */ = {
+			isa = PBXGroup;
+			children = (
+				2D35BC9617D3C61D005F88EC /* CSApplicationDirectionsViewController.h */,
+				2D35BC9717D3C61D005F88EC /* CSApplicationDirectionsViewController.m */,
+				2D35BC9A17D3C62D005F88EC /* CSContactECUADViewController.h */,
+				2D35BC9B17D3C62D005F88EC /* CSContactECUADViewController.m */,
+			);
+			name = CS;
 			sourceTree = "<group>";
 		};
 		2D44017217CAEC4600F1079B /* Fonts */ = {
@@ -848,6 +900,78 @@
 			path = "Assets/Build Networks";
 			sourceTree = "<group>";
 		};
+		2D8C36F117D3BF0F00FEE6A0 /* Undergrad */ = {
+			isa = PBXGroup;
+			children = (
+				2DCCA08F17C1BBED00B81172 /* UndergradApplicationDirectionsViewController.h */,
+				2DCCA09017C1BBED00B81172 /* UndergradApplicationDirectionsViewController.m */,
+				2DCCA08C17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.h */,
+				2DCCA08D17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m */,
+				2D03834017D019C900E7E740 /* UndergradVisitUsViewController.h */,
+				2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */,
+				2DCCA09217C1BC0100B81172 /* UndergradContactECUADViewController.h */,
+				2DCCA09317C1BC0100B81172 /* UndergradContactECUADViewController.m */,
+			);
+			name = Undergrad;
+			sourceTree = "<group>";
+		};
+		2D8C36F217D3BFFD00FEE6A0 /* Apply Now */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C36F517D3C0D900FEE6A0 /* undergrad */,
+				2D8C36F717D3C16700FEE6A0 /* graduate */,
+				2D8C36F617D3C15900FEE6A0 /* CS */,
+			);
+			name = "Apply Now";
+			sourceTree = "<group>";
+		};
+		2D8C36F317D3C00700FEE6A0 /* Create Futures */ = {
+			isa = PBXGroup;
+			children = (
+				2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */,
+			);
+			name = "Create Futures";
+			sourceTree = "<group>";
+		};
+		2D8C36F417D3C01000FEE6A0 /* Build Networks */ = {
+			isa = PBXGroup;
+			children = (
+				2D142B0317C4895F0013F036 /* IndustryEngagement.txt */,
+				2D142B0417C4895F0013F036 /* PublicEngagement.txt */,
+			);
+			name = "Build Networks";
+			sourceTree = "<group>";
+		};
+		2D8C36F517D3C0D900FEE6A0 /* undergrad */ = {
+			isa = PBXGroup;
+			children = (
+				2D03834817D01D5D00E7E740 /* UGContactUs.txt */,
+				2D03834917D01D5D00E7E740 /* UGVisitUs.txt */,
+				2DCCA0AE17C1C5BB00B81172 /* UGApplicationDirections.txt */,
+				2DCCA0A617C1C05700B81172 /* UGPortfolioRequirements.txt */,
+			);
+			name = undergrad;
+			sourceTree = "<group>";
+		};
+		2D8C36F617D3C15900FEE6A0 /* CS */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C36F817D3C1E400FEE6A0 /* CSApplicationDirections.txt */,
+				2D8C36F917D3C1E400FEE6A0 /* CSContactUs.txt */,
+			);
+			name = CS;
+			sourceTree = "<group>";
+		};
+		2D8C36F717D3C16700FEE6A0 /* graduate */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C36FE17D3C1F900FEE6A0 /* GRApplicationDirections.txt */,
+				2D8C36FF17D3C1F900FEE6A0 /* GRContactUs.txt */,
+				2D8C370017D3C1F900FEE6A0 /* GRPortfolioRequirements.txt */,
+			);
+			name = graduate;
+			sourceTree = "<group>";
+		};
 		2D90877317C1EA5C009DDDEB /* Create Futures */ = {
 			isa = PBXGroup;
 			children = (
@@ -889,14 +1013,10 @@
 		2DCCA0A517C1C04400B81172 /* Text Copy */ = {
 			isa = PBXGroup;
 			children = (
-				2D03834817D01D5D00E7E740 /* FutureArtists.txt */,
-				2D03834917D01D5D00E7E740 /* VisitUs.txt */,
-				79CEE42917CFEEAD00C9D12B /* Courses */,
-				2D142B0217C4895F0013F036 /* GreatNorthernWay.txt */,
-				2D142B0317C4895F0013F036 /* IndustryEngagement.txt */,
-				2D142B0417C4895F0013F036 /* PublicEngagement.txt */,
-				2DCCA0AE17C1C5BB00B81172 /* ApplicationDirections.txt */,
-				2DCCA0A617C1C05700B81172 /* PortfolioRequirements.txt */,
+				2D8C36F217D3BFFD00FEE6A0 /* Apply Now */,
+				79CEE42917CFEEAD00C9D12B /* Make Paths */,
+				2D8C36F317D3C00700FEE6A0 /* Create Futures */,
+				2D8C36F417D3C01000FEE6A0 /* Build Networks */,
 			);
 			name = "Text Copy";
 			sourceTree = "<group>";
@@ -976,23 +1096,23 @@
 			path = "Studio Slideshow";
 			sourceTree = "<group>";
 		};
-		79CEE42917CFEEAD00C9D12B /* Courses */ = {
+		79CEE42917CFEEAD00C9D12B /* Make Paths */ = {
 			isa = PBXGroup;
 			children = (
 				79CEE47917CFFF4C00C9D12B /* Undergraduate */,
 				79CEE46F17CFF01B00C9D12B /* ContinuingStudies */,
 				79CEE42C17CFEEAD00C9D12B /* Graduate */,
 			);
-			name = Courses;
+			name = "Make Paths";
 			path = "Assets/Text Copy/Courses";
 			sourceTree = "<group>";
 		};
 		79CEE42C17CFEEAD00C9D12B /* Graduate */ = {
 			isa = PBXGroup;
 			children = (
-				79CEE42D17CFEEAD00C9D12B /* MAA.txt */,
-				79CEE42E17CFEEAD00C9D12B /* MDES.txt */,
-				79CEE42F17CFEEAD00C9D12B /* MDM.txt */,
+				2D35BC7F17D3C53C005F88EC /* MAA.txt */,
+				2D35BC8017D3C53C005F88EC /* MDES.txt */,
+				2D35BC8117D3C53C005F88EC /* MDM.txt */,
 			);
 			path = Graduate;
 			sourceTree = "<group>";
@@ -1000,9 +1120,9 @@
 		79CEE46F17CFF01B00C9D12B /* ContinuingStudies */ = {
 			isa = PBXGroup;
 			children = (
-				79CEE47017CFF01B00C9D12B /* CS Teens.txt */,
-				79CEE47117CFF01B00C9D12B /* CS Essentials.txt */,
-				79CEE47217CFF01B00C9D12B /* CS Welcome.txt */,
+				2D35BC7617D3C532005F88EC /* CS Essentials.txt */,
+				2D35BC7717D3C532005F88EC /* CS Teens.txt */,
+				2D35BC7817D3C532005F88EC /* CS Welcome.txt */,
 			);
 			path = ContinuingStudies;
 			sourceTree = "<group>";
@@ -1010,11 +1130,11 @@
 		79CEE47917CFFF4C00C9D12B /* Undergraduate */ = {
 			isa = PBXGroup;
 			children = (
-				79CEE42B17CFEEAD00C9D12B /* Foundation.txt */,
-				79CEE47A17CFFF4C00C9D12B /* Design Majors.txt */,
-				79CEE48A17CFFF4C00C9D12B /* Media Arts Majors.txt */,
-				79CEE48C17CFFF4C00C9D12B /* Fine Arts Majors.txt */,
-				79CEE48817CFFF4C00C9D12B /* Minors.txt */,
+				2D35BC6717D3C527005F88EC /* Design Majors.txt */,
+				2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */,
+				2D35BC6917D3C527005F88EC /* Foundation.txt */,
+				2D35BC6A17D3C527005F88EC /* Media Arts Majors.txt */,
+				2D35BC6B17D3C527005F88EC /* Minors.txt */,
 			);
 			path = Undergraduate;
 			sourceTree = "<group>";
@@ -1102,9 +1222,9 @@
 				2D29E78517C02718004BB03C /* ApplyNow.storyboard in Resources */,
 				2D29E78D17C02A1E004BB03C /* SplashScreen.storyboard in Resources */,
 				2D29E79017C02AED004BB03C /* MainMenu.storyboard in Resources */,
-				2DCCA0A717C1C05700B81172 /* PortfolioRequirements.txt in Resources */,
+				2DCCA0A717C1C05700B81172 /* UGPortfolioRequirements.txt in Resources */,
 				2DCCA0AA17C1C44F00B81172 /* ApplyNowScreenNames.plist in Resources */,
-				2DCCA0AF17C1C5BB00B81172 /* ApplicationDirections.txt in Resources */,
+				2DCCA0AF17C1C5BB00B81172 /* UGApplicationDirections.txt in Resources */,
 				2D90878817C1F645009DDDEB /* alumni_survey_01.png in Resources */,
 				2D90878A17C1F645009DDDEB /* alumni_survey_02.png in Resources */,
 				2D90878C17C1F645009DDDEB /* alumni_survey_03.png in Resources */,
@@ -1168,25 +1288,14 @@
 				79CEE42117CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42417CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
 				79CEE42717CFE4A500C9D12B /* Foundation.plist in Resources */,
-				79CEE44317CFEEAD00C9D12B /* Foundation.txt in Resources */,
-				79CEE44517CFEEAD00C9D12B /* MAA.txt in Resources */,
-				79CEE44717CFEEAD00C9D12B /* MDES.txt in Resources */,
-				79CEE44917CFEEAD00C9D12B /* MDM.txt in Resources */,
-				79CEE47317CFF01B00C9D12B /* CS Teens.txt in Resources */,
-				79CEE47517CFF01B00C9D12B /* CS Essentials.txt in Resources */,
-				79CEE47717CFF01B00C9D12B /* CS Welcome.txt in Resources */,
-				79CEE48E17CFFF4C00C9D12B /* Design Majors.txt in Resources */,
-				79CEE49C17CFFF4C00C9D12B /* Minors.txt in Resources */,
-				79CEE49E17CFFF4C00C9D12B /* Media Arts Majors.txt in Resources */,
-				79CEE4A017CFFF4C00C9D12B /* Fine Arts Majors.txt in Resources */,
 				2D03833417D013A100E7E740 /* arrow1_back.png in Resources */,
 				2D03833617D013A100E7E740 /* arrow2_back.png in Resources */,
 				2D03833817D013A100E7E740 /* arrow3_back.png in Resources */,
 				2D03833A17D013A100E7E740 /* arrow4_back.png in Resources */,
 				2D03833C17D013A100E7E740 /* arrow5_back.png in Resources */,
 				2D03833E17D013A100E7E740 /* arrow6_back.png in Resources */,
-				2D03834A17D01D5D00E7E740 /* FutureArtists.txt in Resources */,
-				2D03834C17D01D5D00E7E740 /* VisitUs.txt in Resources */,
+				2D03834A17D01D5D00E7E740 /* UGContactUs.txt in Resources */,
+				2D03834C17D01D5D00E7E740 /* UGVisitUs.txt in Resources */,
 				2DE8F31D17D04623006A8050 /* CampusCaptions.plist in Resources */,
 				2DE8F32017D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32317D047C1006A8050 /* StudentCaptions.plist in Resources */,
@@ -1201,6 +1310,22 @@
 				2D109A2E17D29A1C002A59FB /* vimeo.png in Resources */,
 				2D109A3017D29A1C002A59FB /* vimeo@2x.png in Resources */,
 				2D109A3217D29A1C002A59FB /* youtube@2x.png in Resources */,
+				2D8C36FA17D3C1E400FEE6A0 /* CSApplicationDirections.txt in Resources */,
+				2D8C36FC17D3C1E400FEE6A0 /* CSContactUs.txt in Resources */,
+				2D8C370117D3C1F900FEE6A0 /* GRApplicationDirections.txt in Resources */,
+				2D8C370317D3C1F900FEE6A0 /* GRContactUs.txt in Resources */,
+				2D8C370517D3C1F900FEE6A0 /* GRPortfolioRequirements.txt in Resources */,
+				2D35BC6C17D3C527005F88EC /* Design Majors.txt in Resources */,
+				2D35BC6E17D3C527005F88EC /* Fine Arts Majors.txt in Resources */,
+				2D35BC7017D3C527005F88EC /* Foundation.txt in Resources */,
+				2D35BC7217D3C527005F88EC /* Media Arts Majors.txt in Resources */,
+				2D35BC7417D3C527005F88EC /* Minors.txt in Resources */,
+				2D35BC7917D3C532005F88EC /* CS Essentials.txt in Resources */,
+				2D35BC7B17D3C532005F88EC /* CS Teens.txt in Resources */,
+				2D35BC7D17D3C532005F88EC /* CS Welcome.txt in Resources */,
+				2D35BC8217D3C53C005F88EC /* MAA.txt in Resources */,
+				2D35BC8417D3C53C005F88EC /* MDES.txt in Resources */,
+				2D35BC8617D3C53C005F88EC /* MDM.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1216,9 +1341,9 @@
 				2D29E78617C02718004BB03C /* ApplyNow.storyboard in Resources */,
 				2D29E78E17C02A1E004BB03C /* SplashScreen.storyboard in Resources */,
 				2D29E79117C02AED004BB03C /* MainMenu.storyboard in Resources */,
-				2DCCA0A817C1C05700B81172 /* PortfolioRequirements.txt in Resources */,
+				2DCCA0A817C1C05700B81172 /* UGPortfolioRequirements.txt in Resources */,
 				2DCCA0AB17C1C44F00B81172 /* ApplyNowScreenNames.plist in Resources */,
-				2DCCA0B017C1C5BB00B81172 /* ApplicationDirections.txt in Resources */,
+				2DCCA0B017C1C5BB00B81172 /* UGApplicationDirections.txt in Resources */,
 				2D90878917C1F645009DDDEB /* alumni_survey_01.png in Resources */,
 				2D90878B17C1F645009DDDEB /* alumni_survey_02.png in Resources */,
 				2D90878D17C1F645009DDDEB /* alumni_survey_03.png in Resources */,
@@ -1282,21 +1407,14 @@
 				79CEE42217CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42517CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
 				79CEE42817CFE4A500C9D12B /* Foundation.plist in Resources */,
-				79CEE44417CFEEAD00C9D12B /* Foundation.txt in Resources */,
-				79CEE44617CFEEAD00C9D12B /* MAA.txt in Resources */,
-				79CEE44817CFEEAD00C9D12B /* MDES.txt in Resources */,
-				79CEE44A17CFEEAD00C9D12B /* MDM.txt in Resources */,
-				79CEE47417CFF01B00C9D12B /* CS Teens.txt in Resources */,
-				79CEE47617CFF01B00C9D12B /* CS Essentials.txt in Resources */,
-				79CEE47817CFF01B00C9D12B /* CS Welcome.txt in Resources */,
 				2D03833517D013A100E7E740 /* arrow1_back.png in Resources */,
 				2D03833717D013A100E7E740 /* arrow2_back.png in Resources */,
 				2D03833917D013A100E7E740 /* arrow3_back.png in Resources */,
 				2D03833B17D013A100E7E740 /* arrow4_back.png in Resources */,
 				2D03833D17D013A100E7E740 /* arrow5_back.png in Resources */,
 				2D03833F17D013A100E7E740 /* arrow6_back.png in Resources */,
-				2D03834B17D01D5D00E7E740 /* FutureArtists.txt in Resources */,
-				2D03834D17D01D5D00E7E740 /* VisitUs.txt in Resources */,
+				2D03834B17D01D5D00E7E740 /* UGContactUs.txt in Resources */,
+				2D03834D17D01D5D00E7E740 /* UGVisitUs.txt in Resources */,
 				2DE8F31E17D04623006A8050 /* CampusCaptions.plist in Resources */,
 				2DE8F32117D0472D006A8050 /* StudiosCaptions.plist in Resources */,
 				2DE8F32417D047C1006A8050 /* StudentCaptions.plist in Resources */,
@@ -1311,6 +1429,22 @@
 				2D109A2F17D29A1C002A59FB /* vimeo.png in Resources */,
 				2D109A3117D29A1C002A59FB /* vimeo@2x.png in Resources */,
 				2D109A3317D29A1C002A59FB /* youtube@2x.png in Resources */,
+				2D8C36FB17D3C1E400FEE6A0 /* CSApplicationDirections.txt in Resources */,
+				2D8C36FD17D3C1E400FEE6A0 /* CSContactUs.txt in Resources */,
+				2D8C370217D3C1F900FEE6A0 /* GRApplicationDirections.txt in Resources */,
+				2D8C370417D3C1F900FEE6A0 /* GRContactUs.txt in Resources */,
+				2D8C370617D3C1F900FEE6A0 /* GRPortfolioRequirements.txt in Resources */,
+				2D35BC6D17D3C527005F88EC /* Design Majors.txt in Resources */,
+				2D35BC6F17D3C527005F88EC /* Fine Arts Majors.txt in Resources */,
+				2D35BC7117D3C527005F88EC /* Foundation.txt in Resources */,
+				2D35BC7317D3C527005F88EC /* Media Arts Majors.txt in Resources */,
+				2D35BC7517D3C527005F88EC /* Minors.txt in Resources */,
+				2D35BC7A17D3C532005F88EC /* CS Essentials.txt in Resources */,
+				2D35BC7C17D3C532005F88EC /* CS Teens.txt in Resources */,
+				2D35BC7E17D3C532005F88EC /* CS Welcome.txt in Resources */,
+				2D35BC8317D3C53C005F88EC /* MAA.txt in Resources */,
+				2D35BC8517D3C53C005F88EC /* MDES.txt in Resources */,
+				2D35BC8717D3C53C005F88EC /* MDM.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1342,9 +1476,9 @@
 				2D47AD3E17921513003D5D8B /* SplashViewController.m in Sources */,
 				2D47AD6117921B5D003D5D8B /* MainMenuViewController.m in Sources */,
 				2D29E78217C02705004BB03C /* AlumniSurveyViewController.m in Sources */,
-				2DCCA08E17C1BBCD00B81172 /* PortfolioRequirementsViewController.m in Sources */,
-				2DCCA09117C1BBED00B81172 /* ApplicationDirectionsViewController.m in Sources */,
-				2DCCA09417C1BC0100B81172 /* ContactECUADViewController.m in Sources */,
+				2DCCA08E17C1BBCD00B81172 /* UndergradPortfolioRequirementsViewController.m in Sources */,
+				2DCCA09117C1BBED00B81172 /* UndergradApplicationDirectionsViewController.m in Sources */,
+				2DCCA09417C1BC0100B81172 /* UndergradContactECUADViewController.m in Sources */,
 				2DCCA09717C1BCC000B81172 /* SocialMediaViewController.m in Sources */,
 				2DCCA09B17C1BD0500B81172 /* PublicEngagementViewController.m in Sources */,
 				2DCCA09F17C1BD1B00B81172 /* ResearchIndustryViewController.m in Sources */,
@@ -1361,8 +1495,7 @@
 				79CEE4A417D005BE00C9D12B /* GraduateViewController.m in Sources */,
 				79CEE4A717D0073700C9D12B /* ContinuingStudiesViewController.m in Sources */,
 				79CEE4AA17D0088300C9D12B /* FoundationViewController.m in Sources */,
-				2D03834217D019C900E7E740 /* VisitUsViewController.m in Sources */,
-				2D03834617D019D100E7E740 /* FutureArtistsViewController.m in Sources */,
+				2D03834217D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */,
 				2D45133417D27338007CBDCF /* TeenProgramsViewController.m in Sources */,
 				2D45133817D2734C007CBDCF /* EssentialsProgramsViewController.m in Sources */,
 				2D45133C17D27359007CBDCF /* WelcomeLabViewController.m in Sources */,
@@ -1374,6 +1507,11 @@
 				2D77C39E17D2B84A005BFF53 /* BachelorsDesignViewController.m in Sources */,
 				2D77C3A217D2B876005BFF53 /* BachelorsFineArtViewController.m in Sources */,
 				2D77C3A617D2B899005BFF53 /* BachelorMinorsViewController.m in Sources */,
+				2D35BC8B17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m in Sources */,
+				2D35BC8F17D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m in Sources */,
+				2D35BC9317D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */,
+				2D35BC9817D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */,
+				2D35BC9C17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1395,8 +1533,7 @@
 				2DAE88CE17C733190034B8C8 /* XMLParser.m in Sources */,
 				2D44017C17CB1A2900F1079B /* GNWViewController.m in Sources */,
 				2D1D722D17CB27DF00C3DBE3 /* VideoThumbnailViewController.m in Sources */,
-				2D03834317D019C900E7E740 /* VisitUsViewController.m in Sources */,
-				2D03834717D019D100E7E740 /* FutureArtistsViewController.m in Sources */,
+				2D03834317D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */,
 				2D45133517D27338007CBDCF /* TeenProgramsViewController.m in Sources */,
 				2D45133917D2734C007CBDCF /* EssentialsProgramsViewController.m in Sources */,
 				2D45133D17D27359007CBDCF /* WelcomeLabViewController.m in Sources */,
@@ -1408,6 +1545,11 @@
 				2D77C39F17D2B84A005BFF53 /* BachelorsDesignViewController.m in Sources */,
 				2D77C3A317D2B876005BFF53 /* BachelorsFineArtViewController.m in Sources */,
 				2D77C3A717D2B899005BFF53 /* BachelorMinorsViewController.m in Sources */,
+				2D35BC8C17D3C5D5005F88EC /* GraduateApplicationDirectionsViewController.m in Sources */,
+				2D35BC9017D3C5EB005F88EC /* GraduatePortfolioRequirementsViewController.m in Sources */,
+				2D35BC9417D3C5FD005F88EC /* GraduateContactECUADViewController.m in Sources */,
+				2D35BC9917D3C61D005F88EC /* CSApplicationDirectionsViewController.m in Sources */,
+				2D35BC9D17D3C62D005F88EC /* CSContactECUADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

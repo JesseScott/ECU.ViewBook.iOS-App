@@ -1,15 +1,15 @@
 //
-//  ContactECUADViewController.h
+//  CSContactECUADViewController.h
 //  ViewBook
 //
-//  Created by Jesse Scott on 2013-08-18.
+//  Created by Jesse Scott on 2013-09-01.
 //  Copyright (c) 2013 Emily Carr Institute of Art + Design. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 
-@interface ContactECUADViewController : UIViewController<MFMailComposeViewControllerDelegate, UITextFieldDelegate> {
+@interface CSContactECUADViewController : UIViewController<MFMailComposeViewControllerDelegate, UITextFieldDelegate> {
     
     // Screen Index
     NSInteger screenIndex;
@@ -25,5 +25,6 @@
 
 // Back To Main Menu
 - (IBAction)back:(id)sender;
+
 
 @end
