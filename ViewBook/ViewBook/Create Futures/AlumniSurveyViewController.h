@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlumniSurveyViewController : UIViewController {
+@interface AlumniSurveyViewController : UIViewController <UIGestureRecognizerDelegate> {
     
     // Screen Index
     NSInteger screenIndex;
@@ -24,7 +24,14 @@
 // Swipe Detection
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
+
 @property (nonatomic) NSInteger swipeCount;
+
+- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender;
+- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender;
+
+
+// Images
 @property (copy,nonatomic) NSArray *infographics;
 
 // Back To Main Menu

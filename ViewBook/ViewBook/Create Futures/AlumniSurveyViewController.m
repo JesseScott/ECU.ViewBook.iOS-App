@@ -16,7 +16,8 @@
 
 // Synthesize Variables
 @synthesize slideshow, infographics;
-@synthesize leftSwipe, rightSwipe, swipeCount;
+@synthesize swipeCount;
+@synthesize leftSwipe, rightSwipe;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -50,32 +51,43 @@
 //    [slideshow startAnimating];
     
     // Load first image and caption
-    self.swipeCount = 2;
+    self.swipeCount = 0;
     [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
     
     // Add Gesture Recognition
-    [self.view addGestureRecognizer:self.leftSwipe];
-    [self.view addGestureRecognizer:self.rightSwipe];
+    [self.view addGestureRecognizer:leftSwipe];
+    [self.view addGestureRecognizer:rightSwipe];
     
 }
 
-- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"left swipe");
-    if(self.swipeCount < self.infographics.count-1){
-        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.infographics.count-1);
-        self.swipeCount=self.swipeCount+1;
+// Swipes
+
+- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
+    NSLog(@"Next");
+    if(self.swipeCount < self.infographics.count - 1) {
+        NSLog(@"swipe count: %i  |*| array count: %i", self.swipeCount, self.infographics.count-1);
+        
+        // Set Index
+        self.swipeCount = self.swipeCount + 1;
+        
+        // Set Image
         [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
     }
 }
 
-- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"right swipe");
-    if(self.swipeCount >0){
-        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.infographics.count-1);
-        self.swipeCount=self.swipeCount-1;
+- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
+    NSLog(@"Previous");
+    if(self.swipeCount > 0) {
+        NSLog(@"swipe count: %i  |*| array count: %i", self.swipeCount, self.infographics.count-1);
+        
+        // Set Index
+        self.swipeCount = self.swipeCount - 1;
+        
+        // Set Image
         [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
     }
 }
+
 
 - (IBAction)back:(id)sender {
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
@@ -87,6 +99,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidUnload {
+    [self setLeftSwipe:nil];
+    [self setRightSwipe:nil];
+    [super viewDidUnload];
 }
 
 @end

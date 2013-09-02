@@ -23,6 +23,9 @@
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
 @property (nonatomic) NSInteger swipeCount;
 
+- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender;
+- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender;
+
 // Captions
 @property (copy,nonatomic) NSArray *students;
 @property (weak, nonatomic) IBOutlet UILabel *caption;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CampusSlideshowViewController : UIViewController <UIGestureRecognizerDelegate>{
+@interface CampusSlideshowViewController : UIViewController <UIGestureRecognizerDelegate> {
     
     // Custom Font
     UIFont *captionFont;
@@ -22,6 +22,9 @@
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *leftSwipe;
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipe;
 @property (nonatomic) NSInteger swipeCount;
+
+- (IBAction)previousImage:(UISwipeGestureRecognizer *)sender;
+- (IBAction)nextImage:(UISwipeGestureRecognizer *)sender;
 
 // Captions
 @property (copy,nonatomic) NSArray *campus;
