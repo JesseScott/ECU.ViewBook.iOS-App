@@ -54,6 +54,17 @@
     mainParagraph.text = fileContent;
     mainParagraph.font = paragraphFont;
     
+    // Notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardDidShow:)
+                                                 name:UIKeyboardDidShowNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardDidHide:)
+                                                 name:UIKeyboardDidHideNotification
+                                               object:nil];
+    
 }
 
 -(BOOL) textFieldShouldReturn:(UITextField *)textField{
@@ -61,16 +72,36 @@
     return YES;
 }
 
+- (void)keyboardDidShow: (NSNotification *) notification {
+    
+    // Get the size of the keyboard.
+    NSDictionary* info = [notification userInfo];
+    NSValue* aValue = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
+    CGSize keyboardSize = [aValue CGRectValue].size;
+    
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.25];
+    self.view.frame = CGRectMake(0, -keyboardSize.height, self.view.frame.size.width, self.view.frame.size.height);
+    [UIView commitAnimations];
+}
+
+- (void)keyboardDidHide: (NSNotification *) notification {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.25];
+    self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    [UIView commitAnimations];
+}
+
 - (IBAction)sendEmailBtn:(id)sender {
         if ([MFMailComposeViewController canSendMail]) {
             MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
             mailer.mailComposeDelegate = self;
             [mailer setSubject:@"Prospective student"];
-            NSArray *toRecipients = [NSArray arrayWithObjects:@"admissions@ecuad.ca", @"jessecolinscott@gmail.com", nil];
+            NSArray *toRecipients = [NSArray arrayWithObjects:@"admissions@ecuad.ca", @"jcscott@ecuad.ca", nil];
             [mailer setToRecipients:toRecipients];
             NSString *nameMessage = [NSString stringWithFormat:@"Name of Prospective Student: %@ %@\r", self.firstNameField.text,self.lastNameField.text];
             NSString *questionMessage = [NSString stringWithFormat:@"Message: %@ \r", self.messageField.text];
-            NSString *emailBody = [NSString stringWithFormat:@"%@ %@", nameMessage, questionMessage];
+            NSString *emailBody = [NSString stringWithFormat:@"%@\r%@", nameMessage, questionMessage];
             [mailer setMessageBody:emailBody isHTML:NO];
             [self presentViewController:mailer animated:YES completion:nil];
         }

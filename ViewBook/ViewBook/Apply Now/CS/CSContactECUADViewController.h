@@ -17,6 +17,7 @@
     // Custom Font
     UIFont *titleFont, *paragraphFont;
     
+    
 }
 
 // Email Forms
@@ -29,6 +30,9 @@
 
 // Main Paragraph
 @property (weak, nonatomic) IBOutlet UITextView *mainParagraph;
+
+// Scrolling
+@property CGPoint originalCenter;
 
 // Back To Main Menu
 - (IBAction)back:(id)sender;
