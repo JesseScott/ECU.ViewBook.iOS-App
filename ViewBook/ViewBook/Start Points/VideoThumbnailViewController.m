@@ -40,9 +40,9 @@
     bottomLabel.font = labelFont;
     
     // Color Font
-    [topLabel setTextColor:[UIColor colorWithRed:0 green:174 blue:239 alpha:255]];
-    [middleLabel setTextColor:[UIColor colorWithRed:0 green:174 blue:239 alpha:255]];
-    [bottomLabel setTextColor:[UIColor colorWithRed:0 green:174 blue:239 alpha:255]];
+    [topLabel setTextColor:[UIColor colorWithRed:(31/255.0) green:(170/255.0) blue:(237/255.0) alpha:255]];
+    [middleLabel setTextColor:[UIColor colorWithRed:(31/255.0) green:(170/255.0) blue:(237/255.0) alpha:255]];
+    [bottomLabel setTextColor:[UIColor colorWithRed:(31/255.0) green:(170/255.0) blue:(237/255.0) alpha:255]];
     
 }
 
