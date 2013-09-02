@@ -27,48 +27,62 @@
 }
 
 -(id)initWithURL:(NSString*)url {
+    NSLog(@"IWU");
     vimeoURL = [[NSString alloc] initWithString:url];
     //NSLog(@"The URL received is %@", vimeoURL);
     return self;
 }
 
--(void)viewWillAppear:(BOOL)animated {
-    //
-    if ([UIDevice instancesRespondToSelector:@selector(setOrientation:)]) {
-        //[[UIDevice currentDevice] setOrientation:UIInterfaceOrientationPortrait];
-    }
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-        
+    
+    NSLog(@"VDA");
+    
     // Embed the Video
     [self embedVimeo];
-
+    
+    // Notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoStarted:) name:@"UIMoviePlayerControllerDidEnterFullscreenNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoFinished:) name:@"UIMoviePlayerControllerDidExitFullscreenNotification" object:nil];
     
 }
 
--(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-    if ((toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight)) {
-        return YES;
-    }
-    else {
-        return NO;
-    }
+// Notifications
+
+-(void)videoStarted:(NSNotification *)notification{
+    NSLog(@"Started");
+}
+
+-(void)videoFinished:(NSNotification *)notification{
+    NSLog(@"Finished");
 }
 
 
+// Orientation
+
+- (BOOL)shouldAutorotate {
+    NSLog(@"SAR");
+    return NO;
+}
+/*
+- (NSUInteger)supportedInterfaceOrientations{
+    NSLog(@"SIO");
+    return UIInterfaceOrientationMaskAll;
+}
+*/
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    NSLog(@"PIOFP");
+    return UIInterfaceOrientationLandscapeLeft;
+}
 
 
 -(void)embedVimeo {
-    
     NSString *pre = @"<iframe width=\"300\" height=\"250\" src=\"http://player.vimeo.com/video/";
     NSString *post = @"\" frameborder=\"0\" allowfullscreen></iframe>";
-    
     NSString *embedHTML = [NSString stringWithFormat:@"%@%@%@", pre, vimeoURL, post];
     
     [webView loadHTMLString:embedHTML baseURL:nil];
+
 }
 
 

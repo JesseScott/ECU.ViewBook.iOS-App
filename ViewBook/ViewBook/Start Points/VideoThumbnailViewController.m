@@ -51,9 +51,34 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+// Orientation
+/*
+- (BOOL)shouldAutorotate {
+    NSLog(@"SAR");
+    return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations{
+    NSLog(@"SIO");
+    return UIInterfaceOrientationMaskAll;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    NSLog(@"PIOFP");
+    return UIInterfaceOrientationLandscapeLeft;
+}
+*/
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"playVimeo"]) {
+        
+        //UIViewController *portraitViewController = [[UIViewController alloc] init];
+        //UINavigationController* nc = [[UINavigationController alloc] initWithRootViewController:portraitViewController];
+        //[self.navigationController presentModalViewController:nc animated:NO];
+        //[self.navigationController dismissModalViewControllerAnimated:NO];
+        
         WebViewViewController *controller = (WebViewViewController *)segue.destinationViewController;
+        //UINavigationController* nc = [[UINavigationController alloc] initWithRootViewController:controller];
         controller.vimeoURL = vimeoURL;
     }
 }
