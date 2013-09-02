@@ -46,6 +46,9 @@
     pageTitle.text = [screenNames objectAtIndex:screenIndex];
     pageTitle.font = titleFont;
     
+    // Set Color Of Title
+    pageTitle.textColor = [UIColor colorWithRed:(72/255.0) green:(89/255.0) blue:(86/255.0) alpha:255];
+    
     // Load Text File For Main Paragraph
     NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"IndustryEngagement" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];

@@ -45,6 +45,9 @@
     pageTitle.text = [screenNames objectAtIndex:screenIndex];
     pageTitle.font = titleFont;
     
+    // Set Color Of Title
+    pageTitle.textColor = [UIColor colorWithRed:(72/255.0) green:(89/255.0) blue:(86/255.0) alpha:255];
+    
     // Load Text File
     NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"GRContactUs" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToFile encoding:NSUTF8StringEncoding error:NULL];
@@ -99,8 +102,8 @@
         [mailer setSubject:@"Prospective student"];
         NSArray *toRecipients = [NSArray arrayWithObjects:@"masters@ecuad.ca", @"jcscott@ecuad.ca", nil];
         [mailer setToRecipients:toRecipients];
-        NSString *nameMessage = [NSString stringWithFormat:@"Name of Prospective Student: %@ %@\r", self.firstNameField.text,self.lastNameField.text];
-        NSString *questionMessage = [NSString stringWithFormat:@"Message: %@ \r", self.messageField.text];
+        NSString *nameMessage = [NSString stringWithFormat:@"\nName of Prospective Student: %@ %@\n", self.firstNameField.text,self.lastNameField.text];
+        NSString *questionMessage = [NSString stringWithFormat:@"\nMessage: %@ \n", self.messageField.text];
         NSString *emailBody = [NSString stringWithFormat:@"%@ %@", nameMessage, questionMessage];
         [mailer setMessageBody:emailBody isHTML:NO];
         [self presentViewController:mailer animated:YES completion:nil];

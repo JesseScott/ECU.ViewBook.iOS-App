@@ -46,6 +46,9 @@
     pageTitle.text = [screenNames objectAtIndex:screenIndex];
     pageTitle.font = titleFont;
     
+    // Set Color Of Title
+    pageTitle.textColor = [UIColor colorWithRed:(255/255.0) green:(240/255.0) blue:(100/255.0) alpha:255];
+    
     // Load Text File
     NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"GRPortfolioRequirements" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToFile encoding:NSUTF8StringEncoding error:NULL];

@@ -35,10 +35,11 @@
     csButton.titleLabel.font = buttonFont;
     
     // Set Colors
+    /*
     [undergradButton setTitleColor:[UIColor colorWithRed:141 green:207 blue:105 alpha:255] forState:UIControlStateNormal];
     [graduateButton setTitleColor:[UIColor colorWithRed:0 green:174 blue:239 alpha:255] forState:UIControlStateNormal];
     [csButton setTitleColor:[UIColor colorWithRed:248 green:78 blue:87 alpha:255] forState:UIControlStateNormal];
-    
+    */
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,33 +49,16 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"pushToUndegradCourses"]) {
-        NSLog(@"Undergrad Segue");
         //UIViewController *controller = (UIViewController *)segue.destinationViewController;
     }
     else if([segue.identifier isEqualToString:@"pushToGraduateCourses"]) {
-        NSLog(@"Grad Segue");
         //UIViewController *controller = (UIViewController *)segue.destinationViewController;
     }
     else if([segue.identifier isEqualToString:@"pushToCSCourses"]) {
-        NSLog(@"CS Segue");
         //UIViewController *controller = (UIViewController *)segue.destinationViewController;
     }
 }
 
-- (IBAction)launchUndergrad:(id)sender {
-    NSLog(@"Undergrad Button");
-    [self performSegueWithIdentifier:@"pushToGraduateCourses" sender:sender];
-}
-
-- (IBAction)launchGraduate:(id)sender {
-    NSLog(@"Grad Button");
-    [self performSegueWithIdentifier:@"pushToGraduateCourses" sender:sender];
-}
-
-- (IBAction)launchCS:(id)sender {
-    NSLog(@"CS Button");
-    [self performSegueWithIdentifier:@"pushToCSCourses" sender:sender];
-}
 
 - (IBAction)back:(id)sender {
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];

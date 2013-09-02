@@ -43,6 +43,9 @@
     courseTitle.text = [screenNames objectAtIndex:screenIndex];
     courseTitle.font = titleFont;
     
+    // Set Color Of Title
+    courseTitle.textColor = [UIColor colorWithRed:(142/255.0) green:(208/255.0) blue:(197/255.0) alpha:255];
+    
     // Load Text File For Main Paragraph
     NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"CS Essentials" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToTextFile encoding:NSUTF8StringEncoding error:NULL];
