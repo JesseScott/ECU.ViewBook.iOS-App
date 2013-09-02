@@ -12,8 +12,9 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="splash_page-568@2x.png" id="FSt-Qg-JD5">
-                                <rect key="frame" x="-13" y="0.0" width="346" height="548"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="splash_page-568@2x.png" id="dVm-X8-NI6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

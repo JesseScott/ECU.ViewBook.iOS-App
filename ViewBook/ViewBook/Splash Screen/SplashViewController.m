@@ -21,10 +21,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    start = [[UIImage alloc] initWithContentsOfFile:@"start.png"];
+    /*
+    // Load Image
+    splashImage = [[UIImage alloc] init];
+    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+    if ([UIScreen mainScreen].scale == 2.f && screenHeight == 568.0f) {
+        splashImage = [UIImage imageNamed:@"splash_page-568h.png"];
+    } else {
+        splashImage = [UIImage imageNamed:@"splash_page.png"];
+    }
+    
+    // Create ImageView
+    splashView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height)];
+    //splashView = [[UIImageView alloc] initWithImage:splashImage];
+    splashView.image = splashImage;
+    
+    // Assign ImageView To UIView
+    [self.view addSubview:splashView];
+    */
     
     // Timer
-    // RX edtied timer to make loading faster
     if(self.timer == nil) {
         self.timer = [NSTimer scheduledTimerWithTimeInterval:4.0 target:self selector:@selector(switchView) userInfo:nil repeats:NO];
     }
@@ -35,9 +51,6 @@
 
 // Switch View
 - (void) switchView {
-
-    // Segue
-    //[self performSegueWithIdentifier:@"timerDone" sender:self];
     
     // Load New Storyboard
     UIStoryboard *newStoryboard = [UIStoryboard storyboardWithName:@"MainMenu" bundle:nil];
@@ -57,4 +70,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
 @end

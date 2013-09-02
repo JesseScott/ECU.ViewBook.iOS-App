@@ -14,7 +14,9 @@
     // Timer To Control Animation To Next Screen
     NSTimer *timer;
     
-    UIImage *start;
+    // Splash Image
+    UIImage *splashImage;
+    UIImageView *splashView;
     
 }
 
