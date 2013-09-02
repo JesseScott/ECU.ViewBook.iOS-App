@@ -63,39 +63,60 @@
     
     // Text Attributes
     self.caption.textColor = [UIColor blackColor];
-    self.caption.lineBreakMode = NSLineBreakByWordWrapping;
-    self.caption.numberOfLines = 2;
-    self.caption.layer.shadowColor = [self.caption.textColor CGColor];
-    self.caption.layer.shadowOffset = CGSizeMake(1.0, 1.0);
-    self.caption.layer.masksToBounds = NO;
-    
+    NSMutableParagraphStyle *paragrahStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragrahStyle setLineSpacing:-2];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:[self.captionText objectAtIndex:self.swipeCount]];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragrahStyle range:NSMakeRange(0, caption.text.length)];
+    caption.attributedText = attributedString ;
     
     // Set Gestures and load first image and caption
-    self.swipeCount=0;
+    self.swipeCount = 0;
     [slideshow setImage:[self.students objectAtIndex:self.swipeCount]];
-    self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
     
+    // Add Swipe Detection
     [self.view addGestureRecognizer:self.leftSwipe];
     [self.view addGestureRecognizer:self.rightSwipe];
     
 }
 - (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
     NSLog(@"left swipe");
-    if(self.swipeCount < self.students.count-1){
-        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.students.count-1);
-        self.swipeCount=self.swipeCount+1;
+    if(self.swipeCount < self.students.count - 1) {
+        //NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.campus.count-1);
+        
+        // Set Index
+        self.swipeCount = self.swipeCount + 1;
+        
+        // Set Image
         [slideshow setImage:[self.students objectAtIndex:self.swipeCount]];
-        self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
+        
+        // Set Text
+        NSMutableParagraphStyle *paragrahStyle = [[NSMutableParagraphStyle alloc] init];
+        [paragrahStyle setLineSpacing:-2];
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:[self.captionText objectAtIndex:self.swipeCount]];
+        NSString *len = [[NSString alloc] initWithString:[self.captionText objectAtIndex:self.swipeCount]];
+        [attributedString addAttribute:NSParagraphStyleAttributeName value:paragrahStyle range:NSMakeRange(0, len.length)];
+        caption.attributedText = attributedString ;
     }
 }
 
 - (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
     NSLog(@"right swipe");
-    if(self.swipeCount > 0){
-        NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.students.count-1);
-        self.swipeCount=self.swipeCount-1;
+    if(self.swipeCount > 0) {
+        //NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.campus.count-1);
+        
+        // Set Index
+        self.swipeCount = self.swipeCount - 1;
+        
+        // Set Image
         [slideshow setImage:[self.students objectAtIndex:self.swipeCount]];
-        self.caption.text = [self.captionText objectAtIndex:self.swipeCount];
+        
+        // Set Text
+        NSMutableParagraphStyle *paragrahStyle = [[NSMutableParagraphStyle alloc] init];
+        [paragrahStyle setLineSpacing:-2];
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:[self.captionText objectAtIndex:self.swipeCount]];
+        NSString *len = [[NSString alloc] initWithString:[self.captionText objectAtIndex:self.swipeCount]];
+        [attributedString addAttribute:NSParagraphStyleAttributeName value:paragrahStyle range:NSMakeRange(0, len.length)];
+        caption.attributedText = attributedString ;
     }
 }
 
