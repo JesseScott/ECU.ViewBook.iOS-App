@@ -29,7 +29,7 @@
     [super viewDidLoad];
 	
     // Set Screen Index
-    screenIndex = 0;
+    screenIndex = 2;
     
     // Load Fonts
     titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
