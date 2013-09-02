@@ -65,10 +65,10 @@
     // Declare Mutable String
     NSMutableAttributedString *richString = [[NSMutableAttributedString alloc] initWithString:fileContent attributes:normalText];
     
-    // Set Attributed Ranges
-    [richString setAttributes:boldText range:NSMakeRange(0, 26)];
-    [richString setAttributes:boldText range:NSMakeRange(461, 28)];
-    [richString setAttributes:boldText range:NSMakeRange(782, 48)];
+    // Set Attributed Ranges For Sub-Headings
+    [richString setAttributes:boldText range:NSMakeRange(0, 26)]; // Communications
+    [richString setAttributes:boldText range:NSMakeRange(541, 27)]; // Industrial
+    [richString setAttributes:boldText range:NSMakeRange(1120, 27)]; // Iteraction
     
     // Set Text File To Main Paragraph Label
     courseDescription.editable = NO;

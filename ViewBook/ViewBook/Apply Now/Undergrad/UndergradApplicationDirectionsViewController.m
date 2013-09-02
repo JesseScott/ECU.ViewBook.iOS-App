@@ -37,6 +37,7 @@
     // Load Fonts
     titleFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:22];
     paragraphFont = [UIFont fontWithName:@"Leitura Sans" size:18];
+    sectionHeaderFont = [UIFont fontWithName:@"LeituraSans-Grot2" size:18];
     
     // Load PList For Page Title
     NSString *pathToPlistFile = [[NSBundle mainBundle] pathForResource:@"ApplyNowScreenNames" ofType:@"plist"];
@@ -53,8 +54,30 @@
     NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"UGApplicationDirections" ofType:@"txt"];
     NSString *fileContent = [NSString stringWithContentsOfFile:pathToFile encoding:NSUTF8StringEncoding error:NULL];
     
-    // Set Text File To Label
-    mainParagraph.text = fileContent;
+    // Set Attributes
+    UIColor *foregroundColor = [UIColor blackColor];
+    
+    NSDictionary *normalText = [NSDictionary dictionaryWithObjectsAndKeys:
+                                paragraphFont, NSFontAttributeName,
+                                foregroundColor, NSForegroundColorAttributeName, nil];
+    
+    NSDictionary *boldText = [NSDictionary dictionaryWithObjectsAndKeys:
+                              sectionHeaderFont, NSFontAttributeName,
+                              foregroundColor, NSForegroundColorAttributeName, nil];
+    
+    // Declare Mutable String
+    NSMutableAttributedString *richString = [[NSMutableAttributedString alloc] initWithString:fileContent attributes:normalText];
+    
+    // Set Attributed Ranges For Sub-Headings
+    [richString setAttributes:boldText range:NSMakeRange(0, 7)]; // Step 1
+    [richString setAttributes:boldText range:NSMakeRange(75, 7)]; // Step 2
+    [richString setAttributes:boldText range:NSMakeRange(154, 7)]; // Step 3
+    [richString setAttributes:boldText range:NSMakeRange(264, 7)]; // Step 4
+    [richString setAttributes:boldText range:NSMakeRange(309, 7)]; // Step 5
+    
+    // Set Text File To Main Paragraph Label
+    mainParagraph.editable = NO;
+    mainParagraph.attributedText = richString;
     mainParagraph.font = paragraphFont;
     
 }

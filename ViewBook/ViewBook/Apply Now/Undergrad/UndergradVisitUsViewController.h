@@ -14,7 +14,7 @@
     NSInteger screenIndex;
     
     // Custom Font
-    UIFont *titleFont, *paragraphFont;
+    UIFont *titleFont, *paragraphFont, *sectionHeaderFont;
     
 }
 
