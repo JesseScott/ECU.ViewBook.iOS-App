@@ -149,6 +149,8 @@
 		2D47AD5017921513003D5D8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD4E17921513003D5D8B /* InfoPlist.strings */; };
 		2D47AD5317921513003D5D8B /* ViewBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47AD5217921513003D5D8B /* ViewBookTests.m */; };
 		2D47AD6117921B5D003D5D8B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47AD6017921B5D003D5D8B /* MainMenuViewController.m */; };
+		2D4F9F8017D5381A00D527B0 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F9F7F17D5381A00D527B0 /* back_arrow.png */; };
+		2D4F9F8117D5381A00D527B0 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4F9F7F17D5381A00D527B0 /* back_arrow.png */; };
 		2D7428E117D3E23B007D72A0 /* ApplyNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */; };
 		2D7428E217D3E23B007D72A0 /* ApplyNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */; };
 		2D77C39A17D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D77C39917D2B7FE005BFF53 /* BachelorsMediaArtsViewController.m */; };
@@ -436,6 +438,7 @@
 		2D47AD5217921513003D5D8B /* ViewBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBookTests.m; sourceTree = "<group>"; };
 		2D47AD5F17921B5D003D5D8B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = "Main Menu/MainMenuViewController.h"; sourceTree = "<group>"; };
 		2D47AD6017921B5D003D5D8B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = "Main Menu/MainMenuViewController.m"; sourceTree = "<group>"; };
+		2D4F9F7F17D5381A00D527B0 /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_arrow.png; path = "ViewBook/Assets/Back Button/back_arrow.png"; sourceTree = SOURCE_ROOT; };
 		2D7428DF17D3E23B007D72A0 /* ApplyNowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyNowViewController.h; path = "Apply Now/ApplyNowViewController.h"; sourceTree = "<group>"; };
 		2D7428E017D3E23B007D72A0 /* ApplyNowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyNowViewController.m; path = "Apply Now/ApplyNowViewController.m"; sourceTree = "<group>"; };
 		2D77C39817D2B7FE005BFF53 /* BachelorsMediaArtsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BachelorsMediaArtsViewController.h; path = "Make Paths/Undergrad/BachelorsMediaArtsViewController.h"; sourceTree = "<group>"; };
@@ -573,6 +576,7 @@
 		2D03832D17D013A100E7E740 /* Back Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				2D4F9F7F17D5381A00D527B0 /* back_arrow.png */,
 				2D88485F17D3DF4F004F5E24 /* back_button_image.png */,
 				2D88486017D3DF4F004F5E24 /* back_button_image@2x.png */,
 				2D88486117D3DF4F004F5E24 /* back_button_text.png */,
@@ -1353,6 +1357,7 @@
 				2D45345617D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */,
 				2D45345817D44ACD00C63BB7 /* splash_page@2x.png in Resources */,
 				2D45345B17D463F400C63BB7 /* CS About.txt in Resources */,
+				2D4F9F8017D5381A00D527B0 /* back_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1475,6 +1480,7 @@
 				2D45345717D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */,
 				2D45345917D44ACD00C63BB7 /* splash_page@2x.png in Resources */,
 				2D45345C17D463F400C63BB7 /* CS About.txt in Resources */,
+				2D4F9F8117D5381A00D527B0 /* back_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

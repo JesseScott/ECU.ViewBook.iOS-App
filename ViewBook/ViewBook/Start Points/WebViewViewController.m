@@ -72,7 +72,8 @@
 */
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
     NSLog(@"PIOFP");
-    return UIInterfaceOrientationLandscapeLeft;
+    //return UIInterfaceOrientationLandscapeLeft;
+    return UIInterfaceOrientationPortrait;
 }
 
 
