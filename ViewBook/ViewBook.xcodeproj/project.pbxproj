@@ -127,6 +127,12 @@
 		2D45134517D27392007CBDCF /* MastersDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45134317D27392007CBDCF /* MastersDesignViewController.m */; };
 		2D45134817D273A2007CBDCF /* MastersDigitalMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45134717D273A2007CBDCF /* MastersDigitalMediaViewController.m */; };
 		2D45134917D273A2007CBDCF /* MastersDigitalMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45134717D273A2007CBDCF /* MastersDigitalMediaViewController.m */; };
+		2D45345617D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345417D44ACD00C63BB7 /* splash_page-568@2x.png */; };
+		2D45345717D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345417D44ACD00C63BB7 /* splash_page-568@2x.png */; };
+		2D45345817D44ACD00C63BB7 /* splash_page@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345517D44ACD00C63BB7 /* splash_page@2x.png */; };
+		2D45345917D44ACD00C63BB7 /* splash_page@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345517D44ACD00C63BB7 /* splash_page@2x.png */; };
+		2D45345B17D463F400C63BB7 /* CS About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345A17D463F400C63BB7 /* CS About.txt */; };
+		2D45345C17D463F400C63BB7 /* CS About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D45345A17D463F400C63BB7 /* CS About.txt */; };
 		2D47AD1F17921513003D5D8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD1E17921513003D5D8B /* UIKit.framework */; };
 		2D47AD2117921513003D5D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD2017921513003D5D8B /* Foundation.framework */; };
 		2D47AD2317921513003D5D8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D47AD2217921513003D5D8B /* CoreGraphics.framework */; };
@@ -307,15 +313,12 @@
 		2DF36C2D17C34402006B0994 /* studios_slideshow_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF36C0317C34402006B0994 /* studios_slideshow_05.png */; };
 		2DF36C3017C346B7006B0994 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF36C2F17C346B7006B0994 /* WebViewViewController.m */; };
 		2DF36C3117C346B7006B0994 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF36C2F17C346B7006B0994 /* WebViewViewController.m */; };
-		79896D2E17CEB91E000B747D /* UnderGraduateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79896D2D17CEB91E000B747D /* UnderGraduateViewController.m */; };
 		79CEE42117CFDE1400C9D12B /* GraduateCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */; };
 		79CEE42217CFDE1400C9D12B /* GraduateCourses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */; };
 		79CEE42417CFE28A00C9D12B /* ContinuingStudies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */; };
 		79CEE42517CFE28A00C9D12B /* ContinuingStudies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */; };
 		79CEE42717CFE4A500C9D12B /* Foundation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42617CFE4A500C9D12B /* Foundation.plist */; };
 		79CEE42817CFE4A500C9D12B /* Foundation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79CEE42617CFE4A500C9D12B /* Foundation.plist */; };
-		79CEE4A417D005BE00C9D12B /* GraduateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A317D005BE00C9D12B /* GraduateViewController.m */; };
-		79CEE4A717D0073700C9D12B /* ContinuingStudiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A617D0073600C9D12B /* ContinuingStudiesViewController.m */; };
 		79CEE4AA17D0088300C9D12B /* FoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE4A917D0088300C9D12B /* FoundationViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -407,6 +410,9 @@
 		2D45134317D27392007CBDCF /* MastersDesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MastersDesignViewController.m; path = "Make Paths/Graduate/MastersDesignViewController.m"; sourceTree = "<group>"; };
 		2D45134617D273A2007CBDCF /* MastersDigitalMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MastersDigitalMediaViewController.h; path = "Make Paths/Graduate/MastersDigitalMediaViewController.h"; sourceTree = "<group>"; };
 		2D45134717D273A2007CBDCF /* MastersDigitalMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MastersDigitalMediaViewController.m; path = "Make Paths/Graduate/MastersDigitalMediaViewController.m"; sourceTree = "<group>"; };
+		2D45345417D44ACD00C63BB7 /* splash_page-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash_page-568@2x.png"; path = "Assets/Splash Screen/splash_page-568@2x.png"; sourceTree = "<group>"; };
+		2D45345517D44ACD00C63BB7 /* splash_page@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash_page@2x.png"; path = "Assets/Splash Screen/splash_page@2x.png"; sourceTree = "<group>"; };
+		2D45345A17D463F400C63BB7 /* CS About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CS About.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/ContinuingStudies/CS About.txt"; sourceTree = SOURCE_ROOT; };
 		2D47AD1B17921513003D5D8B /* ViewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47AD1E17921513003D5D8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D47AD2017921513003D5D8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -532,15 +538,9 @@
 		2DF36C0317C34402006B0994 /* studios_slideshow_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = studios_slideshow_05.png; sourceTree = "<group>"; };
 		2DF36C2E17C346B7006B0994 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewViewController.h; path = "Start Points/WebViewViewController.h"; sourceTree = "<group>"; };
 		2DF36C2F17C346B7006B0994 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewViewController.m; path = "Start Points/WebViewViewController.m"; sourceTree = "<group>"; };
-		79896D2C17CEB91E000B747D /* UnderGraduateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnderGraduateViewController.h; path = "Make Paths/Undergrad/UnderGraduateViewController.h"; sourceTree = "<group>"; };
-		79896D2D17CEB91E000B747D /* UnderGraduateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnderGraduateViewController.m; path = "Make Paths/Undergrad/UnderGraduateViewController.m"; sourceTree = "<group>"; };
 		79CEE42017CFDE1400C9D12B /* GraduateCourses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GraduateCourses.plist; path = "Assets/Property Lists/GraduateCourses.plist"; sourceTree = "<group>"; };
 		79CEE42317CFE28A00C9D12B /* ContinuingStudies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ContinuingStudies.plist; path = "Assets/Property Lists/ContinuingStudies.plist"; sourceTree = "<group>"; };
 		79CEE42617CFE4A500C9D12B /* Foundation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Foundation.plist; path = "Assets/Property Lists/Foundation.plist"; sourceTree = "<group>"; };
-		79CEE4A217D005BE00C9D12B /* GraduateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduateViewController.h; path = "Make Paths/Graduate/GraduateViewController.h"; sourceTree = "<group>"; };
-		79CEE4A317D005BE00C9D12B /* GraduateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduateViewController.m; path = "Make Paths/Graduate/GraduateViewController.m"; sourceTree = "<group>"; };
-		79CEE4A517D0073600C9D12B /* ContinuingStudiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinuingStudiesViewController.h; path = "Make Paths/CS/ContinuingStudiesViewController.h"; sourceTree = "<group>"; };
-		79CEE4A617D0073600C9D12B /* ContinuingStudiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContinuingStudiesViewController.m; path = "Make Paths/CS/ContinuingStudiesViewController.m"; sourceTree = "<group>"; };
 		79CEE4A817D0088300C9D12B /* FoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoundationViewController.h; path = "Make Paths/Undergrad/FoundationViewController.h"; sourceTree = "<group>"; };
 		79CEE4A917D0088300C9D12B /* FoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoundationViewController.m; path = "Make Paths/Undergrad/FoundationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -734,8 +734,6 @@
 		2D45132F17D27306007CBDCF /* CS */ = {
 			isa = PBXGroup;
 			children = (
-				79CEE4A517D0073600C9D12B /* ContinuingStudiesViewController.h */,
-				79CEE4A617D0073600C9D12B /* ContinuingStudiesViewController.m */,
 				2D45133217D27338007CBDCF /* TeenProgramsViewController.h */,
 				2D45133317D27338007CBDCF /* TeenProgramsViewController.m */,
 				2D45133617D2734C007CBDCF /* EssentialsProgramsViewController.h */,
@@ -749,8 +747,6 @@
 		2D45133017D2730F007CBDCF /* Grad */ = {
 			isa = PBXGroup;
 			children = (
-				79CEE4A217D005BE00C9D12B /* GraduateViewController.h */,
-				79CEE4A317D005BE00C9D12B /* GraduateViewController.m */,
 				2D45133E17D27372007CBDCF /* MastersAppliedArtsViewController.h */,
 				2D45133F17D27372007CBDCF /* MastersAppliedArtsViewController.m */,
 				2D45134217D27392007CBDCF /* MastersDesignViewController.h */,
@@ -764,8 +760,6 @@
 		2D45133117D27316007CBDCF /* Undergrad */ = {
 			isa = PBXGroup;
 			children = (
-				79896D2C17CEB91E000B747D /* UnderGraduateViewController.h */,
-				79896D2D17CEB91E000B747D /* UnderGraduateViewController.m */,
 				79CEE4A817D0088300C9D12B /* FoundationViewController.h */,
 				79CEE4A917D0088300C9D12B /* FoundationViewController.m */,
 				2D77C39C17D2B84A005BFF53 /* BachelorsDesignViewController.h */,
@@ -1050,6 +1044,8 @@
 		2DCCA0AC17C1C45A00B81172 /* Splash Screen */ = {
 			isa = PBXGroup;
 			children = (
+				2D45345417D44ACD00C63BB7 /* splash_page-568@2x.png */,
+				2D45345517D44ACD00C63BB7 /* splash_page@2x.png */,
 				2DC2FE6617D3E81C0017B6FC /* splash_page.png */,
 			);
 			name = "Splash Screen";
@@ -1126,8 +1122,8 @@
 			isa = PBXGroup;
 			children = (
 				79CEE47917CFFF4C00C9D12B /* Undergraduate */,
-				79CEE46F17CFF01B00C9D12B /* ContinuingStudies */,
 				79CEE42C17CFEEAD00C9D12B /* Graduate */,
+				79CEE46F17CFF01B00C9D12B /* ContinuingStudies */,
 			);
 			name = "Make Paths";
 			path = "Assets/Text Copy/Courses";
@@ -1146,6 +1142,7 @@
 		79CEE46F17CFF01B00C9D12B /* ContinuingStudies */ = {
 			isa = PBXGroup;
 			children = (
+				2D45345A17D463F400C63BB7 /* CS About.txt */,
 				2D35BC7617D3C532005F88EC /* CS Essentials.txt */,
 				2D35BC7717D3C532005F88EC /* CS Teens.txt */,
 				2D35BC7817D3C532005F88EC /* CS Welcome.txt */,
@@ -1353,6 +1350,9 @@
 				2DC2FE6717D3E81C0017B6FC /* splash_page.png in Resources */,
 				2DC2FE7117D3E9110017B6FC /* icon.png in Resources */,
 				2DC2FE7317D3E9180017B6FC /* icon@2x.png in Resources */,
+				2D45345617D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */,
+				2D45345817D44ACD00C63BB7 /* splash_page@2x.png in Resources */,
+				2D45345B17D463F400C63BB7 /* CS About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1472,6 +1472,9 @@
 				2D88486A17D3DF4F004F5E24 /* back_button_text@2x.png in Resources */,
 				2DC2FE6517D3E6CA0017B6FC /* contents_page_people.png in Resources */,
 				2DC2FE6817D3E81C0017B6FC /* splash_page.png in Resources */,
+				2D45345717D44ACD00C63BB7 /* splash_page-568@2x.png in Resources */,
+				2D45345917D44ACD00C63BB7 /* splash_page@2x.png in Resources */,
+				2D45345C17D463F400C63BB7 /* CS About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1518,9 +1521,6 @@
 				2DAE88CD17C733190034B8C8 /* XMLParser.m in Sources */,
 				2D44017B17CB1A2900F1079B /* GNWViewController.m in Sources */,
 				2D1D722C17CB27DF00C3DBE3 /* VideoThumbnailViewController.m in Sources */,
-				79896D2E17CEB91E000B747D /* UnderGraduateViewController.m in Sources */,
-				79CEE4A417D005BE00C9D12B /* GraduateViewController.m in Sources */,
-				79CEE4A717D0073700C9D12B /* ContinuingStudiesViewController.m in Sources */,
 				79CEE4AA17D0088300C9D12B /* FoundationViewController.m in Sources */,
 				2D03834217D019C900E7E740 /* UndergradVisitUsViewController.m in Sources */,
 				2D45133417D27338007CBDCF /* TeenProgramsViewController.m in Sources */,

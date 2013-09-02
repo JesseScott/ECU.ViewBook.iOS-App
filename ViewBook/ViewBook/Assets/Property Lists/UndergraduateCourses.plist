@@ -3,9 +3,9 @@
 <plist version="1.0">
 <array>
 	<string>foundation</string>
-	<string>bachelor of design</string>
-	<string>bachelor of media arts</string>
-	<string>bachelor of fine arts</string>
-	<string>minors</string>
+	<string>bachelor of design majors</string>
+	<string>bachelor of media arts majors</string>
+	<string>bachelor of fine arts majors</string>
+	<string>minors - all degrees</string>
 </array>
 </plist>
