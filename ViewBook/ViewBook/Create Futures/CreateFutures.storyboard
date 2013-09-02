@@ -34,22 +34,22 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Alumni Survey" id="Ul8-fY-Oop"/>
                     <connections>
-                        <outlet property="leftSwipe" destination="wru-Ey-3vI" id="WCF-nM-xRl"/>
-                        <outlet property="rightSwipe" destination="97u-l7-x56" id="UEd-dA-HsV"/>
+                        <outlet property="leftSwipe" destination="u9A-Zn-Zcs" id="eOa-U2-bwP"/>
+                        <outlet property="rightSwipe" destination="B75-fO-UKY" id="ql3-qZ-HJN"/>
                         <outlet property="slideshow" destination="PmT-R5-FMD" id="q7e-qB-IsR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RM5-ZJ-C5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="97u-l7-x56">
+                <swipeGestureRecognizer direction="right" id="B75-fO-UKY">
                     <connections>
-                        <action selector="nextImage:" destination="WNA-Mu-uRf" id="hTi-Zo-jX3"/>
-                        <outlet property="delegate" destination="WNA-Mu-uRf" id="C8f-gR-i2k"/>
+                        <action selector="previousImage:" destination="WNA-Mu-uRf" id="mB3-fG-sLv"/>
+                        <outlet property="delegate" destination="WNA-Mu-uRf" id="8Ta-ke-42X"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="wru-Ey-3vI">
+                <swipeGestureRecognizer direction="left" id="u9A-Zn-Zcs">
                     <connections>
-                        <action selector="previousImage:" destination="WNA-Mu-uRf" id="yxK-Q4-yMl"/>
-                        <outlet property="delegate" destination="WNA-Mu-uRf" id="E5G-TR-6ST"/>
+                        <action selector="nextImage:" destination="WNA-Mu-uRf" id="b2y-zj-6y3"/>
+                        <outlet property="delegate" destination="WNA-Mu-uRf" id="xXp-Pd-m74"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -97,6 +97,9 @@
                                     <action selector="back:" destination="1MH-BX-af0" eventType="touchUpInside" id="8C6-XW-nxO"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="RfB-th-5UB">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -132,6 +135,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back_arrow.png" width="673" height="38"/>
         <image name="back_button_image.png" width="75" height="75"/>
         <image name="back_button_text.png" width="75" height="75"/>
     </resources>

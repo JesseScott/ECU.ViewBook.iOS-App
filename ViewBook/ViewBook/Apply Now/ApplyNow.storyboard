@@ -71,6 +71,9 @@
                                     <action selector="back:" destination="tr3-4t-hCk" eventType="touchUpInside" id="Szj-ui-GZM"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="veW-T2-nD2">
+                                <rect key="frame" x="68" y="8" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -122,6 +125,9 @@
                                     <action selector="back:" destination="nFz-il-ifi" eventType="touchUpInside" id="qhJ-xr-JmK"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="EaV-Hd-nw6">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -173,6 +179,9 @@
                                     <action selector="back:" destination="Q2k-PM-ojI" eventType="touchUpInside" id="THx-3i-lzB"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="92p-pS-ESi">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -209,7 +218,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NLS-MF-8zX">
-                                <rect key="frame" x="25" y="57" width="230" height="34"/>
+                                <rect key="frame" x="25" y="48" width="230" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -225,7 +234,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c01-EX-QOI">
-                                <rect key="frame" x="195" y="436" width="105" height="44"/>
+                                <rect key="frame" x="212" y="436" width="88" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Send Email">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -263,6 +272,12 @@
                                     <outlet property="delegate" destination="mrV-Al-iMM" id="3n3-e8-1SD"/>
                                 </connections>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="opl-h1-DPD">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow6.png" id="zYe-uk-Dle">
+                                <rect key="frame" x="20" y="441" width="184" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -318,7 +333,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m2u-n5-ARl">
-                                <rect key="frame" x="195" y="436" width="105" height="44"/>
+                                <rect key="frame" x="207" y="436" width="88" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Send Email">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -356,6 +371,12 @@
                                     <outlet property="delegate" destination="hLK-DO-BWh" id="Sst-S3-cdb"/>
                                 </connections>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="Yfg-pr-GL5">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow6.png" id="2Qj-CD-hjr">
+                                <rect key="frame" x="20" y="441" width="179" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -410,6 +431,9 @@
                                     <action selector="back:" destination="gEx-LN-wgJ" eventType="touchUpInside" id="hDT-TL-3Jh"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="O9r-5u-Md4">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -481,7 +505,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mhy-fj-Rri">
-                                <rect key="frame" x="195" y="436" width="105" height="44"/>
+                                <rect key="frame" x="212" y="436" width="88" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Send Email">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -519,6 +543,12 @@
                                     <outlet property="delegate" destination="rnh-fk-HOE" id="rUZ-Mj-f9i"/>
                                 </connections>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="CFz-VI-9dN">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow6.png" id="bF4-6c-bi9">
+                                <rect key="frame" x="20" y="441" width="184" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -573,6 +603,9 @@
                                     <action selector="back:" destination="vLD-E6-da4" eventType="touchUpInside" id="VYT-mS-3OE"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="QGO-Fo-TnW">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -644,6 +677,9 @@
                                     <action selector="back:" destination="o6m-JC-5uq" eventType="touchUpInside" id="f1V-cW-WBE"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="HGJ-k1-6qL">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -695,6 +731,9 @@
                                     <action selector="back:" destination="rkg-5u-11j" eventType="touchUpInside" id="vEC-cY-Hpz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="vjh-ci-DB3">
+                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -734,6 +773,8 @@
         <image name="arrow2.png" width="673" height="38"/>
         <image name="arrow4.png" width="671" height="38"/>
         <image name="arrow5.png" width="671" height="38"/>
+        <image name="arrow6.png" width="673" height="38"/>
+        <image name="back_arrow.png" width="673" height="38"/>
         <image name="back_button_text.png" width="75" height="75"/>
     </resources>
     <classes>
