@@ -225,7 +225,7 @@
 		2DB3FBEA17CFBDB00045D85C /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBE817CFBDB00045D85C /* instagram.png */; };
 		2DB3FBEF17CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
 		2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3FBEC17CFC40D0045D85C /* GothamRnd-Medium.otf */; };
-		2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* ViewBook-Info.plist */; };
+		2DB3FBF217CFC41F0045D85C /* Emily Carr ViewBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D47AD2617921513003D5D8B /* Emily Carr ViewBook-Info.plist */; };
 		2DC2FE6417D3E6CA0017B6FC /* contents_page_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */; };
 		2DC2FE6517D3E6CA0017B6FC /* contents_page_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */; };
 		2DC2FE6717D3E81C0017B6FC /* splash_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2FE6617D3E81C0017B6FC /* splash_page.png */; };
@@ -419,14 +419,14 @@
 		2D45345417D44ACD00C63BB7 /* splash_page-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash_page-568@2x.png"; path = "Assets/Splash Screen/splash_page-568@2x.png"; sourceTree = "<group>"; };
 		2D45345517D44ACD00C63BB7 /* splash_page@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash_page@2x.png"; path = "Assets/Splash Screen/splash_page@2x.png"; sourceTree = "<group>"; };
 		2D45345A17D463F400C63BB7 /* CS About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CS About.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/ContinuingStudies/CS About.txt"; sourceTree = SOURCE_ROOT; };
-		2D47AD1B17921513003D5D8B /* ViewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D47AD1B17921513003D5D8B /* Emily Carr ViewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emily Carr ViewBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47AD1E17921513003D5D8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D47AD2017921513003D5D8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D47AD2217921513003D5D8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2D47AD2617921513003D5D8B /* ViewBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewBook-Info.plist"; sourceTree = "<group>"; };
+		2D47AD2617921513003D5D8B /* Emily Carr ViewBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emily Carr ViewBook-Info.plist"; sourceTree = "<group>"; };
 		2D47AD2817921513003D5D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D47AD2A17921513003D5D8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D47AD2C17921513003D5D8B /* ViewBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewBook-Prefix.pch"; sourceTree = "<group>"; };
+		2D47AD2C17921513003D5D8B /* Emily Carr ViewBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emily Carr ViewBook-Prefix.pch"; sourceTree = "<group>"; };
 		2D47AD2D17921513003D5D8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Splash Screen/AppDelegate.h"; sourceTree = "<group>"; };
 		2D47AD2E17921513003D5D8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Splash Screen/AppDelegate.m"; sourceTree = "<group>"; };
 		2D47AD3017921513003D5D8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Assets/Launch Images/Default.png"; sourceTree = "<group>"; };
@@ -434,9 +434,9 @@
 		2D47AD3417921513003D5D8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Assets/Launch Images/Default-568h@2x.png"; sourceTree = "<group>"; };
 		2D47AD3C17921513003D5D8B /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = "Splash Screen/SplashViewController.h"; sourceTree = "<group>"; };
 		2D47AD3D17921513003D5D8B /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = "Splash Screen/SplashViewController.m"; sourceTree = "<group>"; };
-		2D47AD4417921513003D5D8B /* ViewBookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewBookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D47AD4417921513003D5D8B /* Emily Carr ViewBookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emily Carr ViewBookTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47AD4517921513003D5D8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2D47AD4D17921513003D5D8B /* ViewBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewBookTests-Info.plist"; sourceTree = "<group>"; };
+		2D47AD4D17921513003D5D8B /* Emily Carr ViewBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emily Carr ViewBookTests-Info.plist"; sourceTree = "<group>"; };
 		2D47AD4F17921513003D5D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D47AD5117921513003D5D8B /* ViewBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBookTests.h; sourceTree = "<group>"; };
 		2D47AD5217921513003D5D8B /* ViewBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBookTests.m; sourceTree = "<group>"; };
@@ -797,8 +797,8 @@
 		2D47AD1C17921513003D5D8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D47AD1B17921513003D5D8B /* ViewBook.app */,
-				2D47AD4417921513003D5D8B /* ViewBookTests.octest */,
+				2D47AD1B17921513003D5D8B /* Emily Carr ViewBook.app */,
+				2D47AD4417921513003D5D8B /* Emily Carr ViewBookTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -834,10 +834,10 @@
 		2D47AD2517921513003D5D8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D47AD2617921513003D5D8B /* ViewBook-Info.plist */,
+				2D47AD2617921513003D5D8B /* Emily Carr ViewBook-Info.plist */,
 				2D47AD2717921513003D5D8B /* InfoPlist.strings */,
 				2D47AD2A17921513003D5D8B /* main.m */,
-				2D47AD2C17921513003D5D8B /* ViewBook-Prefix.pch */,
+				2D47AD2C17921513003D5D8B /* Emily Carr ViewBook-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -855,7 +855,7 @@
 		2D47AD4C17921513003D5D8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D47AD4D17921513003D5D8B /* ViewBookTests-Info.plist */,
+				2D47AD4D17921513003D5D8B /* Emily Carr ViewBookTests-Info.plist */,
 				2D47AD4E17921513003D5D8B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -1186,9 +1186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D47AD1A17921512003D5D8B /* ViewBook */ = {
+		2D47AD1A17921512003D5D8B /* Emily Carr ViewBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D47AD5617921513003D5D8B /* Build configuration list for PBXNativeTarget "ViewBook" */;
+			buildConfigurationList = 2D47AD5617921513003D5D8B /* Build configuration list for PBXNativeTarget "Emily Carr ViewBook" */;
 			buildPhases = (
 				2D47AD1717921512003D5D8B /* Sources */,
 				2D47AD1817921512003D5D8B /* Frameworks */,
@@ -1198,14 +1198,14 @@
 			);
 			dependencies = (
 			);
-			name = ViewBook;
+			name = "Emily Carr ViewBook";
 			productName = ViewBook;
-			productReference = 2D47AD1B17921513003D5D8B /* ViewBook.app */;
+			productReference = 2D47AD1B17921513003D5D8B /* Emily Carr ViewBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D47AD4317921513003D5D8B /* ViewBookTests */ = {
+		2D47AD4317921513003D5D8B /* Emily Carr ViewBookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D47AD5917921513003D5D8B /* Build configuration list for PBXNativeTarget "ViewBookTests" */;
+			buildConfigurationList = 2D47AD5917921513003D5D8B /* Build configuration list for PBXNativeTarget "Emily Carr ViewBookTests" */;
 			buildPhases = (
 				2D47AD3F17921513003D5D8B /* Sources */,
 				2D47AD4017921513003D5D8B /* Frameworks */,
@@ -1217,9 +1217,9 @@
 			dependencies = (
 				2D47AD4A17921513003D5D8B /* PBXTargetDependency */,
 			);
-			name = ViewBookTests;
+			name = "Emily Carr ViewBookTests";
 			productName = ViewBookTests;
-			productReference = 2D47AD4417921513003D5D8B /* ViewBookTests.octest */;
+			productReference = 2D47AD4417921513003D5D8B /* Emily Carr ViewBookTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1231,7 +1231,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Emily Carr Institute of Art + Design";
 			};
-			buildConfigurationList = 2D47AD1617921512003D5D8B /* Build configuration list for PBXProject "ViewBook" */;
+			buildConfigurationList = 2D47AD1617921512003D5D8B /* Build configuration list for PBXProject "Emily Carr ViewBook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1243,8 +1243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D47AD1A17921512003D5D8B /* ViewBook */,
-				2D47AD4317921513003D5D8B /* ViewBookTests */,
+				2D47AD1A17921512003D5D8B /* Emily Carr ViewBook */,
+				2D47AD4317921513003D5D8B /* Emily Carr ViewBookTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1453,7 +1453,7 @@
 				2DB3FBE717CFBB0E0045D85C /* UndergraduateCourses.plist in Resources */,
 				2DB3FBEA17CFBDB00045D85C /* instagram.png in Resources */,
 				2DB3FBF017CFC40D0045D85C /* GothamRnd-Medium.otf in Resources */,
-				2DB3FBF217CFC41F0045D85C /* ViewBook-Info.plist in Resources */,
+				2DB3FBF217CFC41F0045D85C /* Emily Carr ViewBook-Info.plist in Resources */,
 				79CEE42217CFDE1400C9D12B /* GraduateCourses.plist in Resources */,
 				79CEE42517CFE28A00C9D12B /* ContinuingStudies.plist in Resources */,
 				79CEE42817CFE4A500C9D12B /* Foundation.plist in Resources */,
@@ -1614,7 +1614,7 @@
 /* Begin PBXTargetDependency section */
 		2D47AD4A17921513003D5D8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D47AD1A17921512003D5D8B /* ViewBook */;
+			target = 2D47AD1A17921512003D5D8B /* Emily Carr ViewBook */;
 			targetProxy = 2D47AD4917921513003D5D8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1701,10 +1701,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
-				INFOPLIST_FILE = "ViewBook/ViewBook-Info.plist";
+				GCC_PREFIX_HEADER = "ViewBook/Emily Carr ViewBook-Prefix.pch";
+				INFOPLIST_FILE = "ViewBook/Emily Carr ViewBook-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Emily Carr ViewBook";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1714,10 +1714,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
-				INFOPLIST_FILE = "ViewBook/ViewBook-Info.plist";
+				GCC_PREFIX_HEADER = "ViewBook/Emily Carr ViewBook-Prefix.pch";
+				INFOPLIST_FILE = "ViewBook/Emily Carr ViewBook-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Emily Carr ViewBook";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1733,8 +1733,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
-				INFOPLIST_FILE = "ViewBookTests/ViewBookTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ViewBookTests/Emily Carr ViewBookTests-Info.plist";
+				PRODUCT_NAME = "Emily Carr ViewBookTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1750,8 +1750,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewBook/ViewBook-Prefix.pch";
-				INFOPLIST_FILE = "ViewBookTests/ViewBookTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ViewBookTests/Emily Carr ViewBookTests-Info.plist";
+				PRODUCT_NAME = "Emily Carr ViewBookTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1760,7 +1760,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D47AD1617921512003D5D8B /* Build configuration list for PBXProject "ViewBook" */ = {
+		2D47AD1617921512003D5D8B /* Build configuration list for PBXProject "Emily Carr ViewBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D47AD5417921513003D5D8B /* Debug */,
@@ -1769,7 +1769,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D47AD5617921513003D5D8B /* Build configuration list for PBXNativeTarget "ViewBook" */ = {
+		2D47AD5617921513003D5D8B /* Build configuration list for PBXNativeTarget "Emily Carr ViewBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D47AD5717921513003D5D8B /* Debug */,
@@ -1778,7 +1778,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D47AD5917921513003D5D8B /* Build configuration list for PBXNativeTarget "ViewBookTests" */ = {
+		2D47AD5917921513003D5D8B /* Build configuration list for PBXNativeTarget "Emily Carr ViewBookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D47AD5A17921513003D5D8B /* Debug */,
