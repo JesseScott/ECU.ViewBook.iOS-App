@@ -70,7 +70,7 @@
     // Set Attributed Ranges For Sub-Headings
     [richString setAttributes:boldText range:NSMakeRange(0, 11)]; // Visit Us
     [richString setAttributes:boldText range:NSMakeRange(270, 71)]; // Future
-    [richString setAttributes:boldText range:NSMakeRange(400, 22)]; // Portfolio
+    [richString setAttributes:boldText range:NSMakeRange(629, 22)]; // Portfolio
     
     // Set Text File To Main Paragraph Label
     mainParagraph.editable = NO;

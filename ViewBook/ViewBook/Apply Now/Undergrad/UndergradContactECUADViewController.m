@@ -99,10 +99,10 @@
         if ([MFMailComposeViewController canSendMail]) {
             MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
             mailer.mailComposeDelegate = self;
-            [mailer setSubject:@"Prospective student"];
-            NSArray *toRecipients = [NSArray arrayWithObjects:@"admissions@ecuad.ca", @"jcscott@ecuad.ca", nil];
+            [mailer setSubject:@"App Inquiry - Undergraduate"];
+            NSArray *toRecipients = [NSArray arrayWithObjects:@"admissions@ecuad.ca", nil];
             [mailer setToRecipients:toRecipients];
-            NSString *nameMessage = [NSString stringWithFormat:@"Name of Prospective Student: %@ %@\r", self.firstNameField.text,self.lastNameField.text];
+            NSString *nameMessage = [NSString stringWithFormat:@"\nName: %@ %@\n", self.firstNameField.text,self.lastNameField.text];
             NSString *questionMessage = [NSString stringWithFormat:@"Message: %@ \r", self.messageField.text];
             NSString *emailBody = [NSString stringWithFormat:@"%@\r%@", nameMessage, questionMessage];
             [mailer setMessageBody:emailBody isHTML:NO];
