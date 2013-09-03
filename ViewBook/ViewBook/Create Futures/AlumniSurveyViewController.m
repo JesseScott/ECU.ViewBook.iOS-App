@@ -57,9 +57,7 @@
 // Swipes
 
 - (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"Next");
     if(self.swipeCount < self.infographics.count - 1) {
-        NSLog(@"swipe count: %i  |*| array count: %i", self.swipeCount, self.infographics.count-1);
         
         // Set Index
         self.swipeCount = self.swipeCount + 1;
@@ -70,9 +68,7 @@
 }
 
 - (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"Previous");
     if(self.swipeCount > 0) {
-        NSLog(@"swipe count: %i  |*| array count: %i", self.swipeCount, self.infographics.count-1);
         
         // Set Index
         self.swipeCount = self.swipeCount - 1;

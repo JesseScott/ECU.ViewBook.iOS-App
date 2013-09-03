@@ -27,7 +27,7 @@
 }
 
 -(id)initWithURL:(NSString*)url {
-    NSLog(@"IWU");
+    //NSLog(@"IWU");
     vimeoURL = [[NSString alloc] initWithString:url];
     //NSLog(@"The URL received is %@", vimeoURL);
     return self;
@@ -36,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"VDA");
+    //NSLog(@"VDA");
     
     // Embed the Video
     [self embedVimeo];
@@ -50,18 +50,18 @@
 // Notifications
 
 -(void)videoStarted:(NSNotification *)notification{
-    NSLog(@"Started");
+    //NSLog(@"Started");
 }
 
 -(void)videoFinished:(NSNotification *)notification{
-    NSLog(@"Finished");
+    //NSLog(@"Finished");
 }
 
 
 // Orientation
 
 - (BOOL)shouldAutorotate {
-    NSLog(@"SAR");
+    //NSLog(@"SAR");
     return NO;
 }
 /*
@@ -71,7 +71,7 @@
 }
 */
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
-    NSLog(@"PIOFP");
+    //NSLog(@"PIOFP");
     //return UIInterfaceOrientationLandscapeLeft;
     return UIInterfaceOrientationPortrait;
 }

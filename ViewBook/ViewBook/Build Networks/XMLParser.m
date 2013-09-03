@@ -32,25 +32,25 @@
 }
 
 -(void)parserDidStartDocument:(NSXMLParser *)parser {
-    NSLog(@"didStartDocument");
-    NSLog(@"\n");
+    //NSLog(@"didStartDocument");
+    //NSLog(@"\n");
 }
 
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
-    NSLog(@"didEndDocument");
-    NSLog(@"\n");
-    NSLog(@"Cumulative Events Are %@", cumulativeEvents);
+    //NSLog(@"didEndDocument");
+    //NSLog(@"\n");
+    //NSLog(@"Cumulative Events Are %@", cumulativeEvents);
 }
 
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
     
-    NSLog(@"didStartElement: %@", elementName);
+    //NSLog(@"didStartElement: %@", elementName);
     
-    if (namespaceURI != nil)
-        NSLog(@"namespace: %@", namespaceURI);
+    //if (namespaceURI != nil)
+    //NSLog(@"namespace: %@", namespaceURI);
     
-    if (qName != nil)
-        NSLog(@"qualifiedName: %@", qName);
+    //if (qName != nil)
+    //NSLog(@"qualifiedName: %@", qName);
 
 }
 
@@ -61,7 +61,7 @@
 }
 
 - (void)parser:(NSXMLParser *)parser foundIgnorableWhitespace:(NSString *)whitespaceString {
-    NSLog(@"Found Whitespace");
+    //NSLog(@"Found Whitespace");
 }
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
@@ -87,7 +87,7 @@
         [cumulativeEvents addObject: tempEvent];
         
         for (NSString *event in cumulativeEvents) {
-            NSLog(@" ===== This Is An Event: %@", event);
+            //NSLog(@" ===== This Is An Event: %@", event);
         }
         
         currentEvent = [[NSMutableString alloc] init];
@@ -96,11 +96,11 @@
 }
 
 -(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-    NSLog(@"XMLParser error: %@", [parseError localizedDescription]);
+    //NSLog(@"XMLParser error: %@", [parseError localizedDescription]);
 }
 
 -(void)parser:(NSXMLParser *)parser validationErrorOccurred:(NSError *)validationError {
-    NSLog(@"XMLParser error: %@", [validationError localizedDescription]);
+    //NSLog(@"XMLParser error: %@", [validationError localizedDescription]);
 }
 
 

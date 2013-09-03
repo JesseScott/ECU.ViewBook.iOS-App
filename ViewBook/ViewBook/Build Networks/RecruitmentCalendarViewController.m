@@ -78,17 +78,19 @@
     
     [NSXmlParser setDelegate:xmlParser];
     
-    BOOL success = [NSXmlParser parse];
-    NSLog(@"Was The Parser Successful? ... %d", success);
-    NSLog(@"Able To Get These Events: %@", [xmlParser cumulativeEvents]);
+    [NSXmlParser parse];
+    
+    //BOOL success = [NSXmlParser parse];
+    //NSLog(@"Was The Parser Successful? ... %d", success);
+    //NSLog(@"Able To Get These Events: %@", [xmlParser cumulativeEvents]);
     
     for (NSString *event in [xmlParser cumulativeEvents]) {
-        NSLog(@"This Is An Event: %@", event);
+        //NSLog(@"This Is An Event: %@", event);
         [self.eventTimes addObject:event];
     }
     
     for (NSString *date in self.eventTimes) {
-        NSLog(@"Final Array values: %@", date);
+        //NSLog(@"Final Array values: %@", date);
     }
     
 }
@@ -144,7 +146,7 @@
 -(void)savePressed:(UIButton *)sender {
     UITableViewCell *cell = ((UITableViewCell *)[sender superview]);
     NSInteger cellRow = [[self.table indexPathForCell:cell] row];
-    NSLog(@"Button Number: %i",cellRow);
+    //NSLog(@"Button Number: %i",cellRow);
     [self createLocalNotifications:cell rowNumber:cellRow];
 }
 
@@ -158,10 +160,10 @@
     //NSDate *date = [self.eventTimes objectAtIndex:rowNumber];
     NSString *baseDate = [self.eventTimes objectAtIndex:rowNumber];
     NSString *trimmedDate = [baseDate substringToIndex:17];
-    NSLog(@"Trimmed %@", trimmedDate);
+    //NSLog(@"Trimmed %@", trimmedDate);
     NSDate *date = [dateFormatter dateFromString:trimmedDate];
     //NSDate *date = [dateFormatter dateFromString:@"Aug 27 2013 12:30"];
-    NSLog(@"date: %@", date);
+    //NSLog(@"date: %@", date);
     
     NSString *message = @"Your Emily Carr University event happening now! ";
 
@@ -198,10 +200,8 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"The Index Is %i", indexPath.row);
-    
-    NSLog(@"The Text Is %@", [self.eventTimes objectAtIndex:indexPath.row]);
-
+    //NSLog(@"The Index Is %i", indexPath.row);
+    //NSLog(@"The Text Is %@", [self.eventTimes objectAtIndex:indexPath.row]);
 }
 
 - (IBAction)back:(id)sender {

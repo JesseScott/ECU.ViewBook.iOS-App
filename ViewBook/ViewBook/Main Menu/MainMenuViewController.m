@@ -23,7 +23,7 @@
     if (self) {
         // Custom initialization
     }
-    NSLog(@"NIB");
+    //NSLog(@"NIB");
     return self;
 }
 

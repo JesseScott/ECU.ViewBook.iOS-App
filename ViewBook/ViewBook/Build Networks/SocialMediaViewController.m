@@ -132,12 +132,10 @@
     
     // Open The App ?
     if ([[UIApplication sharedApplication] canOpenURL:youtubeApp]) {
-        NSLog(@"YES");
         [[UIApplication sharedApplication] openURL:youtubeApp];
     }
     // ... Or Website
     else {
-        NSLog(@"NO");
         [[UIApplication sharedApplication] openURL:youtubeWeb];
     }
 }

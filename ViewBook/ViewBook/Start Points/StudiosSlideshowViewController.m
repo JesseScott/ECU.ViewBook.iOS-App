@@ -70,9 +70,7 @@
 
 }
 - (IBAction)previousImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"left swipe");
     if(self.swipeCount < self.studios.count - 1) {
-        //NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.campus.count-1);
         
         // Set Index
         self.swipeCount = self.swipeCount + 1;
@@ -90,9 +88,7 @@
     }
 }
 - (IBAction)nextImage:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"right swipe");
     if(self.swipeCount > 0) {
-        //NSLog(@"swipe count: %i  |*| array count: %i",self.swipeCount,self.campus.count-1);
         
         // Set Index
         self.swipeCount = self.swipeCount - 1;
