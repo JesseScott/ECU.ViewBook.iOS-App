@@ -109,23 +109,6 @@
         <image name="arrow5.png" width="640" height="36"/>
         <image name="contents_page_people.png" width="640" height="960"/>
     </resources>
-    <classes>
-        <class className="MainMenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainMenuViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loadApplyNowStoryboard:"/>
-                <relationship kind="action" name="loadBuildNetworksStoryboard:"/>
-                <relationship kind="action" name="loadCreateFuturesStoryboard:"/>
-                <relationship kind="action" name="loadMakePathsStoryboard:"/>
-                <relationship kind="action" name="loadStartPointsStoryboard:"/>
-                <relationship kind="outlet" name="applyNowButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buildNetworksButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="createFuturesButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="makePathsButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="startPointsButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
