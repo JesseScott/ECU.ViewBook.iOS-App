@@ -47,7 +47,7 @@
     pageTitle.font = titleFont;
     
     // Set Color Of Title
-    pageTitle.textColor = [UIColor colorWithRed:(72/255.0) green:(89/255.0) blue:(86/255.0) alpha:255];
+    pageTitle.textColor = [UIColor colorWithRed:(321/255.0) green:(0/255.0) blue:(93/255.0) alpha:255];
     
     // Load Text File
     NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"UGVisitUs" ofType:@"txt"];
@@ -68,8 +68,8 @@
     NSMutableAttributedString *richString = [[NSMutableAttributedString alloc] initWithString:fileContent attributes:normalText];
     
     // Set Attributed Ranges For Sub-Headings
-    [richString setAttributes:boldText range:NSMakeRange(0, 20)]; // Visit Us
-    [richString setAttributes:boldText range:NSMakeRange(336, 66)]; // Future
+    [richString setAttributes:boldText range:NSMakeRange(0, 11)]; // Visit Us
+    [richString setAttributes:boldText range:NSMakeRange(270, 57)]; // Future
     
     // Set Text File To Main Paragraph Label
     mainParagraph.editable = NO;

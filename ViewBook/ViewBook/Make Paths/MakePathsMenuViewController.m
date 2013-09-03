@@ -35,11 +35,10 @@
     csButton.titleLabel.font = buttonFont;
     
     // Set Colors
-    /*
-    [undergradButton setTitleColor:[UIColor colorWithRed:141 green:207 blue:105 alpha:255] forState:UIControlStateNormal];
-    [graduateButton setTitleColor:[UIColor colorWithRed:0 green:174 blue:239 alpha:255] forState:UIControlStateNormal];
-    [csButton setTitleColor:[UIColor colorWithRed:248 green:78 blue:87 alpha:255] forState:UIControlStateNormal];
-    */
+    [undergradButton setTitleColor:[UIColor colorWithRed:(141/255.0) green:(207/255.0) blue:(105/255.0) alpha:255] forState:UIControlStateNormal];
+    [graduateButton setTitleColor:[UIColor colorWithRed:(0/255.0) green:(174/255.0) blue:(239/255.0) alpha:255] forState:UIControlStateNormal];
+    [csButton setTitleColor:[UIColor colorWithRed:(248/255.0) green:(78/255.0) blue:(87/255.0) alpha:255] forState:UIControlStateNormal];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -44,7 +44,7 @@
     courseTitle.font = titleFont;
     
     // Set Color Of Title
-    courseTitle.textColor = [UIColor colorWithRed:(255/255.0) green:(240/255.0) blue:(100/255.0) alpha:255];
+    courseTitle.textColor = [UIColor colorWithRed:(321/255.0) green:(0/255.0) blue:(93/255.0) alpha:255];
     
     // Load Text File For Main Paragraph
     NSString *pathToTextFile = [[NSBundle mainBundle] pathForResource:@"MDES" ofType:@"txt"];

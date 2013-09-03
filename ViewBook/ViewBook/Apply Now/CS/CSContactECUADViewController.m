@@ -47,7 +47,7 @@
     pageTitle.font = titleFont;
     
     // Set Color Of Title
-    pageTitle.textColor = [UIColor colorWithRed:(142/255.0) green:(208/255.0) blue:(197/255.0) alpha:255];
+    pageTitle.textColor = [UIColor colorWithRed:(321/255.0) green:(0/255.0) blue:(93/255.0) alpha:255];
     
     // Load Text File
     NSString *pathToFile = [[NSBundle mainBundle] pathForResource:@"CSContactUs" ofType:@"txt"];

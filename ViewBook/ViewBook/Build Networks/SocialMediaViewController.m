@@ -38,6 +38,7 @@
     
     // Set PList To Page Title
     pageTitle.text = [screenNames objectAtIndex:screenIndex];
+    pageTitle.textColor = [UIColor colorWithRed:(321/255.0) green:(0/255.0) blue:(93/255.0) alpha:255];
     
     
 }
