@@ -67,10 +67,10 @@
     
     // Set Attributed Ranges For Sub-Headings
     [richString setAttributes:boldText range:NSMakeRange(0, 34)]; // Critical
-    [richString setAttributes:boldText range:NSMakeRange(523, 36)]; // Film
-    [richString setAttributes:boldText range:NSMakeRange(1040, 20)]; // Illustration
-    [richString setAttributes:boldText range:NSMakeRange(1370, 20)]; // Photography
-    [richString setAttributes:boldText range:NSMakeRange(1775, 21)]; // Visual Art
+    [richString setAttributes:boldText range:NSMakeRange(521, 36)]; // Film
+    [richString setAttributes:boldText range:NSMakeRange(1039, 20)]; // Illustration
+    [richString setAttributes:boldText range:NSMakeRange(1369, 20)]; // Photography
+    [richString setAttributes:boldText range:NSMakeRange(1780, 21)]; // Visual Art
     
     // Set Text File To Main Paragraph Label
     courseDescription.editable = NO;

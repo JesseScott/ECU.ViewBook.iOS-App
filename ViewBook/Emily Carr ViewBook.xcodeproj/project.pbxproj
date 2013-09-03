@@ -13,6 +13,14 @@
 		2D03834B17D01D5D00E7E740 /* UGContactUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834817D01D5D00E7E740 /* UGContactUs.txt */; };
 		2D03834C17D01D5D00E7E740 /* UGVisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* UGVisitUs.txt */; };
 		2D03834D17D01D5D00E7E740 /* UGVisitUs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D03834917D01D5D00E7E740 /* UGVisitUs.txt */; };
+		2D0D404417D650EB00DFC607 /* cont_studies.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404017D650EB00DFC607 /* cont_studies.png */; };
+		2D0D404517D650EB00DFC607 /* cont_studies.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404017D650EB00DFC607 /* cont_studies.png */; };
+		2D0D404617D650EB00DFC607 /* graduate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404117D650EB00DFC607 /* graduate.png */; };
+		2D0D404717D650EB00DFC607 /* graduate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404117D650EB00DFC607 /* graduate.png */; };
+		2D0D404817D650EB00DFC607 /* rainbow_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404217D650EB00DFC607 /* rainbow_people.png */; };
+		2D0D404917D650EB00DFC607 /* rainbow_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404217D650EB00DFC607 /* rainbow_people.png */; };
+		2D0D404A17D650EB00DFC607 /* undergrad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404317D650EB00DFC607 /* undergrad.png */; };
+		2D0D404B17D650EB00DFC607 /* undergrad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0D404317D650EB00DFC607 /* undergrad.png */; };
 		2D109A2417D29A1C002A59FB /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1C17D29A1C002A59FB /* facebook@2x.png */; };
 		2D109A2517D29A1C002A59FB /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1C17D29A1C002A59FB /* facebook@2x.png */; };
 		2D109A2617D29A1C002A59FB /* flickr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D109A1D17D29A1C002A59FB /* flickr@2x.png */; };
@@ -343,6 +351,10 @@
 		2D03834117D019C900E7E740 /* UndergradVisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UndergradVisitUsViewController.m; path = "Apply Now/Undergrad/UndergradVisitUsViewController.m"; sourceTree = "<group>"; };
 		2D03834817D01D5D00E7E740 /* UGContactUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGContactUs.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGContactUs.txt"; sourceTree = "<group>"; };
 		2D03834917D01D5D00E7E740 /* UGVisitUs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UGVisitUs.txt; path = "Assets/Text Copy/Apply Now/Undergrad/UGVisitUs.txt"; sourceTree = "<group>"; };
+		2D0D404017D650EB00DFC607 /* cont_studies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cont_studies.png; sourceTree = "<group>"; };
+		2D0D404117D650EB00DFC607 /* graduate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graduate.png; sourceTree = "<group>"; };
+		2D0D404217D650EB00DFC607 /* rainbow_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow_people.png; sourceTree = "<group>"; };
+		2D0D404317D650EB00DFC607 /* undergrad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undergrad.png; sourceTree = "<group>"; };
 		2D109A1C17D29A1C002A59FB /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
 		2D109A1D17D29A1C002A59FB /* flickr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flickr@2x.png"; sourceTree = "<group>"; };
 		2D109A1E17D29A1C002A59FB /* instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram@2x.png"; sourceTree = "<group>"; };
@@ -869,6 +881,7 @@
 				2D88485517D3D3C4004F5E24 /* Text Label */,
 				2D6BE98617D557E90031D1EF /* Send Email */,
 				2DD13AFF17CDCAED002D52BB /* Main Menu */,
+				2D974D5817D648B8006EF554 /* Degree Choices */,
 				2D90879217C1F667009DDDEB /* Start Points */,
 				2D8957CA17C477920044F167 /* Build Networks */,
 				2D90877317C1EA5C009DDDEB /* Create Futures */,
@@ -1039,6 +1052,18 @@
 				2D90879917C1F667009DDDEB /* campus_slideshow_06.png */,
 			);
 			path = "Campus Slideshow";
+			sourceTree = "<group>";
+		};
+		2D974D5817D648B8006EF554 /* Degree Choices */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D404017D650EB00DFC607 /* cont_studies.png */,
+				2D0D404117D650EB00DFC607 /* graduate.png */,
+				2D0D404217D650EB00DFC607 /* rainbow_people.png */,
+				2D0D404317D650EB00DFC607 /* undergrad.png */,
+			);
+			name = "Degree Choices";
+			path = "Assets/Degree Choices";
 			sourceTree = "<group>";
 		};
 		2DC2FE6917D3E8F80017B6FC /* Icon */ = {
@@ -1377,6 +1402,10 @@
 				2D4F9F8017D5381A00D527B0 /* back_arrow.png in Resources */,
 				2D6BE98917D557E90031D1EF /* send_email.png in Resources */,
 				2D6BE98B17D557E90031D1EF /* send_email@2x.png in Resources */,
+				2D0D404417D650EB00DFC607 /* cont_studies.png in Resources */,
+				2D0D404617D650EB00DFC607 /* graduate.png in Resources */,
+				2D0D404817D650EB00DFC607 /* rainbow_people.png in Resources */,
+				2D0D404A17D650EB00DFC607 /* undergrad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1502,6 +1531,10 @@
 				2D4F9F8117D5381A00D527B0 /* back_arrow.png in Resources */,
 				2D6BE98A17D557E90031D1EF /* send_email.png in Resources */,
 				2D6BE98C17D557E90031D1EF /* send_email@2x.png in Resources */,
+				2D0D404517D650EB00DFC607 /* cont_studies.png in Resources */,
+				2D0D404717D650EB00DFC607 /* graduate.png in Resources */,
+				2D0D404917D650EB00DFC607 /* rainbow_people.png in Resources */,
+				2D0D404B17D650EB00DFC607 /* undergrad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

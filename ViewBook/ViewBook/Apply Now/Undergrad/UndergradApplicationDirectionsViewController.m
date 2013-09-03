@@ -71,9 +71,9 @@
     // Set Attributed Ranges For Sub-Headings
     [richString setAttributes:boldText range:NSMakeRange(0, 7)]; // Step 1
     [richString setAttributes:boldText range:NSMakeRange(75, 7)]; // Step 2
-    [richString setAttributes:boldText range:NSMakeRange(154, 7)]; // Step 3
-    [richString setAttributes:boldText range:NSMakeRange(264, 7)]; // Step 4
-    [richString setAttributes:boldText range:NSMakeRange(309, 7)]; // Step 5
+    [richString setAttributes:boldText range:NSMakeRange(176, 7)]; // Step 3
+    [richString setAttributes:boldText range:NSMakeRange(286, 7)]; // Step 4
+    [richString setAttributes:boldText range:NSMakeRange(331, 7)]; // Step 5
     
     // Set Text File To Main Paragraph Label
     mainParagraph.editable = NO;
