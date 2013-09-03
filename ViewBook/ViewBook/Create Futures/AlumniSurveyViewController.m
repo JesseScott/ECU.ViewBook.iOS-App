@@ -44,12 +44,6 @@
                                 [UIImage imageNamed:@"alumni_survey_05"],
                                 nil];
     
-    // Set ImageView
-//    [slideshow setAnimationImages:infographics];
-//    slideshow.animationDuration = 25.0;
-//    slideshow.animationRepeatCount = 0;
-//    [slideshow startAnimating];
-    
     // Load first image and caption
     self.swipeCount = 0;
     [slideshow setImage:[self.infographics objectAtIndex:self.swipeCount]];
