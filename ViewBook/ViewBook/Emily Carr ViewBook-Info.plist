@@ -20,7 +20,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>ca.ecuad.Viewbook.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>ca.ecuad.Viewbook</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
