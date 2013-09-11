@@ -126,6 +126,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="0IF-Dg-fc6">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="H0O-GN-Wth">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -181,6 +182,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="mG4-y9-V9s">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Qcd-ll-Ndo">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -236,6 +238,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="5L8-6Z-d8d">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xJf-fm-hhK">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -291,6 +294,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="hwa-8e-IaK">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="KGs-cC-NzW">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -346,6 +350,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="BhU-tL-4wn">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="q5x-BW-2wl">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -401,6 +406,7 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="HWJ-Kf-qLf">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="tt3-J7-3xp">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -456,6 +462,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="bZ4-20-CPq">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="5D0-ii-BNh">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -531,6 +538,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="9HQ-Uk-PVy">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="8D2-Cr-vKH">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -586,6 +594,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="T3j-IY-Zav">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="UgO-2k-zqH">
                                 <rect key="frame" x="20" y="133" width="280" height="258"/>
@@ -670,6 +679,7 @@
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="KvO-XY-obq">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -725,6 +735,7 @@
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="KZ3-EY-EMB">
                                 <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
