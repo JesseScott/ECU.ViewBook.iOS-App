@@ -9,12 +9,12 @@
             <objects>
                 <viewController id="tr3-4t-hCk" userLabel="Make Paths Menu" customClass="MakePathsMenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WxY-lq-dSt">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iaa-PQ-5cM">
                                 <rect key="frame" x="0.0" y="148" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="undergrad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,7 +29,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hop-mG-hhv">
                                 <rect key="frame" x="0.0" y="200" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="graduate.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -44,7 +44,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eYy-UK-o4L">
                                 <rect key="frame" x="0.0" y="252" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="cont_studies.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HLf-2X-04f">
-                                <rect key="frame" x="10" y="-1" width="50" height="50"/>
+                                <rect key="frame" x="10" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="back_button_text.png">
@@ -74,11 +74,12 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="OQV-7O-IvU">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="rainbow_people.png" id="LN4-Ox-LL9">
-                                <rect key="frame" x="20" y="353" width="280" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="rainbow_people.png" id="LN4-Ox-LL9">
+                                <rect key="frame" x="79" y="304" width="221" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -98,7 +99,7 @@
             <objects>
                 <viewController id="nFz-il-ifi" userLabel="UG - BMA" customClass="BachelorsMediaArtsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eda-fZ-1vV">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="evq-Ip-RuZ">
@@ -123,24 +124,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="9g6-To-7Jd">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="0IF-Dg-fc6">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="H0O-GN-Wth">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="0IF-Dg-fc6">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Media Arts" id="WOe-C7-t69"/>
                     <connections>
-                        <outlet property="courseDescription" destination="9g6-To-7Jd" id="LsX-lN-acz"/>
+                        <outlet property="courseDescription" destination="H0O-GN-Wth" id="gbc-UH-deY"/>
                         <outlet property="courseTitle" destination="p9y-p2-4iV" id="KfS-CY-WNU"/>
                     </connections>
                 </viewController>
@@ -153,7 +154,7 @@
             <objects>
                 <viewController id="kar-7K-CNu" customClass="BachelorMinorsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZwK-fX-65g">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2zq-g8-zvg">
@@ -178,24 +179,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="NEh-Ux-cPB">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="mG4-y9-V9s">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Qcd-ll-Ndo">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="mG4-y9-V9s">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Minors" id="nAf-B9-m0w"/>
                     <connections>
-                        <outlet property="courseDescription" destination="NEh-Ux-cPB" id="LZM-0l-kfS"/>
+                        <outlet property="courseDescription" destination="Qcd-ll-Ndo" id="ihq-lP-93z"/>
                         <outlet property="courseTitle" destination="GJZ-Th-CDB" id="JJL-J0-GMq"/>
                     </connections>
                 </viewController>
@@ -208,7 +209,7 @@
             <objects>
                 <viewController id="Q2k-PM-ojI" userLabel="GR - MDES" customClass="MastersDesignViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wun-wY-EEb">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dBB-5E-0Pg">
@@ -233,24 +234,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="ooi-LU-dA0">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="5L8-6Z-d8d">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xJf-fm-hhK">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="5L8-6Z-d8d">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Design" id="Wji-c7-AYZ"/>
                     <connections>
-                        <outlet property="courseDescription" destination="ooi-LU-dA0" id="j1k-aU-5uU"/>
+                        <outlet property="courseDescription" destination="xJf-fm-hhK" id="c3b-mp-UJI"/>
                         <outlet property="courseTitle" destination="69b-F8-XPo" id="PpE-6U-wxt"/>
                     </connections>
                 </viewController>
@@ -263,7 +264,7 @@
             <objects>
                 <viewController id="mrV-Al-iMM" userLabel="GR - MDM" customClass="MastersDigitalMediaViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yLn-eG-Lhe">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vEU-bX-iQr">
@@ -288,24 +289,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="6DX-a3-9sM">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="hwa-8e-IaK">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="KGs-cC-NzW">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="hwa-8e-IaK">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Digital Media" id="OYa-oX-NWm"/>
                     <connections>
-                        <outlet property="courseDescription" destination="6DX-a3-9sM" id="mEY-Qe-1xy"/>
+                        <outlet property="courseDescription" destination="KGs-cC-NzW" id="zf8-9K-pfK"/>
                         <outlet property="courseTitle" destination="Vwu-pI-FG8" id="gck-UN-5uv"/>
                     </connections>
                 </viewController>
@@ -318,7 +319,7 @@
             <objects>
                 <viewController id="ATa-a2-66o" userLabel="CS - Essentials" customClass="EssentialsProgramsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0z8-gz-fte">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tfF-HH-TXu">
@@ -343,24 +344,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="X4K-TA-5kd">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="BhU-tL-4wn">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="q5x-BW-2wl">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="BhU-tL-4wn">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Essentials" id="h0l-JC-25Z"/>
                     <connections>
-                        <outlet property="courseDescription" destination="X4K-TA-5kd" id="51r-8d-ztp"/>
+                        <outlet property="courseDescription" destination="q5x-BW-2wl" id="arW-vd-49I"/>
                         <outlet property="courseTitle" destination="cqC-wO-bA6" id="sGH-R8-xN3"/>
                     </connections>
                 </viewController>
@@ -373,7 +374,7 @@
             <objects>
                 <viewController id="WQr-Um-nl8" userLabel="CS - Teen" customClass="TeenProgramsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KkV-ia-AdK">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Sy-fs-ogS">
@@ -383,15 +384,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="hnk-pk-w8D">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gn2-KY-QWJ">
                                 <rect key="frame" x="10" y="-1" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -408,14 +400,23 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="HWJ-Kf-qLf">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="tt3-J7-3xp">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Teen Programs" id="AzP-9c-Qa6"/>
                     <connections>
-                        <outlet property="courseDescription" destination="hnk-pk-w8D" id="fdZ-7r-cSl"/>
+                        <outlet property="courseDescription" destination="tt3-J7-3xp" id="ztl-CE-Sa9"/>
                         <outlet property="courseTitle" destination="8Sy-fs-ogS" id="v1u-Hk-U2U"/>
                     </connections>
                 </viewController>
@@ -428,7 +429,7 @@
             <objects>
                 <viewController id="9KY-gs-2Nm" userLabel="CS - Welcome" customClass="WelcomeLabViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="opf-Dx-srP">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jWV-wh-aAb">
@@ -453,24 +454,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bmw-r2-eVy">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="bZ4-20-CPq">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="5D0-ii-BNh">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="bZ4-20-CPq">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Welcome Lab" id="GgO-0O-Bwx"/>
                     <connections>
-                        <outlet property="courseDescription" destination="bmw-r2-eVy" id="G6m-7o-wUG"/>
+                        <outlet property="courseDescription" destination="5D0-ii-BNh" id="6nW-UG-hQj"/>
                         <outlet property="courseTitle" destination="8O6-t2-3Wq" id="Zxu-1F-t87"/>
                     </connections>
                 </viewController>
@@ -503,7 +504,7 @@
             <objects>
                 <viewController id="rnh-fk-HOE" userLabel="UG - BFA" customClass="BachelorsFineArtViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jyR-5h-ukn">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EtU-Ic-v0P">
@@ -528,24 +529,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bsy-vo-l9g">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="9HQ-Uk-PVy">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="8D2-Cr-vKH">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="9HQ-Uk-PVy">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fine Arts" id="CXO-in-d0R"/>
                     <connections>
-                        <outlet property="courseDescription" destination="bsy-vo-l9g" id="HGH-1N-uZK"/>
+                        <outlet property="courseDescription" destination="8D2-Cr-vKH" id="T67-7K-6cC"/>
                         <outlet property="courseTitle" destination="g6X-i5-XtQ" id="P2y-CU-9ew"/>
                     </connections>
                 </viewController>
@@ -558,7 +559,7 @@
             <objects>
                 <viewController id="vLD-E6-da4" userLabel="GR - MAA" customClass="MastersAppliedArtsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hkx-Gu-Gms">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iXK-vv-rnE">
@@ -583,24 +584,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="y8w-Gb-1eg">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="T3j-IY-Zav">
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="UgO-2k-zqH">
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="T3j-IY-Zav">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Applied Arts" id="FqO-XY-mp3"/>
                     <connections>
-                        <outlet property="courseDescription" destination="y8w-Gb-1eg" id="YU7-Gg-38R"/>
+                        <outlet property="courseDescription" destination="UgO-2k-zqH" id="XG2-kP-njn"/>
                         <outlet property="courseTitle" destination="PTO-xf-vFE" id="US3-00-Lwm"/>
                     </connections>
                 </viewController>
@@ -633,7 +634,7 @@
             <objects>
                 <viewController id="o6m-JC-5uq" userLabel="UG - BDES" customClass="BachelorsDesignViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ASU-7T-seo">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hNK-ih-DXI">
@@ -659,8 +660,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="S52-KC-6da">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -668,7 +669,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="KvO-XY-obq">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -688,7 +689,7 @@
             <objects>
                 <viewController id="rkg-5u-11j" customClass="FoundationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CqL-Dh-wng">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i0c-QD-Mrn">
@@ -714,8 +715,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="nsr-pw-qdK">
-                                <rect key="frame" x="20" y="133" width="280" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="20" y="133" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -723,7 +724,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_arrow.png" id="KZ3-EY-EMB">
-                                <rect key="frame" x="68" y="7" width="232" height="33"/>
+                                <rect key="frame" x="68" y="5" width="232" height="33"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -766,12 +767,111 @@
         <image name="back_button_text.png" width="75" height="75"/>
         <image name="cont_studies.png" width="640" height="100"/>
         <image name="graduate.png" width="640" height="100"/>
-        <image name="rainbow_people.png" width="640" height="400"/>
+        <image name="rainbow_people.png" width="320" height="200"/>
         <image name="undergrad.png" width="640" height="100"/>
     </resources>
+    <classes>
+        <class className="BachelorMinorsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BachelorMinorsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="BachelorsDesignViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BachelorsDesignViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="BachelorsFineArtViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BachelorsFineArtViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="BachelorsMediaArtsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BachelorsMediaArtsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="EssentialsProgramsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EssentialsProgramsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="FoundationViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FoundationViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MakePathsMenuViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MakePathsMenuViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="csButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="graduateButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="undergradButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MastersAppliedArtsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersAppliedArtsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MastersDesignViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersDesignViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MastersDigitalMediaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MastersDigitalMediaViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TeenProgramsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TeenProgramsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WelcomeLabViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WelcomeLabViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="back:"/>
+                <relationship kind="outlet" name="courseDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="courseTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

@@ -101,6 +101,8 @@
 		2D33123017E0422000C18363 /* lisa_fraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33121F17E0422000C18363 /* lisa_fraser@2x.png */; };
 		2D33123117E0422000C18363 /* luke_parnell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33122017E0422000C18363 /* luke_parnell@2x.png */; };
 		2D33123217E0422000C18363 /* luke_parnell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33122017E0422000C18363 /* luke_parnell@2x.png */; };
+		2D33123417E0487600C18363 /* rainbow_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33123317E0487600C18363 /* rainbow_people@2x.png */; };
+		2D33123517E0487600C18363 /* rainbow_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33123317E0487600C18363 /* rainbow_people@2x.png */; };
 		2D35BC6C17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
 		2D35BC6D17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
 		2D35BC6E17D3C527005F88EC /* Fine Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */; };
@@ -418,6 +420,7 @@
 		2D33121E17E0422000C18363 /* gnw_campus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gnw_campus@2x.png"; sourceTree = "<group>"; };
 		2D33121F17E0422000C18363 /* lisa_fraser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lisa_fraser@2x.png"; sourceTree = "<group>"; };
 		2D33122017E0422000C18363 /* luke_parnell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luke_parnell@2x.png"; sourceTree = "<group>"; };
+		2D33123317E0487600C18363 /* rainbow_people@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainbow_people@2x.png"; sourceTree = "<group>"; };
 		2D35BC6717D3C527005F88EC /* Design Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Design Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Design Majors.txt"; sourceTree = SOURCE_ROOT; };
 		2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Fine Arts Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Fine Arts Majors.txt"; sourceTree = SOURCE_ROOT; };
 		2D35BC6917D3C527005F88EC /* Foundation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Foundation.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Foundation.txt"; sourceTree = SOURCE_ROOT; };
@@ -1096,6 +1099,7 @@
 		2D974D5817D648B8006EF554 /* Degree Choices */ = {
 			isa = PBXGroup;
 			children = (
+				2D33123317E0487600C18363 /* rainbow_people@2x.png */,
 				2D0D404017D650EB00DFC607 /* cont_studies.png */,
 				2D0D404117D650EB00DFC607 /* graduate.png */,
 				2D0D404217D650EB00DFC607 /* rainbow_people.png */,
@@ -1456,6 +1460,7 @@
 				2D33122D17E0422000C18363 /* gnw_campus@2x.png in Resources */,
 				2D33122F17E0422000C18363 /* lisa_fraser@2x.png in Resources */,
 				2D33123117E0422000C18363 /* luke_parnell@2x.png in Resources */,
+				2D33123417E0487600C18363 /* rainbow_people@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1595,6 +1600,7 @@
 				2D33122E17E0422000C18363 /* gnw_campus@2x.png in Resources */,
 				2D33123017E0422000C18363 /* lisa_fraser@2x.png in Resources */,
 				2D33123217E0422000C18363 /* luke_parnell@2x.png in Resources */,
+				2D33123517E0487600C18363 /* rainbow_people@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
