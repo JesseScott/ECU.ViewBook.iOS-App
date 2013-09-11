@@ -81,6 +81,8 @@
 		2D29E78E17C02A1E004BB03C /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78C17C02A1E004BB03C /* SplashScreen.storyboard */; };
 		2D29E79017C02AED004BB03C /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78F17C02AED004BB03C /* MainMenu.storyboard */; };
 		2D29E79117C02AED004BB03C /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D29E78F17C02AED004BB03C /* MainMenu.storyboard */; };
+		2D33121617E03B1D00C18363 /* contents_page_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33121517E03B1D00C18363 /* contents_page_people@2x.png */; };
+		2D33121717E03B1D00C18363 /* contents_page_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D33121517E03B1D00C18363 /* contents_page_people@2x.png */; };
 		2D35BC6C17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
 		2D35BC6D17D3C527005F88EC /* Design Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6717D3C527005F88EC /* Design Majors.txt */; };
 		2D35BC6E17D3C527005F88EC /* Fine Arts Majors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */; };
@@ -388,6 +390,7 @@
 		2D29E78417C02718004BB03C /* ApplyNow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ApplyNow.storyboard; path = "Apply Now/ApplyNow.storyboard"; sourceTree = "<group>"; };
 		2D29E78C17C02A1E004BB03C /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = "Splash Screen/SplashScreen.storyboard"; sourceTree = "<group>"; };
 		2D29E78F17C02AED004BB03C /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainMenu.storyboard; path = "Main Menu/MainMenu.storyboard"; sourceTree = "<group>"; };
+		2D33121517E03B1D00C18363 /* contents_page_people@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contents_page_people@2x.png"; sourceTree = "<group>"; };
 		2D35BC6717D3C527005F88EC /* Design Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Design Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Design Majors.txt"; sourceTree = SOURCE_ROOT; };
 		2D35BC6817D3C527005F88EC /* Fine Arts Majors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Fine Arts Majors.txt"; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Fine Arts Majors.txt"; sourceTree = SOURCE_ROOT; };
 		2D35BC6917D3C527005F88EC /* Foundation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Foundation.txt; path = "ViewBook/Assets/Text Copy/MakePaths/Undergraduate/Foundation.txt"; sourceTree = SOURCE_ROOT; };
@@ -1117,6 +1120,7 @@
 		2DD13AFF17CDCAED002D52BB /* Main Menu */ = {
 			isa = PBXGroup;
 			children = (
+				2D33121517E03B1D00C18363 /* contents_page_people@2x.png */,
 				2DC2FE6317D3E6CA0017B6FC /* contents_page_people.png */,
 				2DD13B0017CDCAED002D52BB /* arrow1.png */,
 				2DD13B0117CDCAED002D52BB /* arrow2.png */,
@@ -1406,6 +1410,7 @@
 				2D0D404617D650EB00DFC607 /* graduate.png in Resources */,
 				2D0D404817D650EB00DFC607 /* rainbow_people.png in Resources */,
 				2D0D404A17D650EB00DFC607 /* undergrad.png in Resources */,
+				2D33121617E03B1D00C18363 /* contents_page_people@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1535,6 +1540,7 @@
 				2D0D404717D650EB00DFC607 /* graduate.png in Resources */,
 				2D0D404917D650EB00DFC607 /* rainbow_people.png in Resources */,
 				2D0D404B17D650EB00DFC607 /* undergrad.png in Resources */,
+				2D33121717E03B1D00C18363 /* contents_page_people@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
